@@ -1,2 +1,2 @@
 #About Me
-This is how to edit
+I am a mechanical engineer major that loves to to learn
