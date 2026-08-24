@@ -1,2 +1,12 @@
-#About Me
-I am a mechanical engineer major that loves to to learn
+About Me
+Joshua Malonda
+
+I am a Mechanical Engineering student at the University of North Carolina at Charlotte. I chose mechanical engineering because I enjoy understanding how things work and figuring out how to make them work better. Through my classes, projects, research, and other engineering experiences, I have been able to work with mechanical design, CAD, computational tools, and hands-on systems. During my NSF REU research experience, I worked with Python, Linux, Git, and high-performance computing to help investigate materials and accelerate materials discovery. I have also worked on mechanical design projects involving CAD modeling, mechanisms, transportation systems, and designing within size, cost, and material constraints. These experiences have shown me that engineering is not just about getting an answer, but understanding why a solution works and whether it is actually the best option. As I continue through mechanical engineering, I am becoming an engineer who wants to combine analysis, design, and practical problem-solving. I also want to become better at communicating my reasoning so that other engineers can understand how I reached a decision and evaluate it for themselves. My goal is to continue building the technical and communication skills needed to contribute to real engineering projects and work effectively with other engineers.
+
+
+
+To me, defending an engineering decision means being able to explain why I chose one solution over another and support that choice with engineering requirements, calculations, physical principles, testing, or other evidence. It is more than saying that something works or that I like one design better. I should be able to explain what requirements I considered, what alternatives were available, and why the final choice makes the most sense. At this point in my engineering education, I understand what it means to defend a decision, but I am still learning how to do it well. I can use calculations and engineering principles to support my work, but I need more experience clearly documenting my reasoning and comparing different solutions based on specific criteria. I think this is an important skill for me to develop because an engineer needs to be able to explain and stand behind their decisions, especially when working with other engineers or making decisions that affect a final design.
+
+
+
+I spent approximately 6–8 hours over the course of two days working on this assignment, including reviewing the requirements, analyzing the product, researching supporting information, documenting my decisions, and developing my portfolio content.
