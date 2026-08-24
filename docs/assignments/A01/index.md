@@ -42,7 +42,7 @@ For evidence of reasoning, Tyler's surfboard fin project was the strongest examp
 
 Both portfolios are useful examples, but I would take different things from each one. From Evan's portfolio, I like the simple way projects and experience are organized so a reader can find information quickly. From Tyler's portfolio, I like the amount of technical information included when explaining an actual design. For my own portfolio, I want to combine those two ideas by keeping the navigation simple while including the assumptions, calculations, alternatives, design decisions, and results needed for someone else to follow my work.
 
-Task B:  Product Analysis
+## Task B: Product Analysis
 Product: Carabiner-Style Clasp Clip
 a. What is the primary function of this product?
 The primary function of this carabiner-style clasp is to provide a removable mechanical connection between an attached item and a loop, ring, or other support. The rigid body surrounds the attached item while the spring-loaded gate closes the opening to prevent the item from coming out during normal use. The gate can be pushed inward by the user to temporarily open the connection, allowing an item to be attached or removed without taking the clasp apart.
@@ -71,6 +71,20 @@ The main equation is:
 σ = F/A
 
 The variables are the applied tensile force F, the load-carrying cross-sectional area A, and the resulting average normal stress σ.
+
+### Spring Model
+
+The spring mechanism can be modeled using Hooke's Law:
+
+F = kx
+
+Where:
+
+- F = restoring force produced by the spring
+- k = spring stiffness
+- x = displacement of the spring from its unloaded position
+
+The spring produces a restoring force that returns the gate toward its closed position after the gate is pushed open. This model assumes the spring operates within its elastic range, where the restoring force is approximately proportional to the displacement.
 
 # ii. Assumption
 
@@ -105,7 +119,8 @@ The overall geometry combines a rigid curved frame with a movable gate. The elon
 <img width="475" height="1069" alt="image" src="https://github.com/user-attachments/assets/def5b240-67b5-407c-ad72-208c2546b68d" />
 <img width="790" height="1064" alt="image" src="https://github.com/user-attachments/assets/884f9ec0-cdbf-4c15-828a-ddc618f90be9" />
 
-For the patent research, I found U.S. Patent US8234761B2, titled “Wire-gate carabiner.” The patent lists Peter T. Gompert, Jacob Hall, Paul Terry, Benjamin Walker, and Bill Belcourt as the inventors. The patent describes a carabiner using a rigid frame and a movable gate. The gate opens to allow an object to be placed inside and then closes to retain the object. This patent is relevant to my product because my clasp uses a similar basic idea: a rigid frame with a movable gate that creates an opening for attaching and removing an item. I am using the patent as a reference for a similar mechanical solution, not claiming that my specific clasp was manufactured from this patent.
+For the patent research, I found [U.S. Patent US8234761B2](https://patents.google.com/patent/US8234761B2/en), titled "Wire-gate carabiner."
+ The patent lists Peter T. Gompert, Jacob Hall, Paul Terry, Benjamin Walker, and Bill Belcourt as the inventors. The patent describes a carabiner using a rigid frame and a movable gate. The gate opens to allow an object to be placed inside and then closes to retain the object. This patent is relevant to my product because my clasp uses a similar basic idea: a rigid frame with a movable gate that creates an opening for attaching and removing an item. I am using the patent as a reference for a similar mechanical solution, not claiming that my specific clasp was manufactured from this patent.
 
 i. Alternative Solutions
 
@@ -130,7 +145,7 @@ I changed the primary color of the portfolio from the template's original green 
 
 ### 3. Documentation Standard
 
-For every assignment entry this semester, I will document the problem, assumptions, calculations or evidence, alternatives considered, and reasoning behind my final decisions clearly enough that another engineering student could follow my work without needing me to explain it separately.
+For every assignment entry this semester, I will document my engineering reasoning clearly and reproducibly by stating assumptions, defining variables and units, showing equations and calculations, identifying evidence and alternatives, and explaining my decisions using precise engineering language so that another engineer could understand and reproduce my work without needing additional explanation.
 
 ## Communicate
 
