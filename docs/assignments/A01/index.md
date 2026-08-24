@@ -101,6 +101,9 @@ Overall Clasp Geometry
 
 The overall geometry combines a rigid curved frame with a movable gate. The elongated shape provides a relatively large opening while maintaining a continuous load-carrying path around the outside. The gate is located on one side of the opening so the clasp can be opened and closed while the main frame remains rigid. This arrangement allows the product to perform its primary function of retaining an attached object while still allowing the object to be removed when the gate is opened.
 ### d. Patent Research
+<img width="1325" height="1544" alt="Screenshot_23-8-2026_204725_chatgpt com" src="https://github.com/user-attachments/assets/85c45d72-7d1c-48d9-9d8b-107c4d94d42d" />
+<img width="475" height="1069" alt="image" src="https://github.com/user-attachments/assets/def5b240-67b5-407c-ad72-208c2546b68d" />
+<img width="790" height="1064" alt="image" src="https://github.com/user-attachments/assets/884f9ec0-cdbf-4c15-828a-ddc618f90be9" />
 
 For the patent research, I found U.S. Patent US8234761B2, titled "Wire-gate carabiner." The patent lists Peter T. Gompert, Jacob Hall, Paul Terry, Benjamin Walker, and Bill Belcourt as the inventors. The patent describes a carabiner as a mechanical coupling device made around a frame and gate. The gate can move to create an opening and then return toward the closed position to retain an attached object. The patent is relevant to my product because my clasp uses the same basic mechanical concept of a rigid frame with a movable gate that creates a temporary opening. I am using this patent as a reference for the mechanism rather than claiming that this exact promotional clasp was manufactured under this patent.
 ### i. Alternative Solutions
