@@ -118,7 +118,19 @@ ii. Design Decision
 One design decision I noticed is the use of a separate movable gate instead of making the frame completely closed. The gate gives the user an opening for attaching or removing an item while still allowing the main frame to remain rigid during normal use. I think this was chosen because the clasp needs to do two things: hold the attached item securely and still be easy to open by hand. Placing the gate on one side also leaves most of the frame continuous, giving the load a path through the main body while the gate provides the opening needed for use.
 
 ## Decide
+## Part 2: Decide
 
+## 1. Homepage Identity
+
+I decided to keep the homepage focused on what a visitor can expect to find in this portfolio instead of using it as another biography. Someone viewing the site should be able to quickly understand that it is a record of my engineering work, including assignments, design projects, analysis, decisions, and supporting documentation. I want the organization of the site to make it easy for a classmate, instructor, or future employer to find a specific project and understand how I approached it. The portfolio should also show the reasoning behind my work rather than only showing finished results, so the engineering decisions, calculations, and evidence should be clear enough for someone else to follow.
+
+### 2. Intentional Customization
+
+I changed the primary color of the portfolio from the template's original green to purple. I made this change to give the navigation and other interface elements a clear visual identity and make them easier to distinguish from the main assignment content. The original green worked with the template, but I wanted a consistent color that would help separate the site's navigation from the technical documentation without changing the overall structure of the template.
+
+### 3. Documentation Standard
+
+For every assignment entry this semester, I will document the problem, assumptions, calculations or evidence, alternatives considered, and reasoning behind my final decisions clearly enough that another engineering student could follow my work without needing me to explain it separately.
 
 ## Communicate
 
