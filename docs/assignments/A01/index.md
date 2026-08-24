@@ -19,7 +19,7 @@ There is evidence of engineering reasoning, but it is not the main focus of the 
 
 The tone of the portfolio is appropriate for an engineering audience. The content focuses on projects, engineering experience, technical responsibilities, and skills. The resume and contact information are also easy to find. Overall, I think Evan's portfolio is effective for showing engineering experience and projects, but it would need more technical documentation for a reader to reproduce most of the work.
 
-#### Tyler Wisniewski Engineering Portfolio
+# Tyler Wisniewski Engineering Portfolio
 (https://tylerwisniewski.github.io/)
 
 Tyler Wisniewski's portfolio is also easy to navigate. The main page separates Projects, About, Resume, and Sitemap, and the project section tells the reader to select the project images for more information. This gives a first-time visitor a simple way to move from the homepage into the actual engineering work. The individual project pages are also separated instead of putting every project into one document.
