@@ -106,11 +106,13 @@ The overall geometry combines a rigid curved frame with a movable gate. The elon
 <img width="790" height="1064" alt="image" src="https://github.com/user-attachments/assets/884f9ec0-cdbf-4c15-828a-ddc618f90be9" />
 
 For the patent research, I found U.S. Patent US8234761B2, titled "Wire-gate carabiner." The patent lists Peter T. Gompert, Jacob Hall, Paul Terry, Benjamin Walker, and Bill Belcourt as the inventors. The patent describes a carabiner as a mechanical coupling device made around a frame and gate. The gate can move to create an opening and then return toward the closed position to retain an attached object. The patent is relevant to my product because my clasp uses the same basic mechanical concept of a rigid frame with a movable gate that creates a temporary opening. I am using this patent as a reference for the mechanism rather than claiming that this exact promotional clasp was manufactured under this patent.
+
 ### i. Alternative Solutions
 
 A snap hook is an alternative because it uses a hook-shaped body and a movable closing member to retain an attached item.
 
 A split ring is another alternative because it uses a continuous metal ring with overlapping coils. An item can be inserted between the coils and retained by the spring-like geometry of the ring. Unlike the clasp, it does not use a separate movable gate.
+
 ### ii. Design Decision
 
 One design decision I noticed is the use of a separate movable gate instead of making the clasp completely closed. The gate creates a temporary opening while allowing the main frame to remain rigid. I think the designer chose this arrangement because the clasp needs to retain an attached item during use but also allow the user to attach or remove the item without permanently deforming the frame. The gate is placed along one side of the frame, which leaves most of the frame as a continuous load-carrying path while still providing an opening that can be operated by hand.
@@ -119,6 +121,7 @@ One design decision I noticed is the use of a separate movable gate instead of m
 
 
 ## Communicate
+
 About Me Joshua Malonda
 
 I am a Mechanical Engineering student at the University of North Carolina at Charlotte. I chose mechanical engineering because I enjoy understanding how things work and figuring out how to make them work better. Through my classes, projects, research, and other engineering experiences, I have been able to work with mechanical design, CAD, computational tools, and hands-on systems. During my NSF REU research experience, I worked with Python, Linux, Git, and high-performance computing to help investigate materials and accelerate materials discovery. I have also worked on mechanical design projects involving CAD modeling, mechanisms, transportation systems, and designing within size, cost, and material constraints. These experiences have shown me that engineering is not just about getting an answer, but understanding why a solution works and whether it is actually the best option. As I continue through mechanical engineering, I am becoming an engineer who wants to combine analysis, design, and practical problem-solving. I also want to become better at communicating my reasoning so that other engineers can understand how I reached a decision and evaluate it for themselves. My goal is to continue building the technical and communication skills needed to contribute to real engineering projects and work effectively with other engineers.
