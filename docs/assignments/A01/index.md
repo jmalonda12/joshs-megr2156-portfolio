@@ -105,17 +105,17 @@ The overall geometry combines a rigid curved frame with a movable gate. The elon
 <img width="475" height="1069" alt="image" src="https://github.com/user-attachments/assets/def5b240-67b5-407c-ad72-208c2546b68d" />
 <img width="790" height="1064" alt="image" src="https://github.com/user-attachments/assets/884f9ec0-cdbf-4c15-828a-ddc618f90be9" />
 
-For the patent research, I found U.S. Patent US8234761B2, titled "Wire-gate carabiner." The patent lists Peter T. Gompert, Jacob Hall, Paul Terry, Benjamin Walker, and Bill Belcourt as the inventors. The patent describes a carabiner as a mechanical coupling device made around a frame and gate. The gate can move to create an opening and then return toward the closed position to retain an attached object. The patent is relevant to my product because my clasp uses the same basic mechanical concept of a rigid frame with a movable gate that creates a temporary opening. I am using this patent as a reference for the mechanism rather than claiming that this exact promotional clasp was manufactured under this patent.
+For the patent research, I found U.S. Patent US8234761B2, titled “Wire-gate carabiner.” The patent lists Peter T. Gompert, Jacob Hall, Paul Terry, Benjamin Walker, and Bill Belcourt as the inventors. The patent describes a carabiner using a rigid frame and a movable gate. The gate opens to allow an object to be placed inside and then closes to retain the object. This patent is relevant to my product because my clasp uses a similar basic idea: a rigid frame with a movable gate that creates an opening for attaching and removing an item. I am using the patent as a reference for a similar mechanical solution, not claiming that my specific clasp was manufactured from this patent.
 
-### i. Alternative Solutions
+i. Alternative Solutions
 
-A snap hook is an alternative because it uses a hook-shaped body and a movable closing member to retain an attached item.
+A snap hook is one alternative because it uses a hook-shaped body and a movable closing piece to hold an attached item. It performs the same basic function as my clasp, but the shape and way the load is carried are different.
 
-A split ring is another alternative because it uses a continuous metal ring with overlapping coils. An item can be inserted between the coils and retained by the spring-like geometry of the ring. Unlike the clasp, it does not use a separate movable gate.
+A split ring is another alternative. Instead of using a separate movable gate, it uses overlapping coils of spring-like metal. An item can be pushed between the coils and then retained by the ring. This gives the same general function of attaching and retaining an item, but the user interacts with the ring differently than with the clasp.
 
-### ii. Design Decision
+ii. Design Decision
 
-One design decision I noticed is the use of a separate movable gate instead of making the clasp completely closed. The gate creates a temporary opening while allowing the main frame to remain rigid. I think the designer chose this arrangement because the clasp needs to retain an attached item during use but also allow the user to attach or remove the item without permanently deforming the frame. The gate is placed along one side of the frame, which leaves most of the frame as a continuous load-carrying path while still providing an opening that can be operated by hand.
+One design decision I noticed is the use of a separate movable gate instead of making the frame completely closed. The gate gives the user an opening for attaching or removing an item while still allowing the main frame to remain rigid during normal use. I think this was chosen because the clasp needs to do two things: hold the attached item securely and still be easy to open by hand. Placing the gate on one side also leaves most of the frame continuous, giving the load a path through the main body while the gate provides the opening needed for use.
 
 ## Decide
 
