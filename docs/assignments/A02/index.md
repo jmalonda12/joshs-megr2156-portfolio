@@ -72,7 +72,8 @@ These member lengths and angles were used in the force calculations and later in
 
 ## 3. External Forces and Support Reactions
 
-<img width="1801" height="1060" alt="Overall truss free body diagram and support reactions" src="https://github.com/user-attachments/assets/7e7b8927-3988-45c2-bdea-73d4ed1407d7" />
+<img width="1801" height="1060" alt="image" src="https://github.com/user-attachments/assets/ba2c0ada-34e8-45bc-b82b-1bfd65c97ee8" />
+
 
 Before solving for the internal member forces, I determined the reactions at supports A and B. Point A is a pin, so it has horizontal and vertical reactions. Point B is a roller, so it has a vertical reaction. The two applied loads are both P = 20 kN and act downward at C and D.
 
