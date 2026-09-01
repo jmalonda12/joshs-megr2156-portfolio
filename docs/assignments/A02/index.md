@@ -757,6 +757,6 @@ I spent approximately 15 hours completing this assignment. This included the tru
 
 ## 20. CAD File
 
-The completed CAD files are provided below so that the TA can download and inspect the finished truss, individual components, pins, and assembly.
+The completed CAD files are provided below so that the TA can download and inspect the finished truss, individual components, pins, and assembly..
 
 [Download A2 CAD Files](https://github.com/user-attachments/files/31675283/A2JOSh.zip)
