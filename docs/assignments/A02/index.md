@@ -613,7 +613,7 @@ I created the member geometry and pin-hole locations first and then created the 
 
 The first member was created using the calculated square cross-section and the required AB length of 1.2 m. The pin-hole locations were positioned so that the pin centers correspond to the required joint locations.
 
-<img width="1002" height="1290" alt="CAD dimensions for member AB" src="https://github.com/user-attachments/assets/05ed1d42-f871-4908-ad8a-95f08c7db662" />
+<img width="555" height="1163" alt="image" src="https://github.com/user-attachments/assets/669e0b7e-91f4-407c-8e60-f17657026b86" />
 
 The image above shows the CAD dimensions used for member AB. The member length is based on the required 1.2 m truss geometry.
 
@@ -641,7 +641,8 @@ The image above shows the CAD dimensions used for member BD. The CAD member foll
 
 Member CD has a required center-to-center length of 0.4 m.
 
-<img width="614" height="1178" alt="CAD dimensions for member CD" src="https://github.com/user-attachments/assets/8fc6c945-5775-48c0-8635-3b66ba050b23" />
+<img width="997" height="929" alt="image" src="https://github.com/user-attachments/assets/02b507df-1b1a-4782-9e98-75e302b83c1f" />
+
 
 The image above shows the CAD dimensions used for member CD. The center-to-center distance between joints C and D is 0.4 m.
 
@@ -654,8 +655,8 @@ The same dimensions were used for DA so that the two diagonal members remain ide
 ## 13. Pin Model and Joint Connections
 
 The pins were modeled as identical cylindrical parts using a 12.04 mm diameter and a 1.96 in length. The 12.04 mm diameter is approximately 0.474 in, which matches the calculated theoretical minimum pin diameter.
+<img width="1002" height="1290" alt="CAD dimensions for member AB" src="https://github.com/user-attachments/assets/05ed1d42-f871-4908-ad8a-95f08c7db662" />
 
-<img width="877" height="840" alt="CAD pin dimensions" src="https://github.com/user-attachments/assets/93bea659-5c6b-4009-a900-482daa5f83dc" />
 
 The image above shows the CAD pin dimensions. The pin diameter is 12.04 mm and the pin length is 1.96 in.
 
