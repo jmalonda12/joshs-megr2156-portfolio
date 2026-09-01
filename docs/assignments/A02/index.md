@@ -430,8 +430,9 @@ As I continue into the CAD portion, I will document any additional changes or mi
 
 ## 14. Time Spent
 
-I will record the actual total time spent completing the assignment after the CAD model and final documentation are finished. This will include the time spent designing the truss, completing the calculations, sizing the members and pins, creating the CAD model, checking the results, and preparing the portfolio.
+## 14. Time Spent
 
+I spent approximately 15 hours completing this assignment. This included the truss design process, hand calculations, member and pin sizing, CAD modeling, checking the results, and documenting the work in my portfolio.
 ## 15. CAD File
 
 The finished CAD file will be linked here after the CAD model is completed so that the TA can download the finished product.
