@@ -113,5 +113,6 @@ I will record the actual total time spent completing the assignment after the tr
 ### 3. CAD File
 <img width="1316" height="1724" alt="image" src="https://github.com/user-attachments/assets/60f5224f-6983-45db-9b0a-f216faf03e73" />
 <img width="1619" height="585" alt="image" src="https://github.com/user-attachments/assets/83474453-bc87-4ccb-9de7-44f90aaca7a1" />
+<img width="2361" height="823" alt="image" src="https://github.com/user-attachments/assets/8abf854b-1c61-4cd2-881a-1b0a4945489d" />
 
 [INSERT LINK TO DOWNLOAD YOUR FINISHED CAD FILE HERE]
