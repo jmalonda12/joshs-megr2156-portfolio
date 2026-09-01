@@ -653,8 +653,6 @@ The final design contains:
 
 The completed truss is shown above after the members were assembled.
 
-<img width="1742" height="663" alt="image" src="https://github.com/user-attachments/assets/ec53fbea-bcdf-4fb6-bfdb-dd24f805fdf5" />
-
 The final assembled model with the pin connections is shown above.
 
 <img width="2385" height="872" alt="image" src="https://github.com/user-attachments/assets/92430af0-1402-4f61-b603-3c3d7525e05f" />
