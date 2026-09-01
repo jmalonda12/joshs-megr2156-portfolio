@@ -327,5 +327,8 @@ I will record the actual total time spent completing the assignment after the CA
 ## 15. CAD File
 
 The finished CAD file will be linked here after the CAD model is completed so that the TA can download the finished product.
+<img width="2385" height="872" alt="image" src="https://github.com/user-attachments/assets/92430af0-1402-4f61-b603-3c3d7525e05f" />
 
 [INSERT FINISHED CAD DOWNLOAD LINK HERE]
+
+<img width="1476" height="1209" alt="image" src="https://github.com/user-attachments/assets/b2157335-c603-47f5-94e6-41013d364a03" />
