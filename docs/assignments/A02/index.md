@@ -688,6 +688,6 @@ I spent approximately 15 hours completing this assignment. This included the tru
 
 ## 18. CAD File
 
-The completed CAD files will be provided with the portfolio so that the TA can inspect the individual members, pins, and final assembly.
+
 [A2JOSh.zip](https://github.com/user-attachments/files/31675283/A2JOSh.zip)
 
