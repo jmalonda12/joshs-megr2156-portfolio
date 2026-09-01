@@ -125,7 +125,7 @@ The equal vertical reactions result from the equal applied loads and their symme
 ## 4. Free Body Diagrams of the Joints
 
 
-<img width="1801" height="803" alt="image" src="https://github.com/user-attachments/assets/08849166-f279-4e17-a15a-04dd2b5e0c6e" />
+<img width="1801" height="803" alt="Free body diagrams of joints A, B, C, and D" src="https://github.com/user-attachments/assets/08849166-f279-4e17-a15a-04dd2b5e0c6e" />
 
 After finding the external reactions, I created free body diagrams for the joints of the truss. I used the Method of Joints to determine the forces carried by each member. The unknown member forces were initially assumed to be in tension, meaning the forces were drawn away from each joint.
 
