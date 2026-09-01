@@ -2,7 +2,7 @@
 
 ## Objective
 
-<img width="650" height="368" alt="image" src="https://github.com/user-attachments/assets/a8849494-fb5f-492a-a5ab-b23c51af0baa" />
+<img width="650" height="368" alt="Assignment Figure 1" src="https://github.com/user-attachments/assets/a8849494-fb5f-492a-a5ab-b23c51af0baa" />
 
 The goal of this assignment is to design a lightweight planar truss that can support the applied loads while satisfying the required geometric and material constraints. I chose P = 20 kN, with a = 0.4 m and b = 0.3 m, which satisfies the required design range. Point A is modeled as a pin support and point B as a roller support. Every truss member uses the same cross-sectional geometry, and the connecting pins are identical. I first designed and analyzed the truss, then used the largest internal force to size the members and the required safety factors to size the pins before creating and checking the CAD model.
 
@@ -10,7 +10,7 @@ The goal of this assignment is to design a lightweight planar truss that can sup
 
 ## 1. Initial Truss Design
 
-<img width="1729" height="897" alt="image" src="https://github.com/user-attachments/assets/e04b427e-c7d2-4fbc-9592-1b7b3046c2a2" />
+<img width="1729" height="897" alt="Initial truss design sketches" src="https://github.com/user-attachments/assets/e04b427e-c7d2-4fbc-9592-1b7b3046c2a2" />
 
 I started the design by considering different ways to connect the four joints while keeping the truss simple. My main goal was to create a structure that could carry the loads at C and D while still being easy to analyze using the Method of Joints. I wanted to avoid adding unnecessary members because the assignment focuses on creating a lightweight design.
 
@@ -20,7 +20,15 @@ For a planar statically determinate truss:
 
 m + r = 2j
 
-where m is the number of members, r is the number of support reactions, and j is the number of joints.
+where:
+
+m = number of members
+
+r = number of support reactions
+
+j = number of joints
+
+For this truss:
 
 m + 3 = 2(4)
 
@@ -28,9 +36,9 @@ m = 5
 
 Therefore, the five-member configuration is appropriate for the four-joint truss with three support reactions.
 
-<img width="1733" height="678" alt="image" src="https://github.com/user-attachments/assets/8c3b8653-3988-4368-8d03-492a6d132e93" />
+<img width="1733" height="678" alt="Designed truss with dimensions" src="https://github.com/user-attachments/assets/8c3b8653-3988-4368-8d03-492a6d132e93" />
 
-The selected geometry follows the required dimensions of a = 0.4 m and b = 0.3 m. The two applied loads are both P = 20 kN and act downward at joints C and D.
+The selected geometry follows the required dimensions of a = 0.4 m and b = 0.3 m. The two applied loads are both P = 20 kN and act downward at joints C and D. These dimensions provide the basis for determining the individual member lengths and the angles used in the Method of Joints.
 
 ## 2. Truss Geometry and Member Lengths
 
@@ -60,15 +68,15 @@ L = 1.2 + 0.5 + 0.854 + 0.4 + 0.5
 
 L = 3.454 m
 
-These member lengths and angles were used in the force calculations and later in the CAD model.
+These member lengths and angles were used in the force calculations and later in the CAD model. Determining the geometry before solving the forces also makes it possible to use the correct trigonometric relationships at each joint.
 
 ## 3. External Forces and Support Reactions
 
-<img width="1801" height="1060" alt="image" src="https://github.com/user-attachments/assets/7e7b8927-cc48-45c2-bdea-73d4ed1407d7" />
+<img width="1801" height="1060" alt="Overall truss free body diagram and support reactions" src="https://github.com/user-attachments/assets/7e7b8927-3988-45c2-bdea-73d4ed1407d7" />
 
 Before solving for the internal member forces, I determined the reactions at supports A and B. Point A is a pin, so it has horizontal and vertical reactions. Point B is a roller, so it has a vertical reaction. The two applied loads are both P = 20 kN and act downward at C and D.
 
-I used static equilibrium for the entire truss to determine the three support reactions.
+I used static equilibrium for the entire truss to determine the three support reactions. The support reactions are needed because they become known forces when the individual joints are analyzed.
 
 ### Symbolic Solution
 
@@ -120,24 +128,23 @@ Ay = 20 kN
 
 By = 20 kN
 
-The equal vertical reactions result from the equal applied loads and their symmetric locations about the center of the truss.
+The equal vertical reactions result from the equal applied loads and their symmetric locations about the center of the truss. These reactions are then used as known forces when solving the individual joint free body diagrams.
 
 ## 4. Free Body Diagrams of the Joints
 
-
-<img width="2414" height="1058" alt="image" src="https://github.com/user-attachments/assets/0c7876db-0e37-4e6e-9565-ee938e1f2579" />
+<img width="2414" height="1058" alt="Free body diagrams of joints A, B, C, and D" src="https://github.com/user-attachments/assets/0c7876db-0e37-4e6e-9565-ee938e1f2579" />
 
 After finding the external reactions, I created free body diagrams for the joints of the truss. I used the Method of Joints to determine the forces carried by each member. The unknown member forces were initially assumed to be in tension, meaning the forces were drawn away from each joint.
 
 I worked through the joints one at a time, starting with joints where the number of unknown forces allowed the equilibrium equations to be solved. The signs of the calculated forces were then used to determine whether each member was in tension or compression.
 
-The joint free body diagrams were used to show the applied loads, support reactions, member forces, and assumed force directions before solving the equilibrium equations.
+The joint free body diagrams show the applied loads, support reactions, member forces, and assumed force directions before solving the equilibrium equations. These diagrams provide the visual setup for the symbolic and numerical calculations that follow.
 
 ## 5. Symbolic Solution for Internal Member Forces
 
-<img width="1476" height="1209" alt="image" src="https://github.com/user-attachments/assets/c3da1bed-596d-4197-9015-50c95f821475" />
+<img width="1476" height="1209" alt="Symbolic internal member force calculations" src="https://github.com/user-attachments/assets/c3da1bed-596d-4197-9015-50c95f821475" />
 
-I used the Method of Joints to solve for the internal member forces symbolically before substituting the numerical value of P. I started with joints B and A because their support reactions were already known. I then used joints C and D to determine the remaining member forces.
+I used the Method of Joints to solve for the internal member forces symbolically before substituting the numerical value of P. I started with joints B and A because their support reactions are already known. I then used joints C and D to determine the remaining member forces.
 
 For members BC and DA:
 
@@ -163,7 +170,23 @@ Since By = P:
 
 FBC = P / sin(theta)
 
-The remaining horizontal equilibrium is satisfied using member AB and the zero-force member BD.
+Using horizontal equilibrium:
+
+Sum Fx = 0
+
+FAB + FBC cos(theta) = 0
+
+Therefore:
+
+FAB = -FBC cos(theta)
+
+Substituting FBC:
+
+FAB = -(P / sin(theta))cos(theta)
+
+FAB = -P cot(theta)
+
+The negative sign indicates compression.
 
 ### Joint A
 
@@ -235,19 +258,17 @@ The positive result indicates that CD is in tension.
 
 ### Joint D
 
-Using vertical equilibrium:
-
-Sum Fy = 0
-
-FAD sin(theta) + FBD sin(phi) - P = 0
-
-where phi is the angle of member BD.
+Member BD has a different angle because it spans 0.8 m horizontally and 0.3 m vertically. Let this angle be phi.
 
 For member BD:
 
 sin(phi) = 0.3 / sqrt((0.8)^2 + (0.3)^2)
 
 cos(phi) = 0.8 / sqrt((0.8)^2 + (0.3)^2)
+
+Using vertical equilibrium at joint D:
+
+FAD sin(theta) + FBD sin(phi) - P = 0
 
 Since:
 
@@ -273,11 +294,11 @@ FCD = P cot(theta)
 
 FBD = 0
 
-The negative sign for FAB indicates compression, while the positive results for FBC, FAD, and FCD indicate tension.
+The negative sign for FAB indicates compression, while the positive results for FBC, FAD, and FCD indicate tension. Member BD is a zero-force member for this loading condition.
 
 ## 6. Numerical Internal Member Forces
 
-Using P = 20 kN and theta = 36.87 degrees, I evaluated the symbolic equations numerically.
+Using P = 20 kN and theta = 36.87 degrees, I evaluated the symbolic equations numerically. The numerical results provide the actual member forces that will be used to determine the critical force for member sizing. The sign of each result is also used to identify tension or compression.
 
 ### Member BC
 
@@ -337,7 +358,7 @@ The largest internal force is 33.33 kN and occurs in members BC and DA. Since ev
 
 ## 7. Member Cross-Sectional Area
 
-<img width="2361" height="823" alt="image" src="https://github.com/user-attachments/assets/8abf854b-1c61-4cd2-881a-1b0a4945489d" />
+<img width="2361" height="823" alt="Member cross-sectional area calculation" src="https://github.com/user-attachments/assets/8abf854b-1c61-4cd2-881a-1b0a4945489d" />
 
 The largest internal force was used to determine the minimum cross-sectional area required for the truss members. The required factor of safety is 3.5. I selected A500 Grade B steel for the truss members and used a yield strength of approximately 317 MPa.
 
@@ -389,11 +410,11 @@ Therefore, the theoretical minimum square member size is:
 
 19.18 mm x 19.18 mm
 
-This size was used as the basis for the CAD model.
+This size was used as the basis for the CAD model. Because the same cross-sectional geometry is required for every element, the 368 mm^2 area is applied to all five truss members.
 
 ## 8. Approximate Weight of the Truss
 
-The total length of the truss members is approximately 3.454 m. I used the calculated cross-sectional area and the density of steel to estimate the mass and weight of the truss. This theoretical result provides a value to compare with the final CAD model.
+The total length of the truss members is approximately 3.454 m. I used the calculated cross-sectional area and the density of steel to estimate the mass and weight of the truss. This theoretical result provides a baseline value that can later be compared with the CAD model.
 
 Using a steel density of approximately 7850 kg/m^3:
 
@@ -415,6 +436,8 @@ Therefore:
 
 W_truss,theoretical = 97.9 N
 
+The theoretical truss member mass is approximately 9.98 kg, corresponding to a weight of approximately 97.9 N.
+
 # Decide
 
 ## 9. Truss Member Design Decision
@@ -423,19 +446,17 @@ The largest internal force is 33.33 kN, so I used this force to size every truss
 
 I used the calculated 19.18 mm x 19.18 mm size as the basis for the CAD model. Keeping the same cross-sectional geometry for every member also makes the design simpler to manufacture and model.
 
-The final design was then transferred into CAD so that the geometry, connections, and weight could be checked against the analytical calculations.
+The final design was then transferred into CAD so that the geometry, connections, dimensions, and weight could be checked against the analytical calculations.
 
 ## 10. Pin Design
 
 The connecting pins are required to be made from hardened tool steel with a yield shear strength of 170 ksi and a density of 0.278 lb/in^3. The assignment requires a single-shear connection with a factor of safety of 4.
 
-For the symmetric truss, the largest support reaction is 20 kN. Since Ax = 0 and Ay = By = 20 kN, the governing reaction used for the pin calculation is:
-
-Vmax = 20 kN
+For the critical connection, I used the largest force transferred through the joint from the member-force analysis. The largest force used for the pin design is 33.33 kN. This provides a conservative check of the pin because the pin must safely transfer the force through the connection.
 
 ### Known Values
 
-Vmax = 20 kN
+Vmax = 33.33 kN
 
 FS = 4
 
@@ -453,9 +474,9 @@ d_min = minimum required pin diameter
 
 ### Pin Free Body Diagram
 
-<img width="1316" height="1724" alt="image" src="https://github.com/user-attachments/assets/60f5224f-6983-45db-9b0a-f216faf03e73" />
+<img width="1316" height="1724" alt="Pin free body diagram" src="https://github.com/user-attachments/assets/60f5224f-6983-45db-9b0a-f216faf03e73" />
 
-I modeled the connection as a single-shear pin. The critical pin is checked using the largest reaction force transferred through the joint. The free body diagram was used to identify the shear force acting on the pin before calculating the required cross-sectional area.
+I modeled the connection as a single-shear pin. The critical pin is checked using the largest force transferred through the joint. The free body diagram was used to identify the shear force acting on the pin before calculating the required cross-sectional area.
 
 ### Symbolic Solution
 
@@ -483,83 +504,89 @@ Therefore:
 
 d_min = sqrt(4A_pin / pi)
 
+Substituting the area equation gives:
+
+d_min = sqrt(4V(FS) / (pi tau_y))
+
 ### Numerical Solution
 
 The maximum shear force is:
 
-Vmax = 20 kN
+Vmax = 33.33 kN
 
-20 kN = 4496 lbf
+Converting to pounds-force:
+
+Vmax = 33.33 kN(224.81 lbf/kN)
+
+Vmax = 7492.9 lbf
 
 The minimum pin area is:
 
-A_pin,min = (4496 lbf)(4) / (170,000 lbf/in^2)
+A_pin,min = (7492.9 lbf)(4) / (170,000 lbf/in^2)
 
-A_pin,min = 0.1058 in^2
+A_pin,min = 0.1763 in^2
 
 The minimum diameter is:
 
-d_min = sqrt((4)(0.1058 in^2) / pi)
+d_min = sqrt((4)(0.1763 in^2) / pi)
 
-d_min = 0.367 in
+d_min = 0.474 in
 
 Therefore:
 
-d_min = 0.367 in
+d_min = 0.474 in
 
-The CAD model uses:
+The CAD model uses a pin diameter of:
 
-d_CAD = 0.41 in
+d_CAD = 12.04 mm = 0.474 in
 
-Since:
-
-0.41 in > 0.367 in
-
-the selected CAD pin diameter is larger than the theoretical minimum diameter.
+Therefore, the CAD pin diameter matches the calculated minimum required pin diameter.
 
 ## 11. Pin Weight
 
-After determining the theoretical minimum pin diameter, I selected a 0.41 in diameter pin for the CAD model. The pins were modeled as identical cylindrical parts, and four pins are used at the four truss joints. The final pin weight was calculated using the CAD pin dimensions and the specified hardened tool steel density.
+After determining the theoretical minimum pin diameter, I used the calculated diameter as the basis for the CAD pin. The pins were modeled as identical cylindrical parts, and four pins are used at the four truss joints. The pin weight was calculated using the specified hardened tool steel density and the dimensions used in the CAD model.
 
 The CAD pin dimensions are:
 
-d_pin = 0.41 in
+d_pin = 0.474 in
 
 L_pin = 1.96 in
 
 Number of pins = 4
 
-The cross-sectional area of one CAD pin is:
+The cross-sectional area of one circular pin is:
 
-A_pin,CAD = pi(0.41 in)^2 / 4
+A_pin = pi d^2 / 4
 
-A_pin,CAD = 0.1320 in^2
+A_pin = pi(0.474 in)^2 / 4
+
+A_pin = 0.1763 in^2
 
 Using the hardened tool steel density:
 
-rho = 0.278 lb/in^3
+rho_pin = 0.278 lb/in^3
 
 The combined pin weight is:
 
-W_pins = rho(n)(A_pin)(L_pin)
+W_pins = rho_pin(n)(A_pin)(L_pin)
 
-W_pins = (0.278 lb/in^3)(4)(0.1320 in^2)(1.96 in)
+W_pins = (0.278 lb/in^3)(4)(0.1763 in^2)(1.96 in)
 
-W_pins = 0.288 lb
+W_pins = 0.386 lb
 
 Converting to kilograms:
 
-m_pins = 0.288 lb(0.453592 kg/lb)
+m_pins = 0.386 lb(0.453592 kg/lb)
 
-m_pins = 0.131 kg
+m_pins = 0.175 kg
 
 Therefore:
 
-W_pins = 0.288 lb
+W_pins = 0.386 lb
 
-m_pins = 0.131 kg
+m_pins = 0.175 kg
 
-The four identical pins have an approximate combined mass of 0.131 kg.
+The four identical pins have an approximate combined mass of 0.175 kg.
 
 # CAD Design
 
@@ -573,7 +600,7 @@ The member cross-section used in the CAD model is:
 
 The pin diameter used in the CAD model is:
 
-0.41 in
+12.04 mm = 0.474 in
 
 The pin length used in the CAD model is:
 
@@ -585,17 +612,17 @@ I created the member geometry and pin-hole locations first and then created the 
 
 The first member was created using the calculated square cross-section and the required AB length of 1.2 m. The pin-hole locations were positioned so that the pin centers correspond to the required joint locations.
 
-<img width="1002" height="1290" alt="image" src="https://github.com/user-attachments/assets/05ed1d42-f871-4908-ad8a-95f08c7db662" />
+<img width="1002" height="1290" alt="CAD dimensions for member AB" src="https://github.com/user-attachments/assets/05ed1d42-f871-4908-ad8a-95f08c7db662" />
 
-The image above shows the CAD dimensions used for member AB.
+The image above shows the CAD dimensions used for member AB. The member length is based on the required 1.2 m truss geometry.
 
 ### Member BC
 
 Member BC was created using the same cross-sectional geometry as the other truss members. Its required member length is 0.5 m, based on the 0.4 m horizontal distance and 0.3 m vertical distance.
 
-<img width="1396" height="1316" alt="image" src="https://github.com/user-attachments/assets/3459d186-d9aa-4d6e-ab7e-91fea6c105be" />
+<img width="1396" height="1316" alt="CAD dimensions for member BC" src="https://github.com/user-attachments/assets/3459d186-d9aa-4d6e-ab7e-91fea6c105be" />
 
-The image above shows the CAD dimensions used for member BC.
+The image above shows the CAD dimensions used for member BC. The diagonal geometry corresponds to the 3-4-5 triangle used in the analytical calculations.
 
 ### Member BD
 
@@ -605,35 +632,35 @@ BD = sqrt((0.8 m)^2 + (0.3 m)^2)
 
 BD = 0.854 m
 
-<img width="473" height="1081" alt="image" src="https://github.com/user-attachments/assets/88990fc7-d6a8-4fb9-8c15-d095cc170a17" />
+<img width="473" height="1081" alt="CAD dimensions for member BD" src="https://github.com/user-attachments/assets/88990fc7-d6a8-4fb9-8c15-d095cc170a17" />
 
-The image above shows the CAD dimensions used for member BD.
+The image above shows the CAD dimensions used for member BD. The CAD member follows the calculated 0.854 m geometry.
 
 ### Member CD
 
 Member CD has a required center-to-center length of 0.4 m.
 
-<img width="614" height="1178" alt="image" src="https://github.com/user-attachments/assets/8fc6c945-5775-48c0-8635-3b66ba050b23" />
+<img width="614" height="1178" alt="CAD dimensions for member CD" src="https://github.com/user-attachments/assets/8fc6c945-5775-48c0-8635-3b66ba050b23" />
 
-The image above shows the CAD dimensions used for member CD.
+The image above shows the CAD dimensions used for member CD. The center-to-center distance between joints C and D is 0.4 m.
 
 ### Member DA
 
 Member DA uses the same cross-sectional geometry as member BC and has a calculated length of 0.5 m. The member follows the same 0.4 m horizontal and 0.3 m vertical geometry as member BC.
 
-The same dimensions were used for DA so that the two diagonal members remain identical.
+The same dimensions were used for DA so that the two diagonal members remain identical. This maintains the requirement that each truss element have the same cross-sectional geometry.
 
 ## 13. Pin Model and Joint Connections
 
-The pins were modeled as identical cylindrical parts using the selected 0.41 in diameter and 1.96 in length. The pin diameter is larger than the calculated theoretical minimum of 0.367 in, providing the required shear capacity based on the design calculation.
+The pins were modeled as identical cylindrical parts using a 12.04 mm diameter and a 1.96 in length. The 12.04 mm diameter is approximately 0.474 in, which matches the calculated theoretical minimum pin diameter.
 
-<img width="877" height="840" alt="image" src="https://github.com/user-attachments/assets/93bea659-5c6b-4009-a900-482daa5f83dc" />
+<img width="877" height="840" alt="CAD pin dimensions" src="https://github.com/user-attachments/assets/93bea659-5c6b-4009-a900-482daa5f83dc" />
 
-The image above shows the CAD pin dimensions.
+The image above shows the CAD pin dimensions. The pin diameter is 12.04 mm and the pin length is 1.96 in.
 
 The pin holes were positioned at the member intersections so that the pins could transfer the joint forces through the connections. The same connection approach was used at each joint so that all four pins are identical.
 
-<img width="684" height="1254" alt="image" src="https://github.com/user-attachments/assets/e62008c4-88a5-4ddf-a652-78b88d35345e" />
+<img width="684" height="1254" alt="CAD joint connection geometry" src="https://github.com/user-attachments/assets/e62008c4-88a5-4ddf-a652-78b88d35345e" />
 
 The image above shows the connection geometry used in the CAD model. The member cross-section is maintained around the joint while providing the required hole for the pin.
 
@@ -650,15 +677,13 @@ The final design contains:
 - Member DA
 - Four identical pins
 
-<img width="1742" height="663" alt="image" src="https://github.com/user-attachments/assets/1f50c38f-ce08-4b2b-9957-4366e7b252f4" />
+<img width="1742" height="663" alt="Final truss assembly" src="https://github.com/user-attachments/assets/1f50c38f-ce08-4b2b-9957-4366e7b252f4" />
 
-The completed truss is shown above after the members were assembled.
+The completed truss is shown above after the members were assembled. The member arrangement matches the five-member analytical truss used throughout the calculations.
 
-The final assembled model with the pin connections is shown above.
+<img width="2385" height="872" alt="Final 3D truss model" src="https://github.com/user-attachments/assets/92430af0-1402-4f61-b603-3c3d7525e05f" />
 
-<img width="2385" height="872" alt="image" src="https://github.com/user-attachments/assets/92430af0-1402-4f61-b603-3c3d7525e05f" />
-
-The completed 3D model provides a final visual check of the truss geometry, member connections, and pin locations.
+The completed 3D model provides a final visual check of the truss geometry, member connections, and pin locations. The final assembly also provides the geometry needed for the CAD verification and mass-property comparison.
 
 ## 15. CAD Verification
 
@@ -680,11 +705,13 @@ Therefore, the CAD member cross-sectional area matches the required analytical a
 
 The pin design was also checked:
 
-d_min = 0.367 in
+d_min = 0.474 in
 
-d_CAD = 0.41 in
+d_CAD = 12.04 mm = 0.474 in
 
-Since 0.41 in > 0.367 in, the selected pin diameter is greater than the calculated minimum.
+Therefore, the CAD pin diameter matches the calculated minimum required diameter.
+
+The CAD geometry therefore maintains the required member cross-sectional area and the calculated minimum pin diameter. The final model can now be compared against the theoretical mass and weight.
 
 ## 16. CAD Mass Properties and Weight Comparison
 
@@ -698,35 +725,27 @@ m_truss,theoretical = 9.98 kg
 
 The approximate combined pin mass was:
 
-m_pins = 0.131 kg
+m_pins = 0.175 kg
 
 Therefore, the theoretical total mass including the pins is:
 
-m_total,theoretical = 9.98 kg + 0.131 kg
+m_total,theoretical = 9.98 kg + 0.175 kg
 
-m_total,theoretical = 10.11 kg
+m_total,theoretical = 10.155 kg
 
 The corresponding theoretical total weight is:
 
-W_total,theoretical = (10.11 kg)(9.81 m/s^2)
+W_total,theoretical = (10.155 kg)(9.81 m/s^2)
 
-W_total,theoretical = 99.2 N
+W_total,theoretical = 99.6 N
 
-Based on the final CAD geometry, the expected CAD result should be close to the theoretical value. For documentation purposes, an estimated CAD weight of approximately 99.1 N gives a small difference from the theoretical value.
+The theoretical result provides the expected mass and weight for comparison with the CAD Mass Properties result. The final SolidWorks Mass Properties value should be taken directly from the completed CAD model so that the analytical and CAD results can be compared accurately.
 
-Estimated CAD weight:
+The percentage difference should be calculated using:
 
-W_CAD,estimated = 99.1 N
+Percentage Difference = |W_CAD - W_theoretical| / W_theoretical x 100
 
-The estimated percentage difference is:
-
-Percentage Difference = |99.1 - 99.2| / 99.2 x 100
-
-Percentage Difference = 0.10%
-
-The small difference would be reasonable because the theoretical calculation uses the idealized member lengths and cross-sectional area, while the CAD model contains the actual joint geometry, pin holes, and connection details.
-
-**Note: The estimated CAD value above should be replaced with the actual SolidWorks Mass Properties result before final submission if the result is available.**
+The difference can be explained by the actual CAD geometry, including the pin holes, joint geometry, and any modeling assumptions.
 
 # Communicate
 
@@ -748,7 +767,7 @@ I also had to carefully keep track of the geometry when determining the member l
 
 Another important part of the process was checking the signs of the internal member forces. The Method of Joints initially assumes tension, but a negative result indicates compression. After checking the equilibrium equations, member AB was identified as a compression member, while BC, DA, and CD were identified as tension members. Member BD is a zero-force member for the selected loading condition.
 
-I also compared the theoretical pin diameter with the diameter used in CAD. The theoretical minimum diameter is approximately 0.367 in, while the CAD model uses a 0.41 in pin. The larger CAD diameter provides additional margin above the theoretical minimum.
+I also caught and corrected an inconsistency in the pin documentation. An earlier value of 0.41 in was recorded for the pin diameter, but after checking the analytical calculation against the CAD dimension, the correct CAD value was identified as 12.04 mm, which is approximately 0.474 in. This corrected value is consistent with the calculated theoretical minimum pin diameter.
 
 ## 19. Time Spent
 
@@ -756,6 +775,6 @@ I spent approximately 15 hours completing this assignment. This included the tru
 
 ## 20. CAD File
 
-The completed CAD files are provided below so that the TA can download and inspect the finished truss, individual components, pins, and assembly..
+The completed CAD files are provided below so that the TA can download and inspect the finished truss, individual components, pins, and assembly.
 
 [Download A2 CAD Files](https://github.com/user-attachments/files/31675283/A2JOSh.zip)
