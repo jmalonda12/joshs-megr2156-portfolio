@@ -102,7 +102,7 @@ I worked through the joints one at a time, using the known support reactions and
 
 ## 5. Symbolic Solution for Internal Member Forces
 
-<img width="1774" height="822" alt="image" src="https://github.com/user-attachments/assets/aafa579d-0a8a-4982-a8b1-bea02732daec" />
+<img width="1476" height="1209" alt="image" src="https://github.com/user-attachments/assets/c3da1bed-596d-4197-9015-50c95f821475" />
 
 I first set up the equations symbolically before substituting P = 20 kN. This makes it easier to see how the internal forces depend on the applied load.
 
@@ -331,4 +331,3 @@ The finished CAD file will be linked here after the CAD model is completed so th
 
 [INSERT FINISHED CAD DOWNLOAD LINK HERE]
 
-<img width="1476" height="1209" alt="image" src="https://github.com/user-attachments/assets/b2157335-c603-47f5-94e6-41013d364a03" />
