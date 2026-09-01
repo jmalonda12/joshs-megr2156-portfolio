@@ -437,4 +437,14 @@ I spent approximately 15 hours completing this assignment. This included the tru
 
 The finished CAD file will be linked here after the CAD model is completed so that the TA can download the finished product.
 
-[INSERT FINISHED CAD DOWNLOAD LINK HERE]
+[INSERT FINISHED CAD DOWNLOAD LINK HERE]  <img width="1002" height="1290" alt="image" src="https://github.com/user-attachments/assets/05ed1d42-f871-4908-ad8a-95f08c7db662" />
+<img width="1396" height="1316" alt="image" src="https://github.com/user-attachments/assets/3459d186-d9aa-4d6e-ab7e-91fea6c105be" />
+<img width="473" height="1081" alt="image" src="https://github.com/user-attachments/assets/88990fc7-d6a8-4fb9-8c15-d095cc170a17" />
+<img width="614" height="1178" alt="image" src="https://github.com/user-attachments/assets/8fc6c945-5775-48c0-8635-3b66ba050b23" />
+<img width="877" height="840" alt="image" src="https://github.com/user-attachments/assets/93bea659-5c6b-4009-a900-482daa5f83dc" />
+<img width="684" height="1254" alt="image" src="https://github.com/user-attachments/assets/e62008c4-88a5-4ddf-a652-78b88d35345e" />
+
+
+
+
+
