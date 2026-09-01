@@ -621,7 +621,8 @@ The image above shows the CAD dimensions used for member AB. The member length i
 
 Member BC was created using the same cross-sectional geometry as the other truss members. Its required member length is 0.5 m, based on the 0.4 m horizontal distance and 0.3 m vertical distance.
 
-<img width="1396" height="1316" alt="CAD dimensions for member BC" src="https://github.com/user-attachments/assets/3459d186-d9aa-4d6e-ab7e-91fea6c105be" />
+<img width="684" height="1254" alt="image" src="https://github.com/user-attachments/assets/a53dac97-7736-4f4f-8508-afd834e8f0a0" />
+
 
 The image above shows the CAD dimensions used for member BC. The diagonal geometry corresponds to the 3-4-5 triangle used in the analytical calculations.
 
