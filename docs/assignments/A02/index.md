@@ -643,7 +643,6 @@ The completed CAD assembly shows the individual members connected at the four jo
 
 The completed truss is shown above after the members were assembled.
 
-<img width="1742" height="663" alt="image" src="https://github.com/user-attachments/assets/ec53fbea-bcdf-4fb6-bfdb-dd24f805f5df" />
 
 The final assembled model with the pin connections is shown above. The CAD model maintains the same basic geometry used in the analytical calculations.
 
@@ -690,5 +689,5 @@ I spent approximately 15 hours completing this assignment. This included the tru
 ## 18. CAD File
 
 The completed CAD files will be provided with the portfolio so that the TA can inspect the individual members, pins, and final assembly.
+[A2JOSh.zip](https://github.com/user-attachments/files/31675283/A2JOSh.zip)
 
-[INSERT YOUR FINISHED CAD ZIP DOWNLOAD LINK HERE]
