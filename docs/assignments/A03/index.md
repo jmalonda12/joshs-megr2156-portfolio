@@ -1,9 +1,3 @@
-<img width="877" height="1046" alt="image" src="https://github.com/user-attachments/assets/5d8fc709-2e61-48f0-8bf3-c68fd3d4650f" />
-<img width="2555" height="1095" alt="image" src="https://github.com/user-attachments/assets/d0de36b4-68e5-4973-a26e-8fba92e93f1e" />
-<img width="2558" height="1027" alt="image" src="https://github.com/user-attachments/assets/2ec0dfe0-71a8-4121-b4db-8d1db9b0aa80" />
-<img width="795" height="325" alt="image" src="https://github.com/user-attachments/assets/a45ab1e4-bc01-4fa3-839e-5972f4f057ba" />
-<img width="796" height="316" alt="image" src="https://github.com/user-attachments/assets/ee3ba54a-24f1-404e-9892-bbce9e99191e" />
-
 # A3 – Parametric Design and FEA
 
 ## Objective
@@ -20,16 +14,16 @@ The design was first analyzed using the direct axial deformation equation and th
 
 The main design requirements for the bar were:
 
-- Cross section: circular
-- Material: aluminum
-- Applied load: 300–500 lbf
-- Maximum allowable deflection: 0.009 in
-- Elastic modulus: 8.5 × 10⁶ to 11.5 × 10⁶ psi
-- Required yield strength for the safety-factor check: 40 ksi
+- **Cross section:** Circular
+- **Material:** Aluminum
+- **Applied load:** 300–500 lbf
+- **Maximum allowable deflection:** 0.009 in
+- **Elastic modulus:** 8.5 × 10⁶ to 11.5 × 10⁶ psi
+- **Required yield strength for the safety-factor check:** 40 ksi
 
-I chose the maximum allowable load of 500 lbf because designing for the highest required load gives the design a conservative loading condition. I used a circular bar with a diameter of 0.500 in. The final material selected in SolidWorks was Aluminum 2219-T62.
+I chose the maximum allowable load of **500 lbf** because designing for the highest required load gives the design a conservative loading condition. I used a circular bar with a diameter of **0.500 in**. The final material selected in SolidWorks was **Aluminum 2219-T62**.
 
-![Parametric CAD Model](IMAGE-LINK-HERE)
+<img width="877" height="1046" alt="Parametric CAD Model" src="https://github.com/user-attachments/assets/5d8fc709-2e61-48f0-8bf3-c68fd3d4650f" />
 
 *Figure 1. Parametric cylindrical bar with a 0.500 in diameter and approximately 36.90 in length.*
 
@@ -37,13 +31,13 @@ I chose the maximum allowable load of 500 lbf because designing for the highest 
 
 ## 2. Material Selection
 
-The selected material was **Aluminum 2219-T62**. The SolidWorks material database lists an elastic modulus of approximately 72,000 MPa, which is approximately 10.44 × 10⁶ psi. This value falls within the required range of 8.5 × 10⁶ to 11.5 × 10⁶ psi.
+The selected material was **Aluminum 2219-T62**. The SolidWorks material database lists an elastic modulus of approximately **72,000 MPa**, which is approximately **10.44 × 10⁶ psi**. This value falls within the required range of 8.5 × 10⁶ to 11.5 × 10⁶ psi.
 
-The material database also lists a yield strength of approximately 290 MPa, or about 42.1 ksi. This is greater than the 40 ksi yield strength value specified for the safety-factor requirement.
+The material database also lists a yield strength of approximately **290 MPa**, or about **42.1 ksi**. This is greater than the 40 ksi yield strength value specified for the safety-factor requirement.
 
 Therefore, the selected material satisfies the required elastic modulus range and the yield-strength requirement.
 
-![Aluminum 2219-T62 Material](IMAGE-LINK-HERE)
+<img width="796" height="316" alt="Aluminum 2219-T62 Material" src="https://github.com/user-attachments/assets/ee3ba54a-24f1-404e-9892-bbce9e99191e" />
 
 *Figure 2. Aluminum 2219-T62 selected in the SolidWorks material database.*
 
@@ -55,85 +49,59 @@ Therefore, the selected material satisfies the required elastic modulus range an
 
 The following values were used for the analytical calculation:
 
-\[
-F = 500\text{ lbf}
-\]
+**F = 500 lbf**
 
-\[
-d = 0.500\text{ in}
-\]
+**d = 0.500 in**
 
-\[
-E = 72,000\text{ MPa}
-\]
+**E = 72,000 MPa**
 
 Converting the elastic modulus to psi:
 
-\[
-E \approx 10.44\times10^6\text{ psi}
-\]
+**E ≈ 10.44 × 10⁶ psi**
 
 The maximum allowable deflection is:
 
-\[
-\delta_{max}=0.009\text{ in}
-\]
+**δₘₐₓ = 0.009 in**
 
 ### Cross-Sectional Area
 
 Because the bar has a circular cross section:
 
-\[
-A=\frac{\pi d^2}{4}
-\]
+**A = πd² / 4**
 
 Substituting the diameter:
 
-\[
-A=\frac{\pi(0.500)^2}{4}
-\]
+**A = π(0.500)² / 4**
 
-\[
-\boxed{A=0.19635\text{ in}^2}
-\]
+**A = 0.19635 in²**
 
 ### Axial Deflection Equation
 
 For a uniform bar in direct tension:
 
-\[
-\delta=\frac{FL}{AE}
-\]
+**δ = FL / (AE)**
 
 Solving for the required length:
 
-\[
-L=\frac{\delta_{max}AE}{F}
-\]
+**L = (δₘₐₓ × A × E) / F**
 
 Using the selected values:
 
-\[
-L=
-\frac{(0.009)(0.19635)(10.44\times10^6)}
-{500}
-\]
+**L = (0.009 × 0.19635 × 10.44 × 10⁶) / 500**
 
-\[
-\boxed{L\approx36.90\text{ in}}
-\]
+**L ≈ 36.90 in**
 
-Therefore, the required bar length is approximately 36.90 in for the selected diameter, load, material, and maximum allowable deflection.
+Therefore, the required bar length is approximately **36.90 in** for the selected diameter, load, material, and maximum allowable deflection.
 
 ---
 
 ## 4. Parametric CAD Design
 
-I created the bar in SolidWorks as a simple cylindrical part. The circular cross section was created with a diameter of 0.500 in, and the bar length was initially determined from the axial deflection calculation.
+I created the bar in SolidWorks as a simple cylindrical part. The circular cross section was created with a diameter of **0.500 in**, and the bar length was initially determined from the axial deflection calculation.
 
 The important part of the CAD model was making the design parametric instead of using only fixed dimensions. This allows the design to update automatically if the load, elastic modulus, maximum allowable deflection, or diameter is changed.
 
-![Parametric CAD Model](IMAGE-LINK-HERE)
+<img width="877" height="1046" alt="Parametric CAD Model" src="https://github.com/user-attachments/assets/5d8fc709-2e61-48f0-8bf3-c68fd3d4650f" />
 
 *Figure 3. SolidWorks cylindrical bar showing the 0.500 in diameter and approximately 36.90 in length.*
 
@@ -145,27 +113,23 @@ I created global variables in SolidWorks for the main design parameters. These v
 
 The variables used were:
 
-- LOAD = 500 lbf
-- E = 10.44 × 10⁶ psi
-- MAXDEFLECTION = 0.009 in
-- DIAMETER = 0.500 in
-- AREA = π(DIAMETER)²/4
+- **LOAD = 500 lbf**
+- **E = 10.44 × 10⁶ psi**
+- **MAXDEFLECTION = 0.009 in**
+- **DIAMETER = 0.500 in**
+- **AREA = π(DIAMETER)² / 4**
 
 The cross-sectional area was defined using:
 
-\[
-A=\frac{\pi d^2}{4}
-\]
+**A = πd² / 4**
 
 The bar length was controlled using:
 
-\[
-L=\frac{\delta_{max}AE}{F}
-\]
+**L = (δₘₐₓ × A × E) / F**
 
 This caused the length of the extrusion to update automatically when the material properties or design variables were changed.
 
-![SolidWorks Equations](IMAGE-LINK-HERE)
+<img width="795" height="325" alt="SolidWorks Equations" src="https://github.com/user-attachments/assets/a45ab1e4-bc01-4fa3-839e-5972f4f057ba" />
 
 *Figure 4. SolidWorks global variables and equations used to create the parametric model.*
 
@@ -173,11 +137,11 @@ This caused the length of the extrusion to update automatically when the materia
 
 ## 6. Final CAD Geometry
 
-The final design is a straight cylindrical aluminum bar with a diameter of 0.500 in and a calculated length of approximately 36.90 in. The length is equation-driven, so it is controlled by the design variables rather than being an arbitrary fixed value.
+The final design is a straight cylindrical aluminum bar with a diameter of **0.500 in** and a calculated length of approximately **36.90 in**. The length is equation-driven, so it is controlled by the design variables rather than being an arbitrary fixed value.
 
 The final geometry provides the required circular cross section and was used directly for the FEA study.
 
-![Final CAD Geometry](IMAGE-LINK-HERE)
+<img width="877" height="1046" alt="Final CAD Geometry" src="https://github.com/user-attachments/assets/5d8fc709-2e61-48f0-8bf3-c68fd3d4650f" />
 
 *Figure 5. Final cylindrical CAD model used for the FEA study.*
 
@@ -189,22 +153,17 @@ The final geometry provides the required circular cross section and was used dir
 
 A static FEA study was created in SolidWorks Simulation. One circular end face of the bar was fixed to represent the support, while the opposite circular end face was subjected to the required tensile load.
 
-The required load was 500 lbf. Since SolidWorks was displaying force in Newtons, the load was converted using:
+The required load was **500 lbf**. Since SolidWorks was displaying force in Newtons, the load was converted using:
 
-\[
-500\text{ lbf}(4.44822\text{ N/lbf})
-=2224.1\text{ N}
-\]
+**500 lbf × 4.44822 N/lbf = 2224.1 N**
 
 Therefore, the applied FEA load was:
 
-\[
-\boxed{F=2224.1\text{ N}}
-\]
+**F = 2224.1 N**
 
 The force was directed axially away from the fixed end so that the bar was placed in direct tension.
 
-![FEA Fixture and Force](IMAGE-LINK-HERE)
+<img width="2555" height="1095" alt="FEA Fixture and Force" src="https://github.com/user-attachments/assets/d0de36b4-68e5-4973-a26e-8fba92e93f1e" />
 
 *Figure 6. FEA setup showing the fixed circular end and 2224.1 N tensile load.*
 
@@ -216,7 +175,7 @@ A mesh was generated over the entire cylindrical bar before running the static s
 
 The mesh covered the full length of the bar and was used for both the displacement and von Mises stress calculations.
 
-![FEA Mesh](IMAGE-LINK-HERE)
+<img width="2558" height="1027" alt="FEA Mesh" src="https://github.com/user-attachments/assets/2ec0dfe0-71a8-4121-b4db-8d1db9b0aa80" />
 
 *Figure 7. Finite element mesh applied to the cylindrical bar.*
 
@@ -228,25 +187,23 @@ The displacement result was used to determine the maximum deflection of the bar 
 
 The SolidWorks result showed a maximum displacement of:
 
-\[
-0.2287\text{ mm}
-\]
+**δ = 0.2287 mm**
 
 Converting to inches:
 
-\[
-0.2287\text{ mm}\left(\frac{1\text{ in}}{25.4\text{ mm}}\right)
-\]
+**δ = 0.2287 / 25.4**
 
-\[
-\boxed{\delta_{FEA}\approx0.00900\text{ in}}
-\]
+**δ = 0.009004 in**
 
-This is essentially equal to the required maximum deflection of 0.009 in.
+Therefore:
+
+**δ_FEA ≈ 0.00900 in**
+
+This is essentially equal to the required maximum deflection of **0.009 in**.
 
 Therefore, the design satisfies the maximum deflection requirement.
 
-![FEA Displacement Result](IMAGE-LINK-HERE)
+<img width="2555" height="1095" alt="FEA Displacement Result" src="https://github.com/user-attachments/assets/d0de36b4-68e5-4973-a26e-8fba92e93f1e" />
 
 *Figure 8. SolidWorks displacement result showing a maximum displacement of approximately 0.2287 mm.*
 
@@ -258,25 +215,19 @@ The von Mises stress result was used to determine whether the bar remained below
 
 The maximum von Mises stress from the SolidWorks result was approximately:
 
-\[
-18.9\text{ MPa}
-\]
+**σᵥₘ,ₘₐₓ = 18.9 MPa**
 
 Converting to ksi:
 
-\[
-18.9\text{ MPa}\approx2.74\text{ ksi}
-\]
+**18.9 MPa ≈ 2.74 ksi**
 
 Therefore:
 
-\[
-\boxed{\sigma_{vM,max}\approx2.74\text{ ksi}}
-\]
+**σᵥₘ,ₘₐₓ ≈ 2.74 ksi**
 
-This stress is significantly lower than the required 40 ksi yield-strength value.
+This stress is significantly lower than the required **40 ksi** yield-strength value.
 
-![FEA Von Mises Stress](IMAGE-LINK-HERE)
+<img width="2558" height="1027" alt="FEA Von Mises Stress" src="https://github.com/user-attachments/assets/2ec0dfe0-71a8-4121-b4db-8d1db9b0aa80" />
 
 *Figure 9. SolidWorks von Mises stress result showing a maximum stress of approximately 18.9 MPa.*
 
@@ -288,29 +239,19 @@ The safety factor was calculated by comparing the material yield strength to the
 
 Using the SolidWorks material value:
 
-\[
-S_y=290\text{ MPa}
-\]
+**Sᵧ = 290 MPa**
 
 and:
 
-\[
-\sigma_{vM,max}=18.9\text{ MPa}
-\]
+**σᵥₘ,ₘₐₓ = 18.9 MPa**
 
-the safety factor is:
+The safety factor is:
 
-\[
-n=\frac{S_y}{\sigma_{vM,max}}
-\]
+**n = Sᵧ / σᵥₘ,ₘₐₓ**
 
-\[
-n=\frac{290}{18.9}
-\]
+**n = 290 / 18.9**
 
-\[
-\boxed{n\approx15.3}
-\]
+**n ≈ 15.3**
 
 The calculated safety factor is much greater than 1. Therefore, the bar does not exceed the material yield strength under the applied 500 lbf tensile load.
 
@@ -322,15 +263,11 @@ The calculated safety factor is much greater than 1. Therefore, the bar does not
 
 The analytical calculation predicted a maximum axial deflection of approximately:
 
-\[
-\boxed{\delta_{hand}\approx0.00900\text{ in}}
-\]
+**δ_hand ≈ 0.008998 in**
 
 The SolidWorks FEA predicted:
 
-\[
-\boxed{\delta_{FEA}\approx0.00900\text{ in}}
-\]
+**δ_FEA ≈ 0.009004 in**
 
 The two results are extremely close. This is expected because the model is a simple uniform cylindrical bar under direct axial tension, which is exactly the type of loading represented by the analytical equation.
 
@@ -342,32 +279,17 @@ The hand calculation provides a quick way to determine the required dimensions, 
 
 The percent difference between the analytical and FEA deflection results was calculated using:
 
-\[
-\%\text{ Difference}
-=
-\frac{|\delta_{FEA}-\delta_{hand}|}
-{\delta_{hand}}\times100
-\]
+**% Difference = |δ_FEA − δ_hand| / δ_hand × 100**
 
 Using the calculated values:
 
-\[
-\delta_{hand}\approx0.008998\text{ in}
-\]
+**δ_hand ≈ 0.008998 in**
 
-\[
-\delta_{FEA}\approx0.009004\text{ in}
-\]
+**δ_FEA ≈ 0.009004 in**
 
 Therefore:
 
-\[
-\%\text{ Difference}\approx0.064\%
-\]
-
-\[
-\boxed{\%\text{ Difference}\approx0.064\%}
-\]
+**% Difference ≈ 0.064%**
 
 The difference is very small, indicating excellent agreement between the hand calculation and the FEA result.
 
@@ -379,67 +301,49 @@ I would trust the FEA result more for the actual CAD model because it evaluates 
 
 The assignment also required consideration of the stress concentration caused by a pin hole in a bar under tension. A transverse hole creates a local increase in stress around the edge of the hole.
 
-For the stress-concentration estimate, the stress concentration factor \(K_t\) can be used with the nominal stress:
+For the stress-concentration estimate, the stress concentration factor (**Kₜ**) can be used with the nominal stress:
 
-\[
-\sigma_{peak}=K_t\sigma_{nominal}
-\]
+**σ_peak = Kₜ × σ_nominal**
 
 The assignment references a flat-bar transverse-hole stress-concentration chart. Since the primary CAD model for this assignment uses a circular bar, the flat-bar chart does not exactly represent the cylindrical geometry. Therefore, this calculation is treated as an engineering approximation rather than an exact stress concentration for the cylindrical bar.
 
 For a representative ratio of:
 
-\[
-\frac{d}{W}=0.50
-\]
+**d / W = 0.50**
 
 a Peterson-style stress concentration chart gives approximately:
 
-\[
-K_t\approx2.16
-\]
+**Kₜ ≈ 2.16**
 
 Using the FEA nominal stress of approximately:
 
-\[
-\sigma_{nominal}=2.74\text{ ksi}
-\]
+**σ_nominal = 2.74 ksi**
 
-the estimated peak stress is:
+The estimated peak stress is:
 
-\[
-\sigma_{peak}=K_t\sigma_{nominal}
-\]
+**σ_peak = Kₜ × σ_nominal**
 
-\[
-\sigma_{peak}=(2.16)(2.74)
-\]
+**σ_peak = (2.16)(2.74)**
 
-\[
-\boxed{\sigma_{peak}\approx5.92\text{ ksi}}
-\]
+**σ_peak ≈ 5.92 ksi**
 
-Using the required 40 ksi yield-strength value:
+Using the required **40 ksi** yield-strength value:
 
-\[
-n=\frac{40}{5.92}
-\]
+**n = 40 / 5.92**
 
-\[
-\boxed{n\approx6.76}
-\]
+**n ≈ 6.76**
 
 Therefore, even with the estimated stress concentration, the estimated stress remains below the required 40 ksi yield-strength value.
 
-No additional FEA was performed for the hole because the assignment specifically asks for the stress concentration to be estimated using \(K_t\) and the nominal FEA stress rather than rerunning the FEA.
+No additional FEA was performed for the hole because the assignment specifically asks for the stress concentration to be estimated using **Kₜ** and the nominal FEA stress rather than rerunning the FEA.
 
 ---
 
 ## 15. Design Decision
 
-The final design uses a 0.500 in diameter cylindrical aluminum bar with an equation-driven length of approximately 36.90 in. The design was created to reach the maximum allowable deflection of 0.009 in under the required 500 lbf load.
+The final design uses a **0.500 in diameter** cylindrical aluminum bar with an equation-driven length of approximately **36.90 in**. The design was created to reach the maximum allowable deflection of **0.009 in** under the required **500 lbf** load.
 
-The FEA displacement was approximately 0.00900 in, which agrees extremely closely with the analytical prediction. The maximum von Mises stress was approximately 2.74 ksi, which is substantially below the 40 ksi yield-strength requirement.
+The FEA displacement was approximately **0.00900 in**, which agrees extremely closely with the analytical prediction. The maximum von Mises stress was approximately **2.74 ksi**, which is substantially below the **40 ksi** yield-strength requirement.
 
 Based on the deflection and stress results, the design satisfies the main requirements of the assignment. The stress-concentration estimate also indicates that the design would remain below the required yield-strength value under the assumed hole condition.
 
@@ -451,9 +355,9 @@ Based on the deflection and stress results, the design satisfies the main requir
 
 One mistake I made during the modeling process was initially creating the wrong type of hole while working through the stress-concentration portion of the assignment. The hole was created along the axis of the cylindrical bar instead of representing the transverse-hole condition described by the stress-concentration reference.
 
-I recognized the mistake before using the geometry for additional FEA and removed the hole so that the original FEA model would remain unchanged. I then treated the pin-hole portion as a \(K_t\) calculation using the existing nominal FEA stress, which follows the assignment instruction not to rerun the FEA for the hole.
+I recognized the mistake before using the geometry for additional FEA and removed the hole so that the original FEA model would remain unchanged. I then treated the pin-hole portion as a **Kₜ calculation** using the existing nominal FEA stress, which follows the assignment instruction not to rerun the FEA for the hole.
 
-Another adjustment was making sure that the elastic modulus used in the parametric calculation matched the selected SolidWorks material. After selecting Aluminum 2219-T62, the elastic modulus was updated to approximately 10.44 × 10⁶ psi, which caused the equation-driven bar length to update automatically.
+Another adjustment was making sure that the elastic modulus used in the parametric calculation matched the selected SolidWorks material. After selecting Aluminum 2219-T62, the elastic modulus was updated to approximately **10.44 × 10⁶ psi**, which caused the equation-driven bar length to update automatically.
 
 ---
 
@@ -502,7 +406,7 @@ The CAD model contains the parametric cylindrical bar used for the analysis and 
 | Maximum Von Mises Stress | ≈ 2.74 ksi |
 | Material Yield Strength | ≈ 42.1 ksi |
 | Safety Factor | ≈ 15.3 |
-| Estimated \(K_t\) | ≈ 2.16 |
+| Estimated Kₜ | ≈ 2.16 |
 | Estimated Peak Hole Stress | ≈ 5.92 ksi |
 | Estimated Hole Safety Factor | ≈ 6.76 |
 
