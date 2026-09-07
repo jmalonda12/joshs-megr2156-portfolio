@@ -1,3 +1,5 @@
+<img width="2559" height="1207" alt="unnamed" src="https://github.com/user-attachments/assets/69167db5-95f6-4d68-8dae-aa05104286c3" />
+<img width="2559" height="1207" alt="unnamed" src="https://github.com/user-attachments/assets/cbe4f458-745a-484f-9bd7-9e499d04c702" />
 # A3 – Parametric Design and FEA
 
 ## Objective
@@ -261,7 +263,7 @@ The FEA result is essentially equal to the required maximum deflection.
 
 Therefore, the design satisfies the maximum deflection requirement.
 
-**[PASTE YOUR FEA DISPLACEMENT GITHUB IMAGE LINK HERE]**
+<img width="2559" height="1207" alt="image" src="https://github.com/user-attachments/assets/c747e81d-64a8-4c8e-9bff-991235def8c9" />
 
 *Figure 8. SolidWorks displacement result showing a maximum displacement of approximately 0.2287 mm (0.009004 in).*
 
@@ -287,7 +289,8 @@ This stress is significantly lower than the required:
 
 **Sy = 40 ksi**
 
-**[PASTE YOUR FEA VON MISES STRESS GITHUB IMAGE LINK HERE]**
+<img width="2529" height="1228" alt="image" src="https://github.com/user-attachments/assets/b1b788c6-803c-4ed3-afb0-ed1f06ccb2c9" />
+
 
 *Figure 9. SolidWorks von Mises stress result showing a maximum stress of approximately 18.96 MPa (2.75 ksi).*
 
