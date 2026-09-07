@@ -132,6 +132,30 @@ This matches the required maximum deflection of **0.009 in**.
 
 Therefore, the analytical design satisfies the deflection requirement.
 
+### Weight
+
+The weight of the final bar was also determined.
+
+V = A × L
+
+V = (0.19635 in²)(36.90 in)
+
+V ≈ 7.245 in³
+
+Using an aluminum density of approximately 0.102 lb/in³:
+
+Weight = V × density
+
+Weight ≈ (7.245 in³)(0.102 lb/in³)
+
+Weight ≈ 0.739 lb
+
+| Diameter | 0.500 in |
+| Length | ≈ 36.90 in |
+| Weight | ≈ 0.74 lb |
+| Material | Aluminum 2219-T62 |
+
+Therefore, the final bar weighs approximately **0.74 lb**.
 ---
 
 ## 4. Parametric CAD Design
