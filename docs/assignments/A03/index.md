@@ -1,5 +1,4 @@
-<img width="2559" height="1207" alt="unnamed" src="https://github.com/user-attachments/assets/69167db5-95f6-4d68-8dae-aa05104286c3" />
-<img width="2559" height="1207" alt="unnamed" src="https://github.com/user-attachments/assets/cbe4f458-745a-484f-9bd7-9e499d04c702" />
+
 # A3 – Parametric Design and FEA
 
 ## Objective
