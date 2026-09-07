@@ -373,7 +373,7 @@ Another important lesson was that boundary conditions and load directions have a
 
 ## 18. Time Spent
 
-I spent approximately **[ENTER YOUR ACTUAL TIME]** working on this assignment.
+I spent approximately **6HOURS* working on this assignment.
 
 This included time spent creating the cylindrical CAD model, setting up the SolidWorks equations, selecting the aluminum material, creating the FEA study, applying the fixture and tensile load, generating the mesh, running the simulation, checking the displacement and stress results, and completing the calculations and documentation.
 
@@ -383,11 +383,14 @@ This included time spent creating the cylindrical CAD model, setting up the Soli
 
 The final SolidWorks CAD file is provided below.
 
-**[Download the A3 Parametric Bar CAD File](YOUR-GITHUB-CAD-FILE-LINK-HERE)**
+<img width="1958" height="782" alt="image" src="https://github.com/user-attachments/assets/96267ca9-fc34-42b3-a7ae-7bf75941cdaa" />
+
 
 The CAD model contains the parametric cylindrical bar used for the analysis and FEA study.
 
 ---
+
+
 
 # Final Results
 
