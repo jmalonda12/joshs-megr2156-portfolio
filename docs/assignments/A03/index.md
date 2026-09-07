@@ -170,7 +170,7 @@ In SolidWorks, this was entered using the global variables so that the length wa
 
 This caused the length of the extrusion to update automatically when the material properties or design variables were changed.
 
-<img width="1000" alt="SolidWorks Equations" src="https://github.com/user-attachments/assets/a45ab1e4-bc01-4fa3-839e-5972f4f057ba">
+<img width="787" height="313" alt="image" src="https://github.com/user-attachments/assets/117884f8-5c86-42e2-8073-a25cf292a14d" />
 
 *Figure 4. SolidWorks global variables and equations used to create the parametric model.*
 
