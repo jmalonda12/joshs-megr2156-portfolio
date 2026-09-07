@@ -388,8 +388,12 @@ The final SolidWorks CAD file is provided below.
 
 The CAD model contains the parametric cylindrical bar used for the analysis and FEA study.
 
----
+---<img width="2529" height="1228" alt="image" src="https://github.com/user-attachments/assets/b52d3e0e-2c13-4ac0-a963-d506a5885432" />
 
+<img width="2541" height="1315" alt="image" src="https://github.com/user-attachments/assets/ef7c3ff0-bc2a-4669-95e4-b09404daa6a8" />
+
+<img width="2529" height="1228" alt="image" src="https://github.com/user-attachments/assets/95b37da2-d367-4310-8ba7-be9bafda16dd" />
+<img width="1179" height="992" alt="image" src="https://github.com/user-attachments/assets/ef7258d8-9679-4d52-89f7-d321f39c0116" />
 
 
 # Final Results
