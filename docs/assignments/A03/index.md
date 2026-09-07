@@ -392,7 +392,8 @@ The CAD model contains the parametric cylindrical bar used for the analysis and 
 
 <img width="2541" height="1315" alt="image" src="https://github.com/user-attachments/assets/ef7c3ff0-bc2a-4669-95e4-b09404daa6a8" />
 
-<img width="2529" height="1228" alt="image" src="https://github.com/user-attachments/assets/95b37da2-d367-4310-8ba7-be9bafda16dd" />
+<img width="2541" height="1315" alt="image" src="https://github.com/user-attachments/assets/c8d35f93-4bd0-416a-b905-20a2343ec3e7" />
+
 <img width="1179" height="992" alt="image" src="https://github.com/user-attachments/assets/ef7258d8-9679-4d52-89f7-d321f39c0116" />
 
 
