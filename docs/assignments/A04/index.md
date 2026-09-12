@@ -214,6 +214,7 @@ The final SolidWorks model incorporates the calculated beam dimensions, motor mo
 
 <img width="2499" height="1620" alt="Final motor mount CAD model" src="https://github.com/user-attachments/assets/366c1409-9a62-440c-ab5c-e7a6228bc741" />
 <img width="2649" height="1620" alt="Motor pocket" src="https://github.com/user-attachments/assets/a556f9a3-666d-4004-be61-3891a6cc98e8" />
+<img width="963" height="425" alt="image" src="https://github.com/user-attachments/assets/d9f03b91-6a5f-4a3d-89f0-e7bd25f2e9bb" />
 ### Motor Pocket
 
 The motor seating area was created using the motor dimensions. The outer motor/gearbox diameter was modeled as approximately 28 mm, with additional clearance for the motor to sit properly.
@@ -231,7 +232,6 @@ One example is the Pololu machined aluminum bracket for 37D gearmotors. It uses 
 Another example is the Pololu stamped aluminum L-bracket, which uses multiple mounting holes and provides an L-shaped mounting configuration similar to the concept used in this assignment. :contentReference[oaicite:2]{index=2}
 
 I also reviewed McMaster-Carr's motor bracket options to compare different commercial motor mounting configurations. :contentReference[oaicite:3]{index=3}
-<img width="963" height="425" alt="image" src="https://github.com/user-attachments/assets/d9f03b91-6a5f-4a3d-89f0-e7bd25f2e9bb" />
 
 ### Research Links
 
@@ -259,4 +259,4 @@ This project took approximately **7 hours** to complete.
 
 The SolidWorks CAD file for the completed motor mount is included below.
 
-**(PASTE-YOUR-GITHUB-CAD-FILE-LINK-HERE)](https://mail.google.com/mail/u/1?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r3681669250132297329&view=att&disp=safe&realattid=f_mtytunng0&zw)**
+**(https://mail.google.com/mail/u/1?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r3681669250132297329&view=att&disp=safe&realattid=f_mtytunng0&zw)**
