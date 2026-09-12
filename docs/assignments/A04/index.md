@@ -154,7 +154,6 @@ Therefore, the final Feature 2 dimensions used in the CAD model were:
 
 ---
 ## Mistakes / Design Changes
-## Mistakes / Design Changes
 
 During the design process, I noticed that there was uncertainty in the effective moment arm used for Feature 2. My original calculation used the Feature 2 dimensions and the motor shaft length to determine the effective distance:
 
@@ -249,7 +248,8 @@ Based on the bending stress and deflection calculations, the final dimensions se
 
 The deflection requirement controlled both features because the height required for deflection was greater than the height required for yield strength.
 
-### Isometric Design
+
+### Sketch – Isometric Motor Mount
 
 I created an isometric sketch using the calculated dimensions before creating the final CAD model.
 
@@ -294,7 +294,6 @@ The motor seating area was created using the motor dimensions. The outer motor/g
 
 ---
 
-## Research
 
 ## Research
 
