@@ -153,7 +153,11 @@ Therefore, the final Feature 2 dimensions used in the CAD model were:
 <img width="1208" height="1505" alt="Feature 2 calculations" src="https://github.com/user-attachments/assets/a9a92efa-a163-47d0-a469-2967b6b72469" />
 
 ---
+## Mistakes / Design Changes
 
+During the design process, I had some uncertainty about the effective moment arm used for Feature 2. I reviewed the motor dimensions, the Feature 1 and Feature 2 geometry, and my beam calculations before continuing with the design. I decided to keep the original Feature 2 calculation and dimensions used throughout my CAD model so that the calculations, sketch, and CAD model remained consistent with each other.
+
+This was a useful part of the design process because it showed me how important it is to clearly identify the dimensions and assumptions before applying beam equations. It also helped me understand that changing an assumption can affect the calculations, dimensions, and CAD model that follow.
 ## Decide
 
 ### Final Dimensions
