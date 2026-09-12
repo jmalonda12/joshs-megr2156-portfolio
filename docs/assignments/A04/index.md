@@ -227,6 +227,7 @@ One example is the Pololu machined aluminum bracket for 37D gearmotors. It uses 
 Another example is the Pololu stamped aluminum L-bracket, which uses multiple mounting holes and provides an L-shaped mounting configuration similar to the concept used in this assignment. :contentReference[oaicite:2]{index=2}
 
 I also reviewed McMaster-Carr's motor bracket options to compare different commercial motor mounting configurations. :contentReference[oaicite:3]{index=3}
+<img width="963" height="425" alt="image" src="https://github.com/user-attachments/assets/d9f03b91-6a5f-4a3d-89f0-e7bd25f2e9bb" />
 
 ### Research Links
 
