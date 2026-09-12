@@ -296,13 +296,29 @@ The motor seating area was created using the motor dimensions. The outer motor/g
 
 ## Research
 
-I looked at existing motor mounting designs to compare different approaches to securing gear motors and attaching them to a larger structure.
+## Research
 
-One example is the Pololu machined aluminum bracket for 37D gearmotors. It uses mounting holes to secure the motor to the bracket and additional holes to attach the bracket to another surface. :contentReference[oaicite:1]{index=1}
+Before creating my motor mount, I looked at several existing motor mounting designs to see how different brackets secure a motor and attach to a larger structure.
 
-Another example is the Pololu stamped aluminum L-bracket, which uses multiple mounting holes and provides an L-shaped mounting configuration similar to the concept used in this assignment. :contentReference[oaicite:2]{index=2}
+### Pololu Machined Aluminum Bracket
 
-I also reviewed McMaster-Carr's motor bracket options to compare different commercial motor mounting configurations. :contentReference[oaicite:3]{index=3}
+I reviewed the Pololu machined aluminum bracket for 37D gearmotors. The bracket uses mounting holes to secure the motor and additional holes to attach the bracket to another surface. This gave me an example of how a motor can be supported while also being connected to a larger structure.
+
+[Pololu Machined Aluminum Bracket for 37D Gearmotors](https://www.pololu.com/product/1995)
+
+### Pololu Stamped Aluminum L-Bracket
+
+I also looked at the Pololu stamped aluminum L-bracket for 37D gearmotors. The L-shaped design was useful for comparing different ways of supporting a motor and mounting it to another component.
+
+[Pololu Stamped Aluminum L-Bracket for 37D Gearmotors](https://www.pololu.com/product/1084)
+
+### McMaster-Carr Motor Brackets
+
+Finally, I reviewed different motor brackets available from McMaster-Carr. I used these examples to compare different mounting configurations and see how motor brackets are designed for different applications.
+
+[McMaster-Carr Motor Brackets](https://www.mcmaster.com/products/motor-brackets/)
+
+These examples helped me decide how to incorporate motor mounting holes, wall mounting holes, and an L-shaped support into my own motor mount design.
 
 ### Research Links
 
