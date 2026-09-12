@@ -246,7 +246,7 @@ For this design, deflection controlled the required height of both features. I a
 
 ## Time
 
-This project took approximately **[ENTER YOUR ACTUAL TIME] hours** to complete.
+This project took approximately **7 hours** to complete.
 
 ---
 
@@ -254,4 +254,4 @@ This project took approximately **[ENTER YOUR ACTUAL TIME] hours** to complete.
 
 The SolidWorks CAD file for the completed motor mount is included below.
 
-**[Download the A4 Motor Mount CAD File](PASTE-YOUR-GITHUB-CAD-FILE-LINK-HERE)**
+**[[Download the A4 Motor Mount CAD File](PASTE-YOUR-GITHUB-CAD-FILE-LINK-HERE)](https://mail.google.com/mail/u/1?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r3681669250132297329&view=att&disp=safe&realattid=f_mtytunng0&zw)**
