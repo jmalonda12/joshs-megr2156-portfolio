@@ -154,10 +154,81 @@ Therefore, the final Feature 2 dimensions used in the CAD model were:
 
 ---
 ## Mistakes / Design Changes
+## Mistakes / Design Changes
 
-During the design process, I had some uncertainty about the effective moment arm used for Feature 2. I reviewed the motor dimensions, the Feature 1 and Feature 2 geometry, and my beam calculations before continuing with the design. I decided to keep the original Feature 2 calculation and dimensions used throughout my CAD model so that the calculations, sketch, and CAD model remained consistent with each other.
+During the design process, I noticed that there was uncertainty in the effective moment arm used for Feature 2. My original calculation used the Feature 2 dimensions and the motor shaft length to determine the effective distance:
 
-This was a useful part of the design process because it showed me how important it is to clearly identify the dimensions and assumptions before applying beam equations. It also helped me understand that changing an assumption can affect the calculations, dimensions, and CAD model that follow.
+d = L₂ + h₁ + 18 mm
+
+d = 77 mm + 20 mm + 18 mm
+
+d = 115 mm
+
+Using this value, the original bending moment was:
+
+M₂ = Pd
+
+M₂ = (300 N)(115 mm)
+
+M₂ = 34,500 N·mm
+
+Using the original moment, the Feature 2 yield-strength calculation gave:
+
+hσ = √[6M₂(SF)/(b₂Sy)]
+
+hσ = √[6(34,500 N·mm)(3)/(35 mm)(70 MPa)]
+
+hσ = 15.92 mm
+
+The original maximum-deflection calculation gave:
+
+hδ = ∛[6M₂L₂²/(Eb₂δmax)]
+
+hδ = ∛[6(34,500 N·mm)(77 mm)²/((1200 MPa)(35 mm)(0.30 mm))]
+
+hδ = 46.01 mm
+
+Therefore, the original final Feature 2 height was rounded up to:
+
+h₂ = 47 mm
+
+After reviewing the Feature 2 geometry more carefully, I recognized that the moment arm for the wall-attached feature should be based on the horizontal distance from wall A to the line of action of the applied force. Using the Feature 1 length and shaft length, the alternative moment arm would be:
+
+d = L₁ + 18 mm
+
+d = 50 mm + 18 mm
+
+d = 68 mm
+
+The corresponding bending moment would then be:
+
+M₂ = Pd
+
+M₂ = (300 N)(68 mm)
+
+M₂ = 20,400 N·mm
+
+Using this moment, the Feature 2 yield-strength requirement would be:
+
+hσ = √[6M₂(SF)/(b₂Sy)]
+
+hσ = √[6(20,400 N·mm)(3)/(35 mm)(70 MPa)]
+
+hσ = 12.24 mm
+
+The corresponding maximum-deflection requirement would be:
+
+hδ = ∛[6M₂L₂²/(Eb₂δmax)]
+
+hδ = ∛[6(20,400 N·mm)(77 mm)²/((1200 MPa)(35 mm)(0.30 mm))]
+
+hδ = 38.62 mm
+
+This would result in an alternative Feature 2 height of approximately:
+
+h₂ = 39 mm
+
+For this assignment, I kept the original Feature 2 dimensions and CAD model at 47 mm so that the calculations, isometric sketch, parametric model, and final CAD design remained consistent with one another. Documenting this difference helped me understand how important it is to establish the correct moment arm and geometry before completing the beam calculations and CAD model.
 ## Decide
 
 ### Final Dimensions
