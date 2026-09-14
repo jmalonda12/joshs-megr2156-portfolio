@@ -1,5 +1,15 @@
 # A5 – MEGR 2156 – Design for Strength and Stiffness I
+## Assignment Requirements
 
+- Applied load: **F = 600 lbf**
+- Safety factor: **SF = 4**
+- Material: **Aluminum 6061-T6**
+- Yield strength: **Sy = 35,000 psi**
+- Young's modulus: **E = 10,000,000 psi**
+- Maximum allowable deflection: **δmax = 0.005 in**
+- Direct shear failure is neglected as required by the assignment.
+- The bracket is designed symmetrically.
+- Features A through E are analyzed for both stress and stiffness.
 ## Objective
 
 The objective of this assignment was to design a bracket based on the concept design in Appendix B to hold a horizontal force applied symmetrically by the polyester strap shown in Resource #1.
