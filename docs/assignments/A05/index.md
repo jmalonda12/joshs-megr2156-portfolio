@@ -511,3 +511,5 @@ The multiview drawings also showed me why it is important to look at a design fr
 # Time Spent
 
 I spent approximately **8 hours** completing this assignment.
+<img width="1222" height="1531" alt="image" src="https://github.com/user-attachments/assets/8c189656-8cfe-40ce-aec0-07bca77ae6ae" />
+
