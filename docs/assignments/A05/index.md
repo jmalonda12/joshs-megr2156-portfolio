@@ -1,10 +1,14 @@
-# A5 – Bracket Design for Strength and Stiffness
+# A5 – Design for Strength and Stiffness I
 
 ## Objective
 
-The objective of this assignment was to design a bracket based on the concept design in Appendix B to hold a horizontal force applied symmetrically by the strap shown in the assignment.
+The objective of this assignment was to design a bracket based on the concept design in Appendix B to hold a horizontal force applied symmetrically by the polyester strap shown in Resource #1.
 
-The bracket was designed using:
+The bracket was divided into five features, A through E, as shown in Appendix C. Each feature was analyzed for both strength and stiffness to determine the required dimensions.
+
+## Analyze
+
+### Design Requirements
 
 - Applied load: F = 600 lbf
 - Safety factor: SF = 4
@@ -12,50 +16,32 @@ The bracket was designed using:
 - Yield strength: Sy = 35,000 psi
 - Young's modulus: E = 10,000,000 psi
 - Maximum allowable deflection: δmax = 0.005 in
-- Direct shear failure neglected as instructed
-
-The bracket was separated into five features, A through E, and each feature was analyzed for both strength and stiffness.
-
-## Analyze
-
-### Design Requirements
-
-The design must satisfy:
-
-- 500 lbf < F < 800 lbf
-- Safety factor = 4
-- Material must be Aluminum 6061-T6, ASTM A36 Steel, or Ti-6Al-4V
-- Maximum deflection = 0.005 in
-- Direct shear failure is neglected
-- The bracket is designed symmetrically where applicable
-
-### Material Properties
-
-| Property | Value |
-|---|---:|
-| Material | Aluminum 6061-T6 |
-| Yield Strength, Sy | 35,000 psi |
-| Young's Modulus, E | 10,000,000 psi |
-| Safety Factor | 4 |
-| Allowable Stress | 8,750 psi |
-| Maximum Deflection | 0.005 in |
-| Applied Load | 600 lbf |
+- Direct shear failure is neglected as instructed in the assignment
+- The bracket is designed symmetrically
+- The T beam is treated as rigid
+- The loading is treated as static
 
 ### Allowable Stress
 
 σallow = Sy / SF
 
-σallow = 35,000 / 4
+σallow = 35,000 psi / 4
 
 σallow = 8,750 psi
 
+### Overall Analysis Approach
+
+The bracket was divided into Features A through E. Each feature was analyzed using an appropriate strength-of-materials model. Both stress and stiffness were considered, and the larger required dimension was used as the governing design dimension.
+
 ---
 
-# Feature A – Stress Analysis
+# Feature A – Cantilever Beam
 
-Feature A was modeled as a cantilever beam as directed in Appendix D.
+Appendix D specifies that Feature A is treated as a cantilever beam.
 
-### Known Values
+## Feature A – Stress Analysis
+
+### Known
 
 - F = 600 lbf
 - SF = 4
@@ -64,130 +50,85 @@ Feature A was modeled as a cantilever beam as directed in Appendix D.
 - LA = 3.00 in
 - Circular cross section
 
-### Unknowns
+### Unknown
 
-- Minimum required diameter, d
-- Maximum bending stress
+- Minimum diameter, dA
 
 ### Assumptions
 
-1. Feature A is modeled as a cantilever beam.
-2. The right side of Feature A is fixed to Feature B.
-3. The 600 lbf load is applied at the free end.
-4. The load is applied symmetrically by the strap.
-5. Direct shear failure is neglected.
-6. The beam has a constant circular cross section.
-7. Linear elastic beam theory is used.
-8. A safety factor of 4 is used.
+1. Feature A will not fail due to direct shear stress.
+2. The strap load is distributed symmetrically.
+3. Feature A is modeled as a cantilever beam.
+4. The cross section is circular.
+5. The load is static.
+6. The T beam is rigid.
+7. A safety factor of 4 is used.
 
-### Calculations
+### Free Body Diagram
 
-Maximum bending moment:
+<img width="1222" height="1603" alt="Feature A Stress Analysis" src="https://github.com/user-attachments/assets/e36f0f69-1fd4-44b5-8710-bdc3f87b5ad6" />
 
-M = FL
+### Algebraic and Numerical Solution
 
-M = (600)(3.00)
+The bending stress equation for a circular section was used to determine the required diameter.
 
-M = 1,800 lbf·in
+The calculations and numerical solution are shown in the image above.
 
-For a circular section:
-
-Z = πd³ / 32
-
-Bending stress:
-
-σ = M/Z
-
-Set σ = σallow:
-
-d = [32M/(πσallow)]^(1/3)
-
-d = [32(1,800)/(π(8,750))]^(1/3)
-
-d = 1.28 in
-
-### Feature A Stress Result
-
-Minimum required diameter:
+Final stress dimension:
 
 dA,stress = 1.28 in
 
 ---
 
-# Feature A – Stiffness Analysis
+## Feature A – Stiffness Analysis
 
-### Known Values
+### Known
 
 - F = 600 lbf
-- E = 10,000,000 psi
 - LA = 3.00 in
+- E = 10,000,000 psi
 - δmax = 0.005 in
 - Circular cross section
 
-### Unknowns
+### Unknown
 
-- Minimum required diameter, d
-- Moment of inertia, I
+- Minimum diameter, dA
 
 ### Assumptions
 
-1. Feature A is modeled as a cantilever beam.
-2. The load is applied at the free end.
-3. Shear deflection is negligible.
-4. The beam has a constant circular cross section.
-5. Linear elastic beam theory is used.
+1. Feature A behaves as a cantilever beam.
+2. Shear deflection is negligible.
+3. The load is static.
+4. The cross section is circular.
+5. The maximum allowable deflection is 0.005 in.
 
-### Calculations
+### Free Body Diagram and Calculation
 
-Cantilever tip deflection:
+<img width="1207" height="1590" alt="Feature A Stiffness Analysis" src="https://github.com/user-attachments/assets/3e0f2c4a-6630-4a06-b9fa-f17d171f7b81" />
 
-δ = FL³/(3EI)
+### Result
 
-For a circular section:
+dA,stiffness = 1.22 in
 
-I = πd⁴/64
+The stress requirement is larger than the stiffness requirement.
 
-Therefore:
+### Governing Requirement
 
-δ = 64FL³/(3Eπd⁴)
+Strength governs Feature A.
 
-Solve for d:
-
-d = [64FL³/(3Eπδmax)]^(1/4)
-
-d = [64(600)(3.00)³/(3(10,000,000)π(0.005))]^(1/4)
-
-d = 0.609 in
-
-### Feature A Stiffness Result
-
-Minimum required diameter:
-
-dA,stiffness = 0.609 in
-
-### Feature A Governing Requirement
-
-Strength requires:
-
-1.28 in
-
-Stiffness requires:
-
-0.609 in
-
-Therefore, strength governs.
-
-Final Feature A diameter:
+Final Feature A dimension:
 
 dA = 1.28 in
 
 ---
 
-# Feature B – Stress Analysis
+# Feature B – Axially Loaded Bar
 
-Feature B was modeled as an axially loaded bar.
+Appendix D specifies that Feature B is treated as an axially loaded bar.
 
-### Known Values
+## Feature B – Stress Analysis
+
+### Known
 
 - F = 600 lbf
 - PB = 2F = 1,200 lbf
@@ -196,383 +137,377 @@ Feature B was modeled as an axially loaded bar.
 - σallow = 8,750 psi
 - Width, wB = 1.00 in
 
-### Unknowns
+### Unknown
 
 - Cross-sectional area, AB
 - Thickness, tB
 
 ### Assumptions
 
-1. Feature B is modeled as an axially loaded bar.
-2. The symmetric load path produces PB = 2F.
-3. The load is distributed uniformly over the cross section.
-4. Direct shear failure is neglected.
-5. Linear elastic behavior is assumed.
+1. Feature B will not fail due to direct shear stress.
+2. The bracket is symmetric.
+3. The load is distributed equally through the symmetric load path.
+4. Feature B is modeled as an axially loaded bar.
+5. The load is static.
+6. The T beam is rigid.
+7. A safety factor of 4 is used.
 
-### Calculations
+### Free Body Diagram and Calculation
 
-PB = 2F
+<img width="1178" height="1574" alt="Feature B Stress Analysis" src="https://github.com/user-attachments/assets/5d5f4110-fc7c-4df5-9251-35f982d03282" />
 
-PB = 2(600)
+### Algebraic Solution
 
-PB = 1,200 lbf
+σ = P / A
 
-Axial stress:
+A = P / σallow
 
-σ = P/A
+tB = AB / wB
 
-Solve for area:
+### Numerical Solution
 
-A = P/σallow
+AB = 1200 / 8750
 
-A = 1,200/8,750
+AB = 0.1371 in²
 
-A = 0.1371 in²
-
-Since:
-
-A = wt
-
-tB = A/w
-
-tB = 0.1371/1.00
+tB = 0.1371 / 1.00
 
 tB = 0.1371 in
 
-### Feature B Stress Result
-
-Minimum required thickness:
+Final stress dimension:
 
 tB,stress = 0.1371 in
 
-Selected thickness:
-
-tB = 0.14 in
-
 ---
 
-# Feature B – Stiffness Analysis
+## Feature B – Stiffness Analysis
 
-### Known Values
+### Known
 
 - PB = 1,200 lbf
-- E = 10,000,000 psi
 - LB = 2.00 in
+- E = 10,000,000 psi
 - δmax = 0.005 in
 - wB = 1.00 in
 
-### Unknowns
+### Unknown
 
-- Required area, AB
-- Required thickness, tB
+- Minimum cross-sectional area
+- Minimum thickness, tB
 
 ### Assumptions
 
-1. Feature B is modeled as an axially loaded bar.
-2. Shear deflection is negligible.
-3. The bar has a constant cross section.
-4. Linear elastic behavior is assumed.
+1. Feature B behaves as an axially loaded bar.
+2. Shear deformation is negligible.
+3. The load is static.
+4. The material remains in the elastic range.
+5. The maximum allowable deflection is 0.005 in.
 
-### Calculations
+### Free Body Diagram and Calculation
 
-Axial deflection:
+<img width="1198" height="1557" alt="Feature B Stiffness Analysis" src="https://github.com/user-attachments/assets/bef49559-3cc5-442b-a218-b64f33b1cdef" />
 
-δ = PL/(AE)
+### Algebraic Solution
 
-Solve for area:
+δ = PL / AE
 
-A = PL/(Eδmax)
+A = PL / Eδmax
 
-A = (1,200)(2.00)/[(10,000,000)(0.005)]
+tB = AB / wB
 
-A = 0.0480 in²
+### Numerical Solution
 
-Thickness:
+AB = (1200)(2.00) / (10,000,000)(0.005)
 
-tB = A/w
+AB = 0.0480 in²
 
-tB = 0.0480/1.00
+tB = 0.0480 / 1.00
 
 tB = 0.0480 in
 
-### Feature B Stiffness Result
+### Governing Requirement
 
-Minimum required thickness:
+Strength governs Feature B because:
 
-tB,stiffness = 0.0480 in
+0.1371 in > 0.0480 in
 
-### Feature B Governing Requirement
-
-Strength requires:
-
-0.1371 in
-
-Stiffness requires:
-
-0.0480 in
-
-Therefore, strength governs.
-
-Final Feature B thickness:
+Final Feature B dimension:
 
 tB = 0.14 in
 
 ---
 
-# Feature C – Stress Analysis
+# Feature C – Simply Supported Beam
 
-Feature C was modeled as a simply supported beam with a concentrated load at the center as directed in Appendix D.
+Appendix D specifies that Feature C is treated as a simply supported beam with a concentrated load at the center.
 
-### Known Values
+## Feature C – Stress Analysis
+
+### Known
 
 - F = 600 lbf
-- LC = 4.00 in
-- wC = 1.00 in
+- LC = 3.00 in
+- wC = 1.50 in
 - SF = 4
 - Sy = 35,000 psi
 - σallow = 8,750 psi
 
-### Unknowns
+### Unknown
 
-- Minimum required thickness, tC
-- Maximum bending stress
+- Minimum beam thickness, tC
 
 ### Assumptions
 
 1. Feature C is modeled as a simply supported beam.
-2. The 600 lbf load is applied at the center.
-3. The beam has a rectangular cross section.
-4. Direct shear failure is neglected.
-5. Linear elastic beam theory is used.
+2. The load is concentrated at the center.
+3. The beam is symmetric.
+4. The load is static.
+5. Direct shear failure is neglected.
+6. A rectangular cross section is used.
 
 ### Free Body Diagram
 
-The center load is supported equally:
+<img width="1185" height="1087" alt="Feature C Stress Analysis" src="https://github.com/user-attachments/assets/e3803924-bda5-4009-9fbe-dc652aa50bc1" />
 
-RA = RB = F/2
+### Algebraic Solution
 
-RA = RB = 600/2
-
-RA = RB = 300 lbf
-
-### Calculations
-
-Maximum moment:
-
-Mmax = FL/4
-
-Mmax = (600)(4.00)/4
-
-Mmax = 600 lbf·in
+Mmax = FL / 4
 
 For a rectangular section:
 
-I = wt³/12
+I = wt³ / 12
 
-c = t/2
+c = t / 2
 
-Bending stress:
+σ = Mc / I
 
-σ = Mc/I
+### Numerical Solution
 
-Therefore:
+Mmax = (600)(3.00) / 4
 
-σ = 6M/(wt²)
+Mmax = 450 lbf·in
 
-Solve for thickness:
+Using σallow = 8,750 psi gives:
 
-t = √[6M/(wσallow)]
+tC ≈ 0.454 in
 
-t = √[6(600)/(1.00)(8,750)]
+Final stress dimension:
 
-t = 0.641 in
-
-### Feature C Stress Result
-
-Minimum required thickness:
-
-tC,stress = 0.641 in
-
-Selected thickness:
-
-tC = 0.65 in
+tC,stress = 0.46 in
 
 ---
 
-# Feature C – Stiffness Analysis
+## Feature C – Stiffness Analysis
 
-### Known Values
+### Known
 
 - F = 600 lbf
-- LC = 4.00 in
+- LC = 3.00 in
+- wC = 1.50 in
 - E = 10,000,000 psi
-- wC = 1.00 in
 - δmax = 0.005 in
 
-### Unknowns
+### Unknown
 
-- Required thickness, tC
-- Moment of inertia, I
+- Minimum beam thickness, tC
 
 ### Assumptions
 
 1. Feature C is modeled as a simply supported beam.
 2. The load is concentrated at the center.
 3. Shear deflection is negligible.
-4. The beam has a constant rectangular cross section.
-5. Linear elastic beam theory is used.
+4. The beam is symmetric.
+5. The material remains in the elastic range.
+6. Maximum allowable deflection is 0.005 in.
 
-### Calculations
+### Free Body Diagram and Calculation
 
-Maximum center deflection:
+<img width="1195" height="1531" alt="Feature C Stiffness Analysis" src="https://github.com/user-attachments/assets/c2ec1663-c4a1-427c-95b1-40127bccaa59" />
 
-δ = FL³/(48EI)
+### Algebraic Solution
 
-For a rectangular section:
+δmax = FL³ / 48EI
 
-I = wt³/12
+I = wt³ / 12
 
-Substitute:
+### Numerical Solution
 
-δ = FL³/(4Ewt³)
+Using the required maximum deflection:
 
-Solve for thickness:
+tC ≈ 0.378 in
 
-t = [FL³/(4Ewδmax)]^(1/3)
+Final stiffness dimension:
 
-t = [(600)(4.00)³/(4(10,000,000)(1.00)(0.005))]^(1/3)
+tC,stiffness = 0.38 in
 
-t = 0.577 in
+### Governing Requirement
 
-### Feature C Stiffness Result
+Strength governs Feature C because:
 
-Minimum required thickness:
+0.46 in > 0.38 in
 
-tC,stiffness = 0.577 in
+Final Feature C dimension:
 
-### Feature C Governing Requirement
-
-Strength requires:
-
-0.641 in
-
-Stiffness requires:
-
-0.577 in
-
-Therefore, strength governs.
-
-Final Feature C thickness:
-
-tC = 0.65 in
+tC = 0.46 in
 
 ---
 
-# Feature D – Stress Analysis
+# Feature D
 
-The Feature D stress analysis and FBD are shown in the calculation image below.
+## Feature D – Stress Analysis
 
-<img src="PASTE_FEATURE_D_STRESS_IMAGE_LINK_HERE" alt="Feature D Stress Analysis">
+### Known
 
-The calculation includes the required known values, unknowns, assumptions, FBD, algebraic solution, and numerical solution.
+- F = 600 lbf
+- SF = 4
+- Sy = 35,000 psi
+- σallow = 8,750 psi
+- Aluminum 6061-T6
+- Bracket is symmetric
+
+### Unknown
+
+- Required Feature D dimensions
+
+### Assumptions
+
+1. Direct shear failure is neglected.
+2. The load is static.
+3. The T beam is rigid.
+4. The bracket is symmetric.
+5. The appropriate bending model is used for the Feature D geometry.
+6. A safety factor of 4 is used.
+
+### Free Body Diagram, Algebraic Solution, and Numerical Solution
+
+<img width="1214" height="1530" alt="Feature D Stress Analysis" src="https://github.com/user-attachments/assets/e7deb04b-1c7b-47f8-bfbf-c5166e33678b" />
 
 ---
 
-# Feature D – Stiffness Analysis
+## Feature D – Stiffness Analysis
 
-The Feature D stiffness analysis and FBD are shown in the calculation image below.
+### Known
 
-<img src="PASTE_FEATURE_D_STIFFNESS_IMAGE_LINK_HERE" alt="Feature D Stiffness Analysis">
+- F = 600 lbf
+- E = 10,000,000 psi
+- δmax = 0.005 in
+- Aluminum 6061-T6
+- Bracket is symmetric
 
-The calculation uses the required maximum deflection of 0.005 in and neglects shear deflection as directed by the assignment.
+### Unknown
+
+- Required Feature D stiffness dimension
+
+### Assumptions
+
+1. Shear deflection is negligible.
+2. The load is static.
+3. The T beam is rigid.
+4. The bracket is symmetric.
+5. Maximum allowable deflection is 0.005 in.
+
+### Free Body Diagram, Algebraic Solution, and Numerical Solution
+
+<img width="1172" height="1246" alt="Feature D Stiffness Analysis" src="https://github.com/user-attachments/assets/a69bbfd6-7c85-46d7-9640-fc2455bd304f" />
 
 ---
 
-# Feature E – Stress Analysis
+# Feature E
 
-The Feature E stress analysis and FBD are shown in the calculation image below.
+## Feature E – Stress Analysis
 
-<img src="PASTE_FEATURE_E_STRESS_IMAGE_LINK_HERE" alt="Feature E Stress Analysis">
+### Known
 
-The calculation includes the required known values, unknowns, assumptions, FBD, algebraic solution, and numerical solution.
+- F = 600 lbf
+- SF = 4
+- Sy = 35,000 psi
+- σallow = 8,750 psi
+- Aluminum 6061-T6
+- Bracket is symmetric
+
+### Unknown
+
+- Required Feature E dimensions
+
+### Assumptions
+
+1. Direct shear failure is neglected.
+2. The load is static.
+3. The T beam is rigid.
+4. The bracket is symmetric.
+5. The appropriate bending model is used for the Feature E geometry.
+6. A safety factor of 4 is used.
+
+### Free Body Diagram, Algebraic Solution, and Numerical Solution
+
+<img width="1180" height="1524" alt="Feature E Stress Analysis" src="https://github.com/user-attachments/assets/784a750c-970a-4e70-9a89-25015fed0a22" />
 
 ---
 
-# Feature E – Stiffness Analysis
+## Feature E – Stiffness Analysis
 
-The Feature E stiffness analysis and FBD are shown in the calculation image below.
+### Known
 
-<img src="PASTE_FEATURE_E_STIFFNESS_IMAGE_LINK_HERE" alt="Feature E Stiffness Analysis">
+- F = 600 lbf
+- E = 10,000,000 psi
+- δmax = 0.005 in
+- Aluminum 6061-T6
+- Bracket is symmetric
 
-The calculation uses the required maximum deflection of 0.005 in and neglects shear deflection as directed by the assignment.
+### Unknown
+
+- Required Feature E stiffness dimension
+
+### Assumptions
+
+1. Shear deflection is negligible.
+2. The load is static.
+3. The T beam is rigid.
+4. The bracket is symmetric.
+5. Maximum allowable deflection is 0.005 in.
+
+### Free Body Diagram, Algebraic Solution, and Numerical Solution
+
+<img width="1189" height="1430" alt="Feature E Stiffness Analysis" src="https://github.com/user-attachments/assets/01b73812-58a7-446a-ae07-96c74952057d" />
 
 ---
 
 # Decide
 
-## Final Design Dimensions
+## Governing Design Requirements
 
-The final dimensions are selected using the larger requirement from the stress and stiffness analyses.
+For each feature, the stress and stiffness dimensions were compared. The larger required dimension was selected as the final design dimension.
 
-| Feature | Stress Requirement | Stiffness Requirement | Governing | Final Dimension |
-|---|---:|---:|---|---:|
-| A | 1.28 in diameter | 0.609 in diameter | Strength | 1.28 in |
-| B | 0.1371 in thickness | 0.0480 in thickness | Strength | 0.14 in |
-| C | 0.641 in thickness | 0.577 in thickness | Strength | 0.65 in |
-| D | See calculation | See calculation | See calculation | See multiview |
-| E | See calculation | See calculation | See calculation | See multiview |
+The strength requirement governs Features A, B, and C based on the calculations shown above.
 
-The selected dimensions are rounded up from the minimum calculated dimensions so that the design does not fall below the required strength or stiffness dimensions.
-
-## Governing Failure Mode
-
-For Features A, B, and C, the strength requirement governs over the stiffness requirement.
-
-Feature A is the clearest example:
-
-- Strength diameter = 1.28 in
-- Stiffness diameter = 0.609 in
-
-Therefore, the stress requirement controls the final Feature A diameter.
-
-The final design dimensions were selected based on the governing requirement for each feature.
-
----
+The final dimensions are represented in the multiview drawings below.
 
 # Communicate
 
-## Multiview Drawing – Stress Calculated Dimensions
+## Multiview Drawing – Stress Dimensions
 
-The following multiview drawing shows the bracket using the dimensions determined from the stress analysis.
+The first multiview drawing shows the bracket dimensions determined from the stress analysis.
 
-<img src="PASTE_MULTIVIEW_STRESS_IMAGE_LINK_HERE" alt="Multiview Drawing - Stress Calculated Dimensions">
+<img width="1193" height="1552" alt="Multiview Stress Dimensions" src="https://github.com/user-attachments/assets/9f5ce3ca-fe18-4fbd-833e-bbc313ec8268" />
 
-## Multiview Drawing – Stiffness Calculated Dimensions
+## Multiview Drawing – Stiffness Dimensions
 
-The following multiview drawing shows the bracket using the dimensions determined from the stiffness analysis.
+The second multiview drawing shows the bracket dimensions determined from the stiffness analysis.
 
-<img src="PASTE_MULTIVIEW_STIFFNESS_IMAGE_LINK_HERE" alt="Multiview Drawing - Stiffness Calculated Dimensions">
+<img width="1737" height="987" alt="Multiview Stiffness Dimensions" src="https://github.com/user-attachments/assets/bf206601-5bd4-441a-9dda-4003d64547b4" />
 
-## Final CAD Model
+# Lessons Learned
 
-The final CAD model was created using the calculated governing dimensions and the required fit dimensions from the assignment.
+This assignment helped me understand how strength and stiffness both affect the design of a mechanical component. A dimension that is sufficient for strength may still be too flexible, so both requirements need to be checked before selecting the final dimension.
 
-[CAD Download Link](PASTE_CAD_DOWNLOAD_LINK_HERE)
+I also learned that the governing requirement can change depending on the feature. For Features A, B, and C, the stress requirement was larger than the stiffness requirement, so strength governed the final dimensions.
 
-## Design Changes
+Another important lesson was the effect of error propagation. Since the bracket is divided into connected features, a value calculated for one feature can be used when determining later dimensions. An error in an earlier load or dimension could therefore affect the rest of the design. Rechecking intermediate calculations helped prevent this from carrying through the final design.
 
-The final design dimensions were updated based on the governing stress and stiffness requirements. The dimensions shown in the final CAD model and multiview drawings correspond to the final selected design.
+One assumption used in the assignment was that direct shear failure could be neglected, as specifically stated in the directions. If direct shear were significant, an additional shear-stress analysis would be required and the required dimensions could increase.
 
-The Feature A stiffness calculation was also kept consistent with the 3.00 in cantilever length used in the stress analysis.
+The multiview drawings also showed me why it is important to look at a design from multiple views. The dimensions calculated from the stress and stiffness analyses need to be transferred correctly to the different views so the final design is consistent.
 
-## Lessons Learned
+# Time Spent
 
-This assignment showed me that a mechanical design cannot be based on only one type of analysis. Each feature must be checked for both strength and stiffness because either requirement can control the final dimension.
-
-I also learned that errors in an earlier feature can affect later dimensions because the features are connected and the load path continues through the bracket. Checking intermediate values before using them in the next feature helps prevent errors from carrying through the design.
-
-For the governing requirement, Features A, B, and C were controlled by strength rather than stiffness. This showed that increasing the section size to satisfy the stress requirement also provided more stiffness than the minimum required.
-
-One important assumption was neglecting direct shear failure as instructed by the assignment. If direct shear were not negligible, an additional shear-stress check would be required and could increase the required dimensions.
-
-Total time spent on the assignment: [ENTER ACTUAL TIME] hours.
+I spent approximately **8 hours** completing this assignment.
