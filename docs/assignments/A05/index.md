@@ -40,6 +40,13 @@ The bracket was divided into five features, A through E, as shown in Appendix C.
 
 σallow = **8,750 psi**
 
+## Material Selection Justification
+
+Aluminum 6061‑T6 was selected because it provides a strong balance of yield strength (35 ksi),
+stiffness (E = 10 Msi), machinability, and low weight. Steel and titanium exceed the strength
+requirements but add unnecessary mass and manufacturing cost for this application. Aluminum
+6061‑T6 meets the strength and stiffness requirements while remaining practical for machining
+and integration with the bracket geometry.
 ## Overall Analysis Approach
 
 The bracket was divided into Features A through E. Each feature was modeled using an appropriate strength-of-materials analysis. Both stress and stiffness were checked, and the larger required dimension was used as the governing design dimension.
@@ -803,6 +810,14 @@ I also learned about error propagation. Feature A is analyzed first and its dime
 One important assumption was neglecting direct shear failure, as instructed by the assignment. If direct shear were significant, an additional shear-stress analysis would be required and the required dimensions could increase.
 
 Another lesson was the importance of keeping the calculations and drawings consistent. The minimum calculated dimension and the final selected design dimension must be clearly distinguished so that the multiview drawings match the final design.
+### Error Propagation Example
+
+Because the load path flows from Feature A → B → C → D → E, an incorrect dimension in Feature A
+would directly affect the axial load in Feature B and the bending moment in Feature C. For example,
+if Feature A’s diameter were underestimated, the resulting deflection would increase the load
+transferred into Feature B, requiring a larger thickness. Rechecking Feature A prevented this error
+from propagating into later features.
+
 
 # Time Spent
 
