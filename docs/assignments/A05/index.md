@@ -12,10 +12,10 @@
 ## Communicate
 
 <img width="1117" height="589" alt="image" src="https://github.com/user-attachments/assets/4db78472-60eb-4abf-b6cf-5cf38411dd9a" />
-<img width="1290" height="1579" alt="image" src="https://github.com/user-attachments/assets/728e128f-b400-4f92-958a-c61467f3276d" />
+<img width="1222" height="1603" alt="image" src="https://github.com/user-attachments/assets/e36f0f69-1fd4-44b5-8710-bdc3f87b5ad6" />
 <img width="1207" height="1590" alt="image" src="https://github.com/user-attachments/assets/3e0f2c4a-6630-4a06-b9fa-f17d171f7b81" />
 <img width="1178" height="1574" alt="image" src="https://github.com/user-attachments/assets/5d5f4110-fc7c-4df5-9251-35f982d03282" />
-<img width="1180" height="1568" alt="image" src="https://github.com/user-attachments/assets/aa8b7186-d93e-490f-89f4-fc36fadc928d" />
+<img width="1198" height="1557" alt="image" src="https://github.com/user-attachments/assets/bef49559-3cc5-442b-a218-b64f33b1cdef" />
 <img width="1185" height="1087" alt="image" src="https://github.com/user-attachments/assets/e3803924-bda5-4009-9fbe-dc652aa50bc1" />
 <img width="1195" height="1531" alt="image" src="https://github.com/user-attachments/assets/c2ec1663-c4a1-427c-95b1-40127bccaa59" />
 <img width="1165" height="1575" alt="image" src="https://github.com/user-attachments/assets/29e22315-5021-44f1-92de-539ca828a402" />
