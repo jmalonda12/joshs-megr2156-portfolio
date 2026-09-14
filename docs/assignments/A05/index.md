@@ -513,3 +513,4 @@ The multiview drawings also showed me why it is important to look at a design fr
 I spent approximately **8 hours** completing this assignment.
 <img width="1222" height="1531" alt="image" src="https://github.com/user-attachments/assets/8c189656-8cfe-40ce-aec0-07bca77ae6ae" />
 
+<img width="1216" height="1480" alt="image" src="https://github.com/user-attachments/assets/f80c29e4-493c-427b-976a-319de0cb1078" />
