@@ -770,13 +770,17 @@ The final design dimensions were selected based on the governing stress or stiff
 
 The multiview drawing below shows the dimensions determined from the stress analysis.
 
+<img width="932" height="440" alt="image" src="https://github.com/user-attachments/assets/9e34470b-926e-47e9-89a8-aa3481c564d7" />
 
 
 ## Multiview Drawing – Stiffness Dimensions
 
 The multiview drawing below shows the dimensions determined from the stiffness analysis.
 
+<img width="1993" height="896" alt="image" src="https://github.com/user-attachments/assets/c9e9f599-8f18-4288-b971-bed5587fb8e9" />
+AI-Enhanced Multiview Drawings
 
+I first hand-drew these multiview sketches myself to work through the design and dimensions. I then used AI to enhance and clean up my original drawings to create a clearer visual representation while keeping the overall concept and dimensions from my sketches. I thought it was really cool to see how AI could take a rough engineering sketch and turn it into a much cleaner presentation while still representing the work I originally created.
 
 ---
 
