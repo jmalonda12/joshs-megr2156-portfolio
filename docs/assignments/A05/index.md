@@ -131,7 +131,8 @@ dA = **1.28 in**
 6. The maximum allowable deflection is 0.005 in.
 
 ### Free Body Diagram and Calculation
-<img width="1178" height="1574" alt="Feature B Stress Analysis" src="https://github.com/user-attachments/assets/5d5f4110-fc7c-4df5-9251-35f982d03282" />
+<img width="1189" height="1552" alt="image" src="https://github.com/user-attachments/assets/3fa56ae1-1f34-426f-9e3a-769d6ae71ccb" />
+
 
 ### Algebraic Solution
 
