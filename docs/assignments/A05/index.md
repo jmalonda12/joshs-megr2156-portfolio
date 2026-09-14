@@ -10,6 +10,8 @@
 - Direct shear failure is neglected as required by the assignment.
 - The bracket is designed symmetrically.
 - Features A through E are analyzed for both stress and stiffness.
+  <img width="696" height="372" alt="image" src="https://github.com/user-attachments/assets/1f1807e4-ae50-49fe-ac66-a0048c6c8d9a" />
+
 ## Objective
 
 The objective of this assignment was to design a bracket based on the concept design in Appendix B to hold a horizontal force applied symmetrically by the polyester strap shown in Resource #1.
