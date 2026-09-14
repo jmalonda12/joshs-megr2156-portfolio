@@ -750,7 +750,7 @@ The final design dimensions were selected based on the governing strength or sti
 
 The multiview drawing below shows the dimensions determined from the stress analysis.
 
-<img width="1193" height="1552" alt="Multiview Stress Dimensions" src="https://github.com/user-attachments/assets/9f5ce3ca-fe18-4fbd-833e-bbc313ec8268" />
+
 
 ## Multiview Drawing – Stiffness Dimensions
 
