@@ -5,6 +5,7 @@
 The objective of this assignment was to design a bracket based on the concept design in Appendix B to hold a horizontal force applied symmetrically by the polyester strap shown in Resource #1.
 
 The bracket was divided into five features, A through E, as shown in Appendix C. Each feature was analyzed for both strength and stiffness to determine the required dimensions.
+<img width="1737" height="987" alt="image" src="https://github.com/user-attachments/assets/2878f76a-664c-48fa-92e4-5d1746510195" />
 
 # Analyze
 
@@ -69,7 +70,7 @@ Appendix D specifies that Feature A is treated as a cantilever beam.
 ### Free Body Diagram
 
 <img width="1222" height="1603" alt="Feature A Stress Analysis" src="https://github.com/user-attachments/assets/e36f0f69-1fd4-44b5-8710-bdc3f87b5ad6" />
-
+<img width="1207" height="1590" alt="Feature A Stiffness Analysis" src="https://github.com/user-attachments/assets/3e0f2c4a-6630-4a06-b9fa-f17d171f7b81" />
 ### Algebraic Solution
 
 For a circular cross section:
@@ -130,8 +131,7 @@ dA = **1.28 in**
 6. The maximum allowable deflection is 0.005 in.
 
 ### Free Body Diagram and Calculation
-
-<img width="1207" height="1590" alt="Feature A Stiffness Analysis" src="https://github.com/user-attachments/assets/3e0f2c4a-6630-4a06-b9fa-f17d171f7b81" />
+<img width="1178" height="1574" alt="Feature B Stress Analysis" src="https://github.com/user-attachments/assets/5d5f4110-fc7c-4df5-9251-35f982d03282" />
 
 ### Algebraic Solution
 
@@ -209,8 +209,10 @@ Appendix D specifies that Feature B is treated as an axially loaded bar.
 8. A safety factor of 4 is used.
 
 ### Free Body Diagram and Calculation
+<img width="1198" height="1557" alt="image" src="https://github.com/user-attachments/assets/32c997ae-42ef-4994-aef8-43a923ac7cf8" />
 
-<img width="1178" height="1574" alt="Feature B Stress Analysis" src="https://github.com/user-attachments/assets/5d5f4110-fc7c-4df5-9251-35f982d03282" />
+<img width="1185" height="1087" alt="image" src="https://github.com/user-attachments/assets/13bd1067-380f-40c7-abee-7ccc236fce97" />
+
 
 ### Algebraic Solution
 
@@ -268,7 +270,7 @@ tB = **0.1371 in**
 
 ### Free Body Diagram and Calculation
 
-<img width="1198" height="1557" alt="Feature B Stiffness Analysis" src="https://github.com/user-attachments/assets/bef49559-3cc5-442b-a218-b64f33b1cdef" />
+<img width="1195" height="1531" alt="image" src="https://github.com/user-attachments/assets/b52478eb-eaa0-4b99-b52d-665f26bcf5f7" />
 
 ### Algebraic Solution
 
@@ -344,7 +346,8 @@ Appendix D specifies that Feature C is treated as a simply supported beam with a
 
 ### Free Body Diagram
 
-<img width="1185" height="1087" alt="Feature C Stress Analysis" src="https://github.com/user-attachments/assets/e3803924-bda5-4009-9fbe-dc652aa50bc1" />
+<img width="1214" height="1530" alt="image" src="https://github.com/user-attachments/assets/017d2b93-d9b3-41d4-b765-3dac18bb2be5" />
+
 
 ### Algebraic Solution
 
@@ -409,8 +412,7 @@ tC = **0.642 in**
 7. Maximum allowable deflection is 0.005 in.
 
 ### Free Body Diagram and Calculation
-
-<img width="1195" height="1531" alt="Feature C Stiffness Analysis" src="https://github.com/user-attachments/assets/c2ec1663-c4a1-427c-95b1-40127bccaa59" />
+<img width="1222" height="1531" alt="image" src="https://github.com/user-attachments/assets/223e1e64-831a-4ccc-95d7-2fe7573d5a3b" />
 
 ### Algebraic Solution
 
@@ -485,7 +487,8 @@ Since:
 
 ### Free Body Diagram and Calculation
 
-<img width="1214" height="1530" alt="Feature D Stress Analysis" src="https://github.com/user-attachments/assets/e7deb04b-1c7b-47f8-bfbf-c5166e33678b" />
+<img width="1172" height="1246" alt="image" src="https://github.com/user-attachments/assets/c927b6b2-77b6-4f30-8139-346a2ffd4230" />
+
 
 ### Algebraic Solution
 
@@ -539,7 +542,8 @@ tD = **0.06857 in**
 
 ### Free Body Diagram and Calculation
 
-<img width="1172" height="1246" alt="Feature D Stiffness Analysis" src="https://github.com/user-attachments/assets/a69bbfd6-7c85-46d7-9640-fc2455bd304f" />
+<img width="1180" height="1524" alt="image" src="https://github.com/user-attachments/assets/4289bf0e-e4d8-4ebb-803d-ce7d3549dffd" />
+
 
 ### Algebraic Solution
 
@@ -609,7 +613,8 @@ Since:
 
 ### Free Body Diagram and Calculation
 
-<img width="1180" height="1524" alt="Feature E Stress Analysis" src="https://github.com/user-attachments/assets/784a750c-970a-4e70-9a89-25015fed0a22" />
+<img width="1216" height="1480" alt="image" src="https://github.com/user-attachments/assets/c54623c8-d05e-4d6c-883d-23df7537c66f" />
+
 
 ### Algebraic Solution
 
@@ -675,7 +680,7 @@ hE = **0.907 in**
 
 ### Free Body Diagram and Calculation
 
-<img width="1189" height="1430" alt="Feature E Stiffness Analysis" src="https://github.com/user-attachments/assets/01b73812-58a7-446a-ae07-96c74952057d" />
+<img width="1193" height="1552" alt="image" src="https://github.com/user-attachments/assets/2da1f58b-b490-4c73-87b6-d6a17c52ac6f" />
 
 ### Algebraic Solution
 
@@ -751,7 +756,7 @@ The multiview drawing below shows the dimensions determined from the stress anal
 
 The multiview drawing below shows the dimensions determined from the stiffness analysis.
 
-<img width="1737" height="987" alt="Multiview Stiffness Dimensions" src="https://github.com/user-attachments/assets/bf206601-5bd4-441a-9dda-4003d64547b4" />
+
 
 ---
 
@@ -773,9 +778,6 @@ The corrected Feature A calculations resulted in:
 
 The calculations were checked before using the resulting dimensions in the remaining feature analyses.
 
-<img width="1222" height="1531" alt="Design Process" src="https://github.com/user-attachments/assets/8c189656-8cfe-40ce-aec0-07bca77ae6ae" />
-
-<img width="1216" height="1480" alt="Design Process" src="https://github.com/user-attachments/assets/f80c29e4-493c-427b-976a-319de0cb1078" />
 
 # Lessons Learned
 
