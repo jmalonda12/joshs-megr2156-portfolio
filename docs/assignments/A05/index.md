@@ -30,6 +30,5 @@
 
 <img width="1193" height="1552" alt="image" src="https://github.com/user-attachments/assets/9f5ce3ca-fe18-4fbd-833e-bbc313ec8268" />
 
-<img width="1441" height="1092" alt="image" src="https://github.com/user-attachments/assets/bb12a129-4b2b-4679-9f17-2817b872cb3c" />
 
 <img width="1737" height="987" alt="image" src="https://github.com/user-attachments/assets/bf206601-5bd4-441a-9dda-4003d64547b4" />
