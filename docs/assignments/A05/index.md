@@ -459,7 +459,7 @@ Since:
 
 ---
 
-# Feature D – Axially Loaded Bar
+# Feature D – Axially Loaded Bar Model
 
 ## Feature D – Stress Analysis
 
@@ -478,7 +478,7 @@ Since:
 
 ### Assumptions
 
-1. Feature D is modeled as an axially loaded bar.
+1. Feature D is modeled as an axially loaded bar based on the bracket geometry and the student example.
 2. The load transferred to Feature D is 300 lbf.
 3. The cross section is rectangular.
 4. Direct shear failure is neglected.
@@ -738,10 +738,10 @@ The stress and stiffness requirements were compared for each feature. The larger
 | A | 1.28 in | 1.22 in | Strength | **1.28 in** |
 | B | 0.1371 in | 0.0480 in | Strength | **0.14 in** |
 | C | 0.642 in | 0.577 in | Strength | **0.642 in** |
-| D | 0.06857 in | 0.00600 in | Strength | **0.06857 in** |
+| D | 0.06857 in | 0.00600 in | Strength | **0.070 in** |
 | E | 0.907 in | 0.727 in | Strength | **0.907 in** |
 
-The final design dimensions were selected based on the governing strength or stiffness requirement for each feature.
+The final design dimensions were selected based on the governing stress or stiffness requirement for each feature. The selected dimensions were rounded up where necessary for the final design.
 
 ---
 
@@ -782,15 +782,17 @@ The calculations were checked before using the resulting dimensions in the remai
 
 # Lessons Learned
 
+## Lessons Learned
+
 This assignment helped me understand how both strength and stiffness affect the design of a mechanical component. A feature that is strong enough can still deflect too much, so both requirements need to be checked before selecting the final dimension.
 
-I learned that the governing requirement can be different for different features. For Features A through E, the strength requirement was larger than the stiffness requirement, so strength governed the final dimensions.
+For this design, strength governed Features A through E because the required stress dimensions were larger than the required stiffness dimensions. This showed me that the governing requirement must be checked separately for every feature rather than assuming one requirement controls the entire bracket.
 
-I also learned about error propagation. Since the features are connected through the same load path, an incorrect load or dimension from an earlier feature could affect later calculations. Rechecking intermediate calculations helped catch errors before they were carried into the final design.
+I also learned about error propagation. Feature A is analyzed first and its dimensions affect the geometry and load path used for the remaining features. An error in an earlier load or dimension could therefore carry into later calculations. Rechecking the intermediate calculations and comparing the final dimensions against the drawings helped catch inconsistencies before finalizing the design.
 
 One important assumption was neglecting direct shear failure, as instructed by the assignment. If direct shear were significant, an additional shear-stress analysis would be required and the required dimensions could increase.
 
-Another lesson was the importance of keeping dimensions consistent between the calculations and the multiview drawings. The calculated dimensions need to be transferred correctly into the final design so that the analytical results and drawings agree.
+Another lesson was the importance of keeping the calculations and drawings consistent. The minimum calculated dimension and the final selected design dimension must be clearly distinguished so that the multiview drawings match the final design.
 
 # Time Spent
 
