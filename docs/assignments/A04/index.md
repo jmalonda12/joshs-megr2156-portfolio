@@ -347,7 +347,6 @@ This project took approximately **7 hours** to complete.
 The SolidWorks CAD file for the completed motor mount is included below.
 
 **https://mail.google.com/mail/u/1?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r3681669250132297329&view=att&disp=safe&realattid=f_mtytunng0&zw**
-"C:\Users\joshu\Downloads\4s (1) (1).SLDPRT"<img width="2472" height="1479" alt="4s (1) (1)" src="https://github.com/user-attachments/assets/d8aa3400-5458-46c7-b1ef-608841d617cd" />
-
+"C:\Users\joshu\Downloads\4s (1) (1).SLDPRT"
 
 
