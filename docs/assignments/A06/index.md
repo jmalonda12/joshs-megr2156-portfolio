@@ -120,13 +120,10 @@ The final values are:
 The model is symmetric about the centerline.
 
 ## Mistakes and Corrections
-Rework and Complications:
-The main complication during the design process was that I initially worked from the stress-based dimensions before recognizing that the final design needed to be based on the stiffness requirements. This required me to revisit the analytical values, update the CAD parameters, and check the resulting geometry again. I also had to correct the bottom dimensions after identifying that the original values did not match the final stiffness-based design. Because the model was parametrically linked, changing the design values required checking the dependent geometry to make sure the bracket still maintained the intended relationships. This rework added time to the modeling process, but it also helped me understand why the analytical design requirements need to be established before finalizing the CAD geometry.
-### Initial Use of Stress-Based Dimensions
 
-One of the main mistakes during the design process was initially using the stress-based dimensions instead of the final stiffness-based dimensions.
+During the design process, I encountered several mistakes and complications that required me to go back and revise both the analytical design and CAD model.
 
-The initial stress-based dimensions were:
+The first major mistake was initially using the stress-based dimensions instead of the final stiffness-based dimensions. My initial stress-based values were:
 
 - A = 1.28 in
 - B = 0.140 in
@@ -134,8 +131,27 @@ The initial stress-based dimensions were:
 - D = 0.070 in
 - E = 0.907 in
 
-These values were later identified as not being the final dimensions required for the stiffness-based design.
+After reviewing the stiffness requirements and analytical calculations, I recognized that the final design needed to use the stiffness-based dimensions. I therefore had to revisit the calculations and update the CAD parameters to the final values:
 
+- A = 1.22 in
+- B = 0.048 in
+- C = 0.577 in
+- D = 0.006 in
+- E = 0.727 in
+
+Another mistake occurred with the bottom dimensions. The original bottom dimensions were 1.140 in and 0.140 in. After checking the final stiffness-based geometry, these dimensions were corrected to 1.048 in and 0.048 in.
+
+### Rework and Complications
+
+The main complication during the design process was that I initially worked from the stress-based dimensions before recognizing that the final design needed to be based on the stiffness requirements. This required me to revisit the analytical values, update the CAD parameters, and check the resulting geometry again. I also had to correct the bottom dimensions after identifying that the original values did not match the final stiffness-based design.
+
+Because the model was parametrically linked, changing the design values required checking the dependent geometry to make sure the bracket still maintained the intended relationships. I had to verify that the updated dimensions produced the intended slot, bracket, and cylindrical geometry rather than simply changing individual dimensions without checking the complete model.
+
+The difference between the initial stress-based design and the final stiffness-based design also created additional modeling and verification work. Instead of treating the first set of dimensions as final, I had to compare the analytical requirements with the CAD model and make corrections before completing the engineering drawing.
+
+This rework added time to the modeling process, but it also helped me understand the importance of establishing the correct analytical design requirements before finalizing the CAD geometry. It showed me that a parametric model is useful because design changes can be made through the controlling parameters, but the resulting geometry still needs to be checked to make sure all dependent features remain correct.
+
+Overall, the main mistakes were using the initial stress-based dimensions, needing to replace them with the stiffness-based dimensions, and correcting the bottom dimensions to match the final design. Documenting these corrections helped me understand the connection between the analytical calculations, CAD parameters, and final engineering drawing.
 ### Correction of Main Dimensions
 
 The dimensions were corrected to the final stiffness-based values:
