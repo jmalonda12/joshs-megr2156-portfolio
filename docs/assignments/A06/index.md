@@ -4,7 +4,7 @@
 
 The objective of this assignment was to continue the bracket design from the previous assignment by creating a fully parametric CAD model and a detailed multi-view engineering drawing.
 
-The design was developed using the results from the previous strength and stiffness analysis. The main goals were to:
+The design was developed using engineering calculations to determine the important dimensions. The main goals were to:
 
 - Create a parametric solid model.
 - Use engineering calculations to determine important dimensions.
@@ -19,9 +19,9 @@ The total time spent completing the assignment was approximately **4 hours**.
 
 ---
 
-## Analyze
+# Analyze
 
-### Design Parameters
+## Design Parameters
 
 The following parameters were used in the CAD model:
 
@@ -32,149 +32,229 @@ The following parameters were used in the CAD model:
 | Yield Strength, Sy | 35,000 psi |
 | Young's Modulus, E | 10,000,000 psi |
 | Maximum Deflection, dmax | 0.005 in |
-| Cylinder Diameter, A | 1.28 in |
-| Vertical Member, B | 0.140 in |
-| Lower Horizontal, C | 0.650 in |
-| Inner Vertical, D | 0.070 in |
-| Upper Section, E | 0.907 in |
+| Cylinder Diameter, A | 1.22 in |
+| Vertical Member, B | 0.048 in |
+| Lower Horizontal, C | 0.577 in |
+| Inner Vertical, D | 0.006 in |
+| Upper Section, E | 0.727 in |
 | Overall Inside Width | 3.00 in |
 | Slot Width | 1.00 in |
-| Bottom Left Dimension | 1.140 in |
-| Bottom Right Dimension | 0.140 in |
+| Bottom Dimension | 1.048 in |
 
 The bracket was designed symmetrically about the centerline. The 1.00 in slot was maintained between the two inner vertical faces.
 
-### Parametric Modeling
+## Parametric Modeling
 
 The dimensions were entered into the CAD software as global variables/parameters instead of creating the model entirely from fixed dimensions. This allows the geometry to update when a parameter changes.
 
-The major stress-based dimensions used in the final model were:
+The final stiffness-based dimensions used in the model were:
 
-- **A = 1.28 in**
-- **B = 0.140 in**
-- **C = 0.650 in**
-- **D = 0.070 in**
-- **E = 0.907 in**
+```text
+A = 1.22 in
+B = 0.048 in
+C = 0.577 in
+D = 0.006 in
+E = 0.727 in
+
+The other important dimensions were:
+
+Overall Inside Width = 3.00 in
+Slot Width = 1.00 in
+Bottom Dimension = 1.048 in
+Maximum Deflection = 0.005 in
 
 The parametric table was used to control the geometry and maintain relationships between the different features.
 
-### Analytical Equation
+CAD Model Sketch
 
-One of the dimensions was driven using the stress-based analytical equation rather than simply entering a manually calculated value.
+Slot and Bracket Geometry
 
-For the inner vertical feature, the CAD parameter was expressed using the design variables:
+The 1.00 in slot was maintained between the two inner faces, with the bracket remaining symmetric about the centerline.
 
-**D = (2 × F × LD × SF) / (E × dmax)**
+Analytical Equation
 
-Using the design parameters:
+The stiffness design was based on limiting the maximum allowable deflection to:
 
-- F = 600 lbf
-- SF = 4
-- E = 10,000,000 psi
-- dmax = 0.005 in
-- LD = 0.75 in
+dmax = 0.005 in
 
-the CAD model produced the required stress-based dimension for the feature.
+A circular-section relationship used in the stiffness design relates the area moment of inertia to the diameter:
 
-The equation was entered directly into the CAD parameter table so that the dimension could respond to changes in the design variables.
+I = (pi*d^4)/64
 
-### Design Changes
+Solving for the diameter gives:
 
-During the modeling process, the dimensions from the previous analysis were transferred into the parametric model. Rather than changing individual sketch dimensions throughout the model, the global parameters were used to control the important features.
+d = (64*I/pi)^(1/4)
 
-This made the model easier to modify and reduced the amount of manual rework required when dimensions were changed.
+This relationship allows the required stiffness to be related to the required circular-section diameter.
 
----
+The analytical design values were transferred into the CAD global variables so that the model could be controlled parametrically instead of relying only on manually entered dimensions.
 
-## Decide
+The CAD parameter table allowed the model to respond when a controlling design variable was changed.
 
-### Final Design
+Parametric Table
 
-The final design uses the stress-based dimensions from the analysis:
+The parametric table shows the global variables and relationships used to control the CAD model.
 
-- **Cylinder diameter: 1.28 in**
-- **Vertical member: 0.140 in**
-- **Lower horizontal: 0.650 in**
-- **Inner vertical: 0.070 in**
-- **Upper section: 0.907 in**
+Decide
+Final Design
 
-The overall inside width remains **3.00 in**, and the slot width remains **1.00 in**.
+The final A6 design uses the stiffness-based dimensions.
 
-The bracket is symmetric about the centerline and is designed to fit over the rigid T-beam specified in the assignment.
+The final values are:
 
-### Tolerances
+A = 1.22 in
+B = 0.048 in
+C = 0.577 in
+D = 0.006 in
+E = 0.727 in
+
+The remaining major dimensions are:
+
+Overall Inside Width = 3.00 in
+Slot Width = 1.00 in
+Bottom Dimension = 1.048 in
+Maximum Deflection = 0.005 in
+
+The final design maintains symmetry about the centerline and the required 1.00 in slot.
+
+Mistakes and Corrections
+
+One of the main mistakes during the modeling process was initially using the stress-based/reference dimensions when setting up the CAD model.
+
+The original stress-based dimensions were:
+
+A = 1.28 in
+B = 0.140 in
+C = 0.650 in
+D = 0.070 in
+E = 0.907 in
+
+These dimensions were initially transferred into the model because they were available from the previous design analysis and were useful as a reference for building the geometry.
+
+After reviewing the stiffness requirements, I realized that the final A6 design needed to use the stiffness-based dimensions instead.
+
+The dimensions were corrected as follows:
+
+A: 1.28 in -> 1.22 in
+B: 0.140 in -> 0.048 in
+C: 0.650 in -> 0.577 in
+D: 0.070 in -> 0.006 in
+E: 0.907 in -> 0.727 in
+
+The bottom dimensions also had to be updated because they depend on the B dimension.
+
+The original bottom dimensions were:
+
+Bottom Left = 1.140 in
+Bottom Right = 0.140 in
+
+After changing B from 0.140 in to 0.048 in, the corresponding bottom dimensions were updated to:
+
+Bottom Left = 1.048 in
+Bottom Right = 0.048 in
+
+This correction was important because leaving the original stress-based dimensions in the drawing would have caused the engineering drawing and final stiffness-based design to disagree.
+
+The final stiffness-based values used in the completed design are:
+
+A = 1.22 in
+B = 0.048 in
+C = 0.577 in
+D = 0.006 in
+E = 0.727 in
+
+This mistake showed me that dimensions from an earlier design cannot simply be transferred into a new design without checking what design requirement they satisfy. The stress-based values and stiffness-based values are different because they come from different design requirements.
+
+Using global variables made the correction easier because the dimensions could be changed in the parameter table instead of manually changing every dependent sketch dimension.
+
+Corrected Stiffness-Based Design
+
+This image shows the corrected stiffness-based design dimensions used for the final A6 model and drawing.
+
+Tolerances
 
 The engineering drawing uses the required tolerance block:
 
-- **X.X ± 0.02 in**
-- **X.XX ± 0.01 in**
-- **X.XXX ± 0.005 in**
+X.X ± 0.02 in
+X.XX ± 0.01 in
+X.XXX ± 0.005 in
 
-Tighter tolerances were used where dimensions affect the fit and function of the bracket.
+Tighter tolerances are important for dimensions that affect the fit and function of the bracket.
 
 The sliding-fit areas are functionally important because they interface with the rigid T-beam. These dimensions require greater control than features that do not directly affect the fit.
 
-A tighter tolerance was therefore applied to functional/mating dimensions, while less critical dimensions can use a looser tolerance.
+A tighter tolerance is therefore appropriate for functional or mating dimensions, while less critical dimensions can use a looser tolerance.
 
-Using the tightest tolerance on every dimension would increase manufacturing difficulty and cost without providing a functional benefit for non-critical features.
+Using the tightest tolerance on every dimension would increase manufacturing difficulty, inspection requirements, and cost without providing a functional benefit for non-critical features.
 
----
-
-## Communicate
-
-### Engineering Drawing
+Communicate
+Engineering Drawing
 
 A fully dimensioned multi-view engineering drawing was created in CAD.
 
 The drawing includes:
 
-- Top view
-- Front view
-- Right-side view
-- Isometric view
-- Dimensions
-- Engineering tolerances
-- Centerlines
-- Hidden lines where applicable
-- Third-angle projection
-- Title block
-- Tolerance block
+Top view
+Front view
+Right-side view
+Isometric view
+Dimensions
+Engineering tolerances
+Centerlines
+Hidden lines where applicable
+Third-angle projection
+Title block
+Tolerance block
 
 The drawing communicates the final geometry and dimensions required to manufacture the bracket.
 
-### Final Drawing Dimensions
+Final Engineering Drawing
 
-The final stress-based dimensions shown on the drawing are:
+The final drawing shows the stiffness-based dimensions and the required engineering drawing information.
 
-| Feature | Dimension |
-|---|---:|
-| Cylinder Diameter (A) | 1.28 in |
-| Vertical Member (B) | 0.140 in |
-| Lower Horizontal (C) | 0.650 in |
-| Inner Vertical (D) | 0.070 in |
-| Upper Section (E) | 0.907 in |
-| Overall Inside Width | 3.00 in |
-| Slot Width | 1.00 in |
-| Bottom Left Dimension | 1.140 in |
-| Bottom Right Dimension | 0.140 in |
+Final Drawing Dimensions
 
-### Design Documentation
+The final stiffness-based dimensions shown on the drawing are:
 
-The design process was documented using screenshots of the CAD model, sketches, parametric table, and engineering drawing.
+Feature	Dimension
+Cylinder Diameter (A)	1.22 in
+Vertical Member (B)	0.048 in
+Lower Horizontal (C)	0.577 in
+Inner Vertical (D)	0.006 in
+Upper Section (E)	0.727 in
+Overall Inside Width	3.00 in
+Slot Width	1.00 in
+Bottom Dimension	1.048 in
 
-The documentation shows how the design progressed from the calculated dimensions to the final parametric model and engineering drawing.
+The final drawing was checked against the parametric model so that the dimensions communicate the same final design.
 
-### Mistakes and Corrections
+Design Documentation
 
-One challenge during the process was transferring the calculated dimensions into the parametric CAD model while maintaining the required geometric relationships.
+The design process was documented using screenshots of the CAD model, sketches, parametric table, global variables, and engineering drawing.
 
-Another important check was making sure the dimensions in the engineering drawing matched the final parametric model. The dimensions were reviewed and corrected so that the drawing represented the final stress-based design rather than values from an earlier version of the model.
+The screenshots show the progression from the initial CAD setup through the corrected stiffness-based design and final engineering drawing.
 
-The distinction between the stress-based and stiffness-based dimensions was also important. The final model and drawing were checked against the selected stress-based design values.
+Global Variables and Equations
 
-### Lessons Learned
+The global variables and equations were used to control the model parametrically.
 
-This assignment demonstrated the importance of using parametric modeling for engineering design. Instead of treating every dimension as an independent value, global variables can be used to control the geometry and preserve relationships between features.
+Lessons Learned
+
+This assignment demonstrated the importance of using parametric modeling for engineering design.
+
+Instead of treating every dimension as an independent value, global variables can be used to control the geometry and preserve relationships between features.
+
+I also learned that engineering calculations must be connected to the actual CAD model. A dimension may be correct for one design requirement but not correct for another. In this assignment, the stress-based dimensions were initially used as a reference, but the final design required the stiffness-based dimensions.
+
+The main dimensional changes were:
+
+A = 1.28 in -> 1.22 in
+B = 0.140 in -> 0.048 in
+C = 0.650 in -> 0.577 in
+D = 0.070 in -> 0.006 in
+E = 0.907 in -> 0.727 in
+
+This showed me the importance of checking whether the dimensions being used actually correspond to the selected design requirement.
 
 I also learned that engineering drawings must be checked against the actual CAD model. A dimension can appear correct in a calculation but still be incorrect on the final drawing if it is not connected to the correct model feature.
 
@@ -182,19 +262,40 @@ Another lesson was the importance of tolerances. Functional mating surfaces requ
 
 The assignment also reinforced the importance of documenting the design process. Including the calculations, parametric table, sketches, model, drawing, mistakes, and final results makes the engineering process easier for another person to understand and reproduce.
 
-### Time Spent
+Time Spent
 
-**Total time: approximately 4 hours**
+Total time: approximately 4 hours
 
-### Final Files
+The time included:
 
-The completed CAD files and engineering drawing are included with this assignment for download and evaluation.
+Reviewing the design requirements
+Reviewing the stiffness calculations
+Setting up the SolidWorks global variables
+Creating the parametric model
+Identifying the incorrect stress-based dimensions
+Updating the model to the stiffness-based dimensions
+Checking dependent dimensions
+Creating the engineering drawing
+Adding dimensions and tolerances
+Reviewing the final CAD model
+Documenting the design process
+Final Files
 
----
+The completed CAD files and engineering drawing should be included with the assignment for download and evaluation.
 
-<img width="1296" height="1214" alt="image" src="https://github.com/user-attachments/assets/83dc659b-3618-45aa-bf9a-bba1f9191cdb" />
-<img width="1270" height="1239" alt="image" src="https://github.com/user-attachments/assets/d6034d8d-b07e-4762-97ea-c48e984775d0" />
-<img width="1558" height="1009" alt="image" src="https://github.com/user-attachments/assets/867a4567-235c-4cd4-b962-d989066164b6" />
-<img width="2048" height="713" alt="image" src="https://github.com/user-attachments/assets/ae39b117-7938-4848-819e-1e9c1c7d25d7" />
-<img width="1507" height="788" alt="image" src="https://github.com/user-attachments/assets/734b512e-67ef-4b88-9f4c-8721e043a3d4" />
+The repository should contain the final SolidWorks CAD file and documentation.
 
+Suggested repository structure:
+
+A6/
+├── README.md
+├── CAD/
+│   └── Bracket_Final.SLDPRT
+└── images/
+    ├── cad-sketch.png
+    ├── slot-geometry.png
+    ├── parametric-table.png
+    ├── stiffness-design.png
+    └── final-drawing.png
+
+The final CAD file should be uploaded so the TA can download and inspect the parametric model.
