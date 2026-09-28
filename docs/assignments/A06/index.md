@@ -1,4 +1,6 @@
 # A6 – Design for Strength and Stiffness II
+<img width="932" height="440" alt="image" src="https://github.com/user-attachments/assets/b42c75fa-7943-411a-87a3-49de6be6ae8f" />
+<img width="1993" height="896" alt="image" src="https://github.com/user-attachments/assets/568bf867-fe03-4997-b6b4-6440ad4518fd" />
 
 ## Objective
 
