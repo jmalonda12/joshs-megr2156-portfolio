@@ -1,4 +1,6 @@
 # A6 – Design for Strength and Stiffness II
+<img width="932" height="440" alt="image" src="https://github.com/user-attachments/assets/406d13d9-980d-4b6c-bd99-aba3558eac91" />
+<img width="1993" height="896" alt="image" src="https://github.com/user-attachments/assets/69766026-2eba-4f67-8f14-2cbb141d9576" />
 
 ## Objective
 
@@ -15,6 +17,8 @@ The design was developed using a stiffness-based approach. The primary design co
 - Yield strength, Sy = 35,000 psi
 - Elastic modulus, E = 10,000,000 psi
 - Maximum allowable deflection, dmax = 0.005 in
+<img width="1507" height="788" alt="image" src="https://github.com/user-attachments/assets/e71c0b6a-b7cf-4665-ac8c-21730bfe9696" />
+<img width="2048" height="713" alt="image" src="https://github.com/user-attachments/assets/4915d882-f199-4c55-8928-a8015046b09c" />
 
 The final stiffness-based dimensions used for the bracket were:
 
@@ -43,19 +47,22 @@ The final model was based on the stiffness calculations rather than simply using
 
 ### CAD Model Sketch
 
-![CAD Model Sketch](images/cad-sketch.png)
+<img width="1266" height="1224" alt="image" src="https://github.com/user-attachments/assets/938ee2f7-8808-4332-81d6-2bdd0f680ec3" />
+
 
 The initial CAD sketch established the primary bracket profile and provided the foundation for the parametric model.
 
 ### Slot and Bracket Geometry
 
-![Slot and Bracket Geometry](images/slot-geometry.png)
+<img width="1270" height="1239" alt="image" src="https://github.com/user-attachments/assets/5d4f0942-a3f2-45f9-9fbe-cec3cf9f2de1" />
+
 
 The slot and bracket geometry were developed using the required dimensions and symmetry about the centerline.
 
 ### Global Variables and Parametric Table
 
-![Parametric Table](images/parametric-table.png)
+<img width="1296" height="1214" alt="image" src="https://github.com/user-attachments/assets/39fedb60-2c98-45eb-8c71-84a40ec22b76" />
+
 
 The parametric table was used to define and control the important dimensions of the model. This allowed the design to be changed by modifying the variables rather than manually changing every individual feature.
 
@@ -95,7 +102,8 @@ If the analytical value was changed, the corresponding parametric dimension coul
 
 The final design uses the stiffness-based dimensions from the analytical design.
 
-![Final Stiffness-Based Design](images/stiffness-design.png)
+<img width="1518" height="1320" alt="image" src="https://github.com/user-attachments/assets/d1ec8bf3-0391-4643-b28e-50355c512ed9" />
+
 
 The final values are:
 
@@ -164,7 +172,8 @@ This demonstrated the advantage of parametric modeling when engineering dimensio
 
 ### Multi-View Engineering Drawing
 
-![Final Engineering Drawing](images/final-drawing.png)
+<img width="1558" height="1009" alt="image" src="https://github.com/user-attachments/assets/02cadac9-562f-4da3-b52c-7411a1168c1d" />
+
 
 The final engineering drawing represents the completed bracket using multiple views and the required dimensions.
 
@@ -254,7 +263,7 @@ The use of global variables also demonstrated the value of parametric CAD modeli
 
 Total time from the beginning of the assignment through completion was approximately:
 
-**4 hours**
+**7 hours**
 
 The time included reviewing the requirements, completing the design calculations, creating the parametric CAD model, correcting the design dimensions, creating the engineering drawing, applying tolerances, checking the final model, and documenting the process.
 
@@ -279,6 +288,5 @@ The final bracket design was based on the stiffness requirements and used the fo
 
 ## Final CAD File
 
-[Download the Final Bracket CAD Model](CAD/Bracket_Final.SLDPRT)
 
 
