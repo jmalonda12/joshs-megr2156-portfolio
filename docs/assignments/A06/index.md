@@ -299,3 +299,10 @@ A6/
     └── final-drawing.png
 
 The final CAD file should be uploaded so the TA can download and inspect the parametric model.
+<img width="1507" height="788" alt="image" src="https://github.com/user-attachments/assets/8cb9bc0c-ce30-4365-96c9-e037389f9136" />
+<img width="2048" height="713" alt="image" src="https://github.com/user-attachments/assets/abfe8ddb-41b7-44a0-abc5-5ef0dca0e2ba" />
+<img width="1558" height="1009" alt="image" src="https://github.com/user-attachments/assets/c253b9a4-2970-4440-bb3c-b169151c895f" />
+<img width="1270" height="1239" alt="image" src="https://github.com/user-attachments/assets/cc02bce6-35e1-4802-9ab4-9a51bc02cc50" />
+
+<img width="1296" height="1214" alt="image" src="https://github.com/user-attachments/assets/4d66d9f3-8045-499c-ad06-81e9d0f82fb6" />
+
