@@ -204,21 +204,13 @@ The purpose of the tolerance block is to establish the allowable variation for d
 
 ### Tighter Tolerance
 
-A dimension associated with the functional sliding-fit interface requires a tighter tolerance because the clearance directly affects how the mating components fit and move relative to one another.
-
-The tighter tolerance class is:
-
-**X.XXX ± 0.005 in**
-
-A tighter tolerance is appropriate for a functional mating feature because excessive dimensional variation could change the intended clearance and affect the sliding fit.
+The 1.00 in dimension associated with the T-beam sliding-fit geometry is a functional mating dimension because it controls the clearance between the bracket and the rigid T-beam. A tighter tolerance is appropriate for this feature because excessive dimensional variation could change the intended sliding clearance and affect assembly or movement.
 
 ### Looser Tolerance
 
-A non-critical dimension that does not directly control the sliding interface can use the looser tolerance class:
+The 0.75 in dimension is a non-critical locating dimension because it establishes the position of the lower cylindrical feature but does not directly control the sliding interface. A looser tolerance is appropriate because small dimensional variation does not directly affect the mating clearance.
 
-**X.X ± 0.02 in**
-
-A looser tolerance is appropriate for a non-critical feature because small dimensional variation in that feature does not directly determine whether the mating components will function.
+Using a tight tolerance on non-critical features would unnecessarily increase manufacturing difficulty and potentially increase manufacturing cost. Tighter tolerances should therefore be reserved for dimensions where they are required for function.
 
 ### Manufacturing Considerations
 
