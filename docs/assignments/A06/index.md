@@ -195,3 +195,6 @@ The completed CAD files and engineering drawing are included with this assignmen
 <img width="1296" height="1214" alt="image" src="https://github.com/user-attachments/assets/83dc659b-3618-45aa-bf9a-bba1f9191cdb" />
 <img width="1270" height="1239" alt="image" src="https://github.com/user-attachments/assets/d6034d8d-b07e-4762-97ea-c48e984775d0" />
 <img width="1558" height="1009" alt="image" src="https://github.com/user-attachments/assets/867a4567-235c-4cd4-b962-d989066164b6" />
+<img width="2048" height="713" alt="image" src="https://github.com/user-attachments/assets/ae39b117-7938-4848-819e-1e9c1c7d25d7" />
+<img width="1507" height="788" alt="image" src="https://github.com/user-attachments/assets/734b512e-67ef-4b88-9f4c-8721e043a3d4" />
+
