@@ -65,6 +65,7 @@ The slot and bracket geometry were developed using the required dimensions and s
 
 
 The parametric table was used to define and control the important dimensions of the model. This allowed the design to be changed by modifying the variables rather than manually changing every individual feature.
+<img width="1845" height="1674" alt="image" src="https://github.com/user-attachments/assets/25c5bf14-edff-4593-b58d-4a9fd0bc3d87" />
 
 ## Analytical Design
 
