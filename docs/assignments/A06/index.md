@@ -120,7 +120,8 @@ The final values are:
 The model is symmetric about the centerline.
 
 ## Mistakes and Corrections
-
+Rework and Complications:
+The main complication during the design process was that I initially worked from the stress-based dimensions before recognizing that the final design needed to be based on the stiffness requirements. This required me to revisit the analytical values, update the CAD parameters, and check the resulting geometry again. I also had to correct the bottom dimensions after identifying that the original values did not match the final stiffness-based design. Because the model was parametrically linked, changing the design values required checking the dependent geometry to make sure the bracket still maintained the intended relationships. This rework added time to the modeling process, but it also helped me understand why the analytical design requirements need to be established before finalizing the CAD geometry.
 ### Initial Use of Stress-Based Dimensions
 
 One of the main mistakes during the design process was initially using the stress-based dimensions instead of the final stiffness-based dimensions.
