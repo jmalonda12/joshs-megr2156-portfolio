@@ -289,5 +289,5 @@ The final bracket design was based on the stiffness requirements and used the fo
 
 ## Final CAD File
 
-
+https://mail.google.com/mail/u/0?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r1868915413290956972&view=att&disp=safe&realattid=f_mukujfxx0&zw
 
