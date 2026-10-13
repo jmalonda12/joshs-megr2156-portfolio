@@ -219,7 +219,7 @@ The output-shaft journal bearing I selected was the Mil. Spec. Oil-Embedded 841 
 <img width="1410" height="717" alt="image" src="https://github.com/user-attachments/assets/06035e01-3f10-4cf9-a20f-898e3de150fb" />
 ## Sketch of Vision
 
-![Uploading image.png…]()
+<img width="2490" height="1312" alt="image" src="https://github.com/user-attachments/assets/7babab21-a457-4a73-804f-41959c184fa6" />
 
 I decided to design the gearbox as a two-piece housing with a top and bottom section that can be fastened together with screws. This design makes it easier to assemble and disassemble the gearbox when maintenance or adjustments are needed. I included holes at the corners for the fasteners and an enclosed space for the gears, shafts, and journal bearings. I used this sketch as a starting point for creating the two housing halves in CAD. The sketch below shows my initial design idea.
 
