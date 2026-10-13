@@ -14,16 +14,11 @@ Three bracket designs will be evaluated. Each design will undergo static stress 
 <img width="1347" height="1114" alt="image" src="https://github.com/user-attachments/assets/4a7c7b32-d96c-4160-ab89-83aa724535ea" />
 iteration 1
 <img width="1624" height="483" alt="image" src="https://github.com/user-attachments/assets/847a0db6-f3ad-41c9-8638-86dceac549c2" />
-For my first design iteration, I decided to increase the shaft diameter from 1.22 inches to improve the bracket's stiffness and strength. I kept the material assigned to the original bracket and used a fine mesh to analyze the results. To check convergence, I compared the stress, displacement, and safety factor between mesh sizes using the percentage difference formula:
+### Design I: Increase Shaft Diameter
 
-\[
-\%\text{ Difference}=
-\frac{2|x_f-x_i|}{|x_f|+|x_i|}\times100
-\]
+For my first design, I increased the shaft diameter from the original 1.22 inches to improve the bracket's stiffness and strength. I kept the assigned Aluminum 6061-T6 material and the 600 lbf load. After making the geometry change, I performed a static stress analysis and compared the results from different mesh sizes.
 
-where \(x_f\) is the result from the finer mesh and \(x_i\) is the result from the coarser mesh.
-
-The results need to be within 7% for stress, displacement, and safety factor before changing the geometry. If the results do not converge after three attempts, I will document the finest-mesh results and proceed according to the assignment instructions. I will use these comparisons to determine whether the mesh is sufficiently refined before making further design changes.
+I checked the maximum stress, maximum displacement, and factor of safety using the percentage-difference formula. The geometry remained unchanged during each mesh comparison. If all three results converged within 7%, I used those results to evaluate the design. If they did not converge after three attempts, I used the results from the finest mesh, following the assignment instructions.
 <img width="1054" height="975" alt="image" src="https://github.com/user-attachments/assets/b1a7cd94-3d3f-4652-b32e-97ce0fe14e7e" />
 
 ### Mistake Identified
