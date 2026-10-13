@@ -18,4 +18,15 @@ iteration 2
 <img width="1803" height="436" alt="image" src="https://github.com/user-attachments/assets/a250a50b-1aa0-4058-9413-7389ed5e47a3" />
 iteration 3 
 <img width="1763" height="496" alt="image" src="https://github.com/user-attachments/assets/f15684c6-84cd-47f3-8dd5-ae4b6d86c4f1" />
-
+Design 2
+<img width="933" height="858" alt="image" src="https://github.com/user-attachments/assets/e2b66ee4-2d53-4ff4-899f-0c3ccc9d86ae" />
+iteration 1 
+<img width="1761" height="433" alt="image" src="https://github.com/user-attachments/assets/a3a24b8a-7923-40d3-82b7-051b9ad2ad0d" />
+iteration 2
+<img width="1588" height="458" alt="image" src="https://github.com/user-attachments/assets/c2cef8e1-d9e8-4a5e-85c3-8479581d2825" />
+iteration 3 
+<img width="2060" height="515" alt="image" src="https://github.com/user-attachments/assets/d2ef57f5-ee3e-42b3-9cf6-0a30b6be0069" />
+design 3
+<img width="1218" height="1125" alt="image" src="https://github.com/user-attachments/assets/d46282a1-2147-46e4-a2f6-48b772110380" />
+iteration1
+<img width="1681" height="467" alt="image" src="https://github.com/user-attachments/assets/4db6820f-c651-4f13-97f0-005db3262be8" />
