@@ -137,3 +137,5 @@ One of the most important parts of this assignment was understanding mesh conver
 Another lesson I learned was the importance of balancing strength, stiffness, and weight. A lighter bracket is not necessarily a better design if it becomes too flexible or experiences excessive stress. In future designs, I would spend more time validating my simulation setup and comparing the results before deciding which geometry changes to make.
 
 The total time I spent completing this assignment was **5 hours**.
+Part link
+https://mail.google.com/mail/u/0?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r1446276862203762957&view=att&disp=safe&realattid=f_mv71gdob0&zw
