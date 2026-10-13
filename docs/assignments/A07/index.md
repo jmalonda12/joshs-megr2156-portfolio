@@ -11,7 +11,7 @@ Three bracket designs will be evaluated. Each design will undergo static stress 
 <img width="1396" height="1199" alt="image" src="https://github.com/user-attachments/assets/65aa8f87-a960-4297-9443-3db7551db2f1" />
 <img width="1356" height="1090" alt="image" src="https://github.com/user-attachments/assets/b417ef6e-4d69-4ff1-865c-50f776a59b2d" />
 <img width="1347" height="1114" alt="image" src="https://github.com/user-attachments/assets/4a7c7b32-d96c-4160-ab89-83aa724535ea" />
-The initial mass was approximately 1.33 lb, the factor of safety was 1.4, the maximum stress was \(2.5 \times 10^4\) psi, and the maximum deflection was \(4.6 \times 10^{-3}\) in.
+The initial mass was approximately 1.33 lb, the factor of safety was 1.4, the maximum stress was 25,000 psi, and the maximum deflection was 0.0046 in.
 
 ### Design I: Increase Shaft Diameter
 
@@ -40,34 +40,47 @@ I also created an Excel calculator to make checking the percentage differences b
 Design 1: increase diameter
 For my first iteration, i will increase the diameter to 2 inches.
 
-### *Iteration 1: 2 in Diameter*
+### *Iteration 1: 2 in Diameter
 
-For my first iteration, I increased the shaft diameter to 2 inches to see how changing the geometry would affect the bracket's maximum stress, maximum deflection, and factor of safety. I compared the results from different mesh sizes to check whether they converged within the required 7% difference.
+Maximum stress = 2.60 × 10³ psi
 
-The results will be used to determine whether the mesh is sufficiently refined before I make another change to the bracket's geometry. If the results do not converge within three attempts, I will use the results from the finest mesh, as required by the assignment.
+Maximum deflection = 2.50 × 10⁻² in
+
+Factor of safety = 13.46
+
+The stress percentage difference was 23.61%, the deflection percentage difference was 32.43%, and the factor of safety percentage difference was 23.61%. These results were outside the required 7% convergence limit, so I needed to continue refining the mesh before proceeding to the next geometry change.
 
 ### *Iteration 2: 1.9 in Diameter*
 
-For my second iteration, I reduced the shaft diameter to 1.9 inches to evaluate how a smaller change in diameter affected the bracket's performance. I will check the maximum stress, maximum deflection, and factor of safety against the 7% mesh-convergence requirement before proceeding to the next design iteration.
+### Iteration 2: 1.9 in Diameter
+
+Maximum stress = 1,855 psi
+
+Maximum deflection = 0.02935 in
+
+Factor of safety = 18.87 (calculated from yield strength divided by maximum stress)
+
+The reported stress percentage difference was 11.39%, the deflection percentage difference was 16.76%, and the safety factor percentage difference was 26.85%. These differences exceed the required 7% convergence limit, indicating that the mesh results had not converged. The maximum deflection also exceeded the allowable limit of 0.005 in. Comparing the 1.9-inch design with the 2.0-inch design suggests that reducing the shaft diameter increased deflection, so stiffness remains an important consideration.
 iteration 2
 <img width="1803" height="436" alt="image" src="https://github.com/user-attachments/assets/a250a50b-1aa0-4058-9413-7389ed5e47a3" />
-The stress percent difference was 11.39%, the deflection percent difference was 16.76%, and the factor of safety percent difference was 26.85%. These results were still outside the required 7% convergence limit. The stress and factor of safety values changed between iterations, showing that the mesh and shaft diameter affected the results. I needed to continue checking the mesh convergence before proceeding with another geometry change.
 
 ### *Iteration 3: 1.85 in Diameter*
 <img width="1693" height="496" alt="image" src="https://github.com/user-attachments/assets/3b08ed4c-88dc-4df8-a217-5733e57baf37" />
 
 ### Final Mesh-Validation Attempt: 1.85 in Diameter
 
-The maximum stress percent difference was 1.5%, the maximum deflection percent difference was 8.55%, and the factor of safety percent difference was 80.81%. The stress results were within the required 7% limit, but the deflection and factor of safety results were not. Since this was the third attempt, I would use the results from the finest mesh for the next design stage, as specified in the assignment.
 
-These values will serve as the baseline for the next design iteration in this example:
+The maximum stress percentage difference was 1.5%, the maximum deflection percentage difference was 8.55%, and the factor of safety percentage difference was 80.81%. The stress results were within the required 7% limit, but the deflection and factor of safety results were not. Since this was the third attempt, I used the results from the finest mesh for the next design stage, as specified in the assignment.
 
-- **Maximum Stress:** \(2.048 \times 10^3\) psi
-- **Maximum Deflection:** \(3.187 \times 10^{-2}\) in
-- **Factor of Safety:** \(1.180 \times 10^6\)
+These results will serve as the baseline for the next design iteration:
+
+- **Maximum Stress:** 2,048 psi
+- **Maximum Deflection:** 0.03187 in
+- **Factor of Safety:** 17.09 (calculated using 35,000 psi divided by 2,048 psi)
 - **Mass:** 1.34 lb
 <img width="1763" height="496" alt="image" src="https://github.com/user-attachments/assets/f15684c6-84cd-47f3-8dd5-ae4b6d86c4f1" />
 ### **Design II: Adding Fillets**
+<img width="933" height="858" alt="image" src="https://github.com/user-attachments/assets/ff267a0e-9de7-41c8-adff-ca62be8f6aed" />
 
 I added 0.10-inch fillets to the inner and back edges of the bracket to reduce stress concentrations. I then ran the simulation using a fine mesh to evaluate how the changes affected the maximum stress, maximum deflection, and factor of safety.
 
@@ -78,13 +91,10 @@ I added 0.10-inch fillets to the inner and back edges of the bracket to reduce s
 - **Factor of Safety:** \(4.177 \times 10^6\)
 
 The percentage differences were 144% for maximum stress, 127% for maximum deflection, and 111% for the factor of safety. These results were outside the required 7% convergence limit, so I needed to continue checking the mesh. Even a small change to the bracket's geometry can significantly affect the calculated stress and deflection. I will compare the results from different mesh sizes before proceeding to the next iteration.
-<img width="933" height="858" alt="image" src="https://github.com/user-attachments/assets/e2b66ee4-2d53-4ff4-899f-0c3ccc9d86ae" />
-iteration 1 
 <img width="1761" height="433" alt="image" src="https://github.com/user-attachments/assets/a3a24b8a-7923-40d3-82b7-051b9ad2ad0d" />
-iteration 2
-<img width="1588" height="458" alt="image" src="https://github.com/user-attachments/assets/c2cef8e1-d9e8-4a5e-85c3-8479581d2825" />
-### *Iteration 2: 0.02 in Fillet*
 
+### *Iteration 2: 0.02 in Fillet*
+<img width="1588" height="458" alt="image" src="https://github.com/user-attachments/assets/c2cef8e1-d9e8-4a5e-85c3-8479581d2825" />
 For this iteration, I reduced the fillet size to 0.02 inches to see how a smaller fillet affected the bracket's stress, deflection, and factor of safety.
 
 - **Maximum Stress:** \(2.8 \times 10^4\) psi
@@ -104,10 +114,9 @@ For this iteration, I reduced the fillet size to 0.001 inches to evaluate how a 
 - **Mass:** 1.48 lb
 
 The results show that the smaller fillet can increase stress concentrations around the corners. After the third mesh-convergence attempt, I would use the results from the finest mesh if the values did not converge within the required 7% difference. These results would then become the baseline for Design III, where I would focus on reducing the bracket's mass while maintaining sufficient strength and stiffness.
-Design 3: adding holes
-<img width="1218" height="1125" alt="image" src="https://github.com/user-attachments/assets/d46282a1-2147-46e4-a2f6-48b772110380" />
-### **Design III: Removing Material**
 
+### **Design III: Removing Material**
+<img width="1218" height="1125" alt="image" src="https://github.com/user-attachments/assets/d46282a1-2147-46e4-a2f6-48b772110380" />
 For my third design, I added two circular holes with a 0.5-inch radius to reduce the bracket's mass while maintaining its strength and stiffness. I then evaluated how removing material affected the maximum stress, maximum deflection, and factor of safety.
 
 ### *Iteration 1: 0.5 in Radius Holes*
