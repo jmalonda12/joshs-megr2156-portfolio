@@ -242,4 +242,4 @@ Below is the final result of my gearbox design. After working through the challe
 ## Lessons Learned
 I learned a lot more about SolidWorks while working on this assignment. Every time I think I am getting comfortable with the software, I run into a new challenge that forces me to learn something else. I spent many hours working on this gearbox, from getting the gears to rotate properly to making sure the top and bottom halves lined up. Looking back at how far I have come since first starting SolidWorks, I can tell that I am developing a useful new skill. One of my biggest takeaways was learning to pay closer attention to dimensions and orientation when flipping or modifying parts. I will definitely remember that lesson for future CAD projects.
 Part file:
-https://mail.google.com/mail/u/0?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r8734702875944574608&view=att&disp=safe&realattid=f_mv76ndz80&zw
+https://mail.google.com/mail/u/0?ui=2&ik=4e9b2dd91e&attid=0.1&permmsgid=msg-a:r8734702875944574608&view=att&disp=safe&realattid=f_mv7715ee0&zw
