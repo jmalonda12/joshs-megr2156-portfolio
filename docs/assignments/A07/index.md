@@ -12,13 +12,15 @@ Three bracket designs will be evaluated. Each design will undergo static stress 
 <img width="1396" height="1199" alt="image" src="https://github.com/user-attachments/assets/65aa8f87-a960-4297-9443-3db7551db2f1" />
 <img width="1356" height="1090" alt="image" src="https://github.com/user-attachments/assets/b417ef6e-4d69-4ff1-865c-50f776a59b2d" />
 <img width="1347" height="1114" alt="image" src="https://github.com/user-attachments/assets/4a7c7b32-d96c-4160-ab89-83aa724535ea" />
-iteration 1
-<img width="1624" height="483" alt="image" src="https://github.com/user-attachments/assets/847a0db6-f3ad-41c9-8638-86dceac549c2" />
+The initial mass was approximately 1.33 lb, the factor of safety was 1.4, the maximum stress was \(2.5 \times 10^4\) psi, and the maximum deflection was \(4.6 \times 10^{-3}\) in.
+
 ### Design I: Increase Shaft Diameter
 
 For my first design, I increased the shaft diameter from the original 1.22 inches to improve the bracket's stiffness and strength. I kept the assigned Aluminum 6061-T6 material and the 600 lbf load. After making the geometry change, I performed a static stress analysis and compared the results from different mesh sizes.
 
 I checked the maximum stress, maximum displacement, and factor of safety using the percentage-difference formula. The geometry remained unchanged during each mesh comparison. If all three results converged within 7%, I used those results to evaluate the design. If they did not converge after three attempts, I used the results from the finest mesh, following the assignment instructions.
+ Iteration 1
+<img width="1624" height="483" alt="image" src="https://github.com/user-attachments/assets/847a0db6-f3ad-41c9-8638-86dceac549c2" />
 <img width="1054" height="975" alt="image" src="https://github.com/user-attachments/assets/b1a7cd94-3d3f-4652-b32e-97ce0fe14e7e" />
 
 ### Mistake Identified
