@@ -154,7 +154,7 @@ These preliminary PV values are below the assumed allowable rating. The bearing 
 
 For the bearing thickness, I used the bearing material's load capacity and the force acting on the bearing to determine the minimum thickness required. I organized the known and unknown values and used a free-body diagram to identify the resultant force. After calculating the required thickness, I would select a practical thickness that provides adequate support and fits within the gearbox design. The calculations and free-body diagram are shown below.
 Journal Bearing Thickness
-<img width="516" height="1194" alt="image" src="https://github.com/user-attachments/assets/e57e0bb2-f9e1-422e-9b16-fe784d6390f0" />
+<img width="1892" height="709" alt="image" src="https://github.com/user-attachments/assets/0f7983b4-8687-43e6-a883-39eedc1eb486" />
 
 Knowns
 
@@ -218,7 +218,8 @@ The calculated minimum thicknesses must be rounded appropriately and compared wi
 The output-shaft journal bearing I selected was the Mil. Spec. Oil-Embedded 841 Bronze Sleeve Bearing for a 1/4-inch shaft diameter, with a 3/8-inch housing ID and a length of 1/2 inch (McMaster-Carr part 7639N11). I chose this bearing because its oil-embedded bronze material helps reduce friction and wear while supporting the rotating shaft. Its dimensions also fit the 1/4-inch output shaft and provide a clear target for designing the housing. McMaster-Carr lists a dynamic radial load capacity of 200 lb at 120 rpm, so I would compare the bearing’s published specifications with my calculated pressure, surface velocity, and PV requirements before confirming the final selection.
 <img width="1410" height="717" alt="image" src="https://github.com/user-attachments/assets/06035e01-3f10-4cf9-a20f-898e3de150fb" />
 ## Sketch of Vision
-<img width="756" height="1424" alt="image" src="https://github.com/user-attachments/assets/8f0d7e2e-61ac-41f0-bcd6-ba6feb533190" />
+
+![Uploading image.png…]()
 
 I decided to design the gearbox as a two-piece housing with a top and bottom section that can be fastened together with screws. This design makes it easier to assemble and disassemble the gearbox when maintenance or adjustments are needed. I included holes at the corners for the fasteners and an enclosed space for the gears, shafts, and journal bearings. I used this sketch as a starting point for creating the two housing halves in CAD. The sketch below shows my initial design idea.
 
