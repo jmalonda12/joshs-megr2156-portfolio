@@ -53,5 +53,7 @@ Finally, I developed a preliminary frame design to support the pulley system. I 
 
 ## Lessons Learned
 In this assignment, I learned how to calculate the required belt and shaft dimensions for a pulley system and how belt tension affects the forces acting on the shafts. I also learned how to calculate journal bearing pressure, surface velocity, and the pressure-velocity value to help select a suitable bearing material. Using the Machinery's Handbook table helped me understand how material limits affect bearing selection. Finally, I learned how an Ashby plot can be used to compare materials based on stiffness and density when choosing a frame material.
+
+
 I hand-drew my initial sketches and used AI to enhance them into cleaner, more detailed images. The results turned out really well and made my designs easier to understand and present in my report.
 This assignment took me approximately 3 and a half hours to complete.
