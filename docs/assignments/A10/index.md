@@ -4,7 +4,7 @@
 - Joshua Malonda
 - Roncellis Marshall
 - Brodie Jarvis
-
+ 
 ## Objective
 
 The objective of this project is to design a mechanically driven lead screw translating system for a tensile testing machine capable of applying an axial tensile load of up to 2 kN. The system will use two synchronized lead screws to produce controlled and repeatable linear movement of a crosshead at speeds ranging from 1 to 50 mm/min.
