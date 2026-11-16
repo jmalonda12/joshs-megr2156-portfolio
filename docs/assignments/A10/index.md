@@ -72,6 +72,17 @@ The CAD development process began by transferring the crosshead dimensions from 
 ### Assembly Modifications and Component Integration
 
 While putting the initial assembly together in SolidWorks, I found that some adjustments were needed to properly connect the crosshead and bronze flange. I reopened the individual part files and modified their mounting features to allow the components to be fastened together. This involved creating tapped holes in the crosshead and adding counterbored tapped holes to the flange. I also assigned the appropriate aluminum material to the crosshead model so its material properties were represented correctly in the CAD design. Once these changes were made, the components were ready to be incorporated into the complete assembly.
+<img width="1206" height="667" alt="IMG_0017" src="https://github.com/user-attachments/assets/dc476506-e641-4b10-ab73-6a4c3b9c4890" />
+<img width="1206" height="663" alt="IMG_0018" src="https://github.com/user-attachments/assets/0c395dc3-ff88-45dc-97e3-ace6cd3720db" />
+<img width="1206" height="674" alt="IMG_0019" src="https://github.com/user-attachments/assets/3626514f-f02a-44a8-8789-01b5335c5cf3" />
+<img width="1206" height="624" alt="IMG_0020" src="https://github.com/user-attachments/assets/c85a230d-060b-4f41-9e33-233dc6b5ce46" />
+<img width="1206" height="860" alt="IMG_0021" src="https://github.com/user-attachments/assets/37db4acd-7a23-4b79-ae75-70d801d19f59" />
+<img width="1206" height="914" alt="IMG_0022" src="https://github.com/user-attachments/assets/1315a23d-b93d-4b90-bbb0-e7b4e93ab891" />
+<img width="1206" height="805" alt="IMG_0023" src="https://github.com/user-attachments/assets/6e339323-8cb8-4a11-b084-c2cf48bc9089" />
+<img width="1206" height="895" alt="IMG_0026" src="https://github.com/user-attachments/assets/e3d2a213-0185-41c5-83c7-12c73d59beef" />
+<img width="1206" height="788" alt="IMG_0025" src="https://github.com/user-attachments/assets/2ca45e44-312c-4db6-8be8-c56a647ce353" />
+<img width="1206" height="791" alt="IMG_0024" src="https://github.com/user-attachments/assets/55c6b8e5-c070-42da-8c1e-7505605e3b05" />
+<img width="1206" height="653" alt="IMG_0027" src="https://github.com/user-attachments/assets/32363e65-d262-4f1c-8569-e40ffa43b03b" />
 ## Lessons Learned (Joshua Malonda)
 Throughout this assignment, we learned how important it is to connect engineering calculations with the actual design of a mechanical system. We started with the given requirements and used them to determine the minimum lead screw diameter, rotational speed, and torque needed to move the crosshead. These calculations helped us narrow down our component options and compare different lead screws and bronze nut/flange assemblies on McMaster-Carr. One of the biggest challenges was finding components that met our design requirements while also being compatible with each other and suitable for our CAD assembly.
 
