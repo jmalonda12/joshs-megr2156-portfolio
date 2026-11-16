@@ -67,7 +67,7 @@ To establish the material expenses for our design, I put together a cost breakdo
 | 47065T882 | 1 | Black Double Six-Slot T-Slotted Aluminum Rail, 3" High × 1-1/2" Wide, Hollow, 10 Feet Long | $185.27 | $185.27 | [McMaster-Carr](https://www.mcmaster.com/47065T882-47065T881/) |
 | **Total** | **21** | | **$399.12** | **$717.43** | |
 
-## Parametric Modeling (Joshua Malonda)
+## Parametric Modeling (Brodie Jarvis)
 The CAD development process began by transferring the crosshead dimensions from the engineering calculations into SolidWorks. I used the Equation Manager to define the main dimensions as variables, allowing changes to the design parameters to automatically update the model. This made it easier to maintain consistent dimensions without manually editing each feature. Once the initial crosshead geometry was created, I added the necessary details, including mounting holes and fillets. After completing the initial part model, I began assembling the crosshead with the bronze flange nut to establish how the components would fit together in the final design.
 ### Assembly Modifications and Component Integration
 
