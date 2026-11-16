@@ -20,17 +20,17 @@ The design focuses on selecting appropriate mechanical components, analyzing the
 - Two identical lead screws
 - Mechanical operation without electronics or software
 - Stable, compact, bench-top configuration
-### Lead Screw Diameter
+### Lead Screw Diameter (Roncellis Marshall)
 The first step in our design process was determining the minimum diameter required for the lead screws. I started by organizing the known values and identifying the unknown diameter that needed to be calculated. One important consideration was selecting a yield strength for the screw material. After researching steel material properties, I used an estimated yield strength of 300 MPa for the initial calculations. Using this value, the applied load shared between the two lead screws, and the required factor of safety of 4, I calculated a theoretical minimum diameter of approximately 4.12 mm. This result was relatively small, which indicated that we had flexibility when selecting a commercially available lead screw. Our team could therefore consider a larger diameter to provide additional strength and better accommodate the overall design requirements.
 <img width="1261" height="1682" alt="image" src="https://github.com/user-attachments/assets/d0df7ce1-0772-4319-b8b7-d7693b1c4152" />
-### Rotational Speed
+### Rotational Speed (Roncellis Marshall)
 For this part of the analysis, I needed to determine how fast the lead screws would have to rotate to produce the required crosshead movement. Since the final lead screw had not yet been selected, I initially considered lead distances ranging from 2 mm to 8 mm per revolution. Using the required linear travel speeds, I calculated the corresponding rotational speeds in RPM. This allowed me to establish a preliminary operating range and understand how the screw lead affects the movement of the crosshead. The results showed that the required rotational speed would remain relatively low, making the proposed system suitable for a mechanically driven design. After selecting the final lead screw, the RPM values would need to be recalculated using its actual lead.
 <img width="1295" height="1705" alt="image" src="https://github.com/user-attachments/assets/0c0cd9c6-0bf5-46c4-99eb-cbdb46f83df7" />
-### Lead Screw Torque
+### Lead Screw Torque (Roncellis Marshall)
 To determine the torque required to operate the lead screw system, I first researched the variables needed for the calculation. These included the coefficient of friction, major and minor thread diameters, and screw lead. Since some of these values depended on the component selection, I used preliminary estimates based on the available research. I used a friction coefficient of 0.15 and considered a lead screw diameter larger than the theoretical minimum of 4.12 mm. I increased the diameter to provide additional strength and selected dimensions close to a commercially available 1/2-inch Acme lead screw. Using these assumed thread dimensions and the torque equation, I calculated a required torque of approximately 1.27 N·m. This provided an initial estimate of the torque needed to move the applied load and helped us evaluate the feasibility of a manually operated system.
 <img width="1287" height="1690" alt="image" src="https://github.com/user-attachments/assets/207d8dc9-a07a-47b6-9ca7-cfb3f40dd879" />
 <img width="1281" height="1410" alt="image" src="https://github.com/user-attachments/assets/c457abac-e7f9-4803-86e1-34310600da0b" />
-### Lead Screw Selection
+### Lead Screw Selection (Roncellis Marshall)
 
 After completing the preliminary diameter and torque calculations, I began researching commercially available lead screws that could be used in our design. I compared options from Roton and McMaster-Carr, paying attention to thread size, material, lead distance, and CAD file availability. We selected a 1018 low-carbon steel precision Acme lead screw with a nominal diameter of 1/2 inch and a lead of 0.100 inch per revolution. The screw has a right-hand thread and is supplied in a 3-foot length, which exceeds the minimum 18-inch length specified in the assignment. Its dimensions and thread configuration made it a suitable candidate for our initial design, while also providing a component that could be incorporated into our SolidWorks assembly.
 
@@ -69,7 +69,7 @@ To establish the material expenses for our design, I put together a cost breakdo
 
 ## Parametric Modeling (Brodie Jarvis)
 The CAD development process began by transferring the crosshead dimensions from the engineering calculations into SolidWorks. I used the Equation Manager to define the main dimensions as variables, allowing changes to the design parameters to automatically update the model. This made it easier to maintain consistent dimensions without manually editing each feature. Once the initial crosshead geometry was created, I added the necessary details, including mounting holes and fillets. After completing the initial part model, I began assembling the crosshead with the bronze flange nut to establish how the components would fit together in the final design.
-### Assembly Modifications and Component Integration(Roncellis Marshall)
+### Assembly Modifications and Component Integration(Brodie Jarvis)
 
 While putting the initial assembly together in SolidWorks, I found that some adjustments were needed to properly connect the crosshead and bronze flange. I reopened the individual part files and modified their mounting features to allow the components to be fastened together. This involved creating tapped holes in the crosshead and adding counterbored tapped holes to the flange. I also assigned the appropriate aluminum material to the crosshead model so its material properties were represented correctly in the CAD design. Once these changes were made, the components were ready to be incorporated into the complete assembly.
 <img width="1206" height="667" alt="IMG_0017" src="https://github.com/user-attachments/assets/dc476506-e641-4b10-ab73-6a4c3b9c4890" />
