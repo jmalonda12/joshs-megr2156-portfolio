@@ -95,3 +95,13 @@ Looking back, there are a few things we could have done differently. We could ha
 Overall, this assignment helped us understand that designing a mechanical system involves more than completing calculations. We had to research components, make decisions based on the design requirements, work through problems during CAD modeling, and make changes when our original ideas were more complicated than necessary. It was a good opportunity to improve our problem-solving, design, and teamwork skills while applying concepts from mechanical engineering to a practical project.
 
 **Total Project Time:** Approximately 15 hours.
+Parts (Brodie Jarvis)
+https://drive.google.com/file/d/1zwVpTZNsyHRlykjq429PJLW43hiZ0eSG/view?usp=drive_link
+https://drive.google.com/file/d/1_eTNgU-rTtulxCsD8pa-wkwPROPLhZCj/view?usp=drive_link
+https://drive.google.com/file/d/1_K_GNyHFeD1T0iOS9rSZHVpDeQ-WCv5o/view?usp=drive_link
+https://drive.google.com/file/d/1vNaQOhrONzPdMtncJ47YDrfDe-aJlsED/view?usp=drive_link
+https://drive.google.com/file/d/1za99mq5jiK6waBDyWHrQr1AjV9iQ7NGF/view?usp=drive_link
+https://drive.google.com/file/d/1bqvqEx-J7GrL-tyWkxKvo6f0u6eutXu2/view?usp=drive_link
+https://drive.google.com/file/d/1Hceoc5MqvibIfy5HZm5Pw0K2vLszEmfG/view?usp=drive_link
+https://drive.google.com/file/d/12EIemA4-rN6q6sMFHAW6en7wj3bI7ECv/view?usp=drive_link
+https://drive.google.com/file/d/1U86FddCkUGLwyr9SS0VWsTS-hczpp-HU/view?usp=drive_link
