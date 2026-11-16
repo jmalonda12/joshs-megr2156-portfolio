@@ -54,7 +54,7 @@ The crosshead design began with researching suitable materials that could provid
 <img width="1318" height="974" alt="image" src="https://github.com/user-attachments/assets/bcdf346e-8428-4293-9428-75476ceb4d0d" />
 Once the crosshead calculations were completed, I moved on to preparing the engineering drawings. I created the top, front, and side views to communicate the overall shape, dimensions, and mounting locations of the crosshead. These drawings provided a reference for the next stage of the project by giving my teammate the information needed to begin creating the crosshead model and incorporating it into the SolidWorks assembly.
 
-## Tabulating Costs (Joshua Malonda)
+## Tabulating Costs (Roncellis Marshall)
 
 To establish the material expenses for our design, I put together a cost breakdown of the components needed for the CAD assembly. In addition to the two lead screws and matching bronze flange nuts, I included the hardware required to attach the flange assemblies to the crosshead. This consisted of eight socket head screws and eight matching nuts. I also included a 10-foot section of T-slot aluminum framing rather than purchasing individual frame sections. This would allow us to cut the extrusion into the different lengths needed for the machine during assembly. The table below identifies each component by its manufacturer part number, required quantity, unit price, total price, and purchasing link.
 
@@ -69,7 +69,7 @@ To establish the material expenses for our design, I put together a cost breakdo
 
 ## Parametric Modeling (Brodie Jarvis)
 The CAD development process began by transferring the crosshead dimensions from the engineering calculations into SolidWorks. I used the Equation Manager to define the main dimensions as variables, allowing changes to the design parameters to automatically update the model. This made it easier to maintain consistent dimensions without manually editing each feature. Once the initial crosshead geometry was created, I added the necessary details, including mounting holes and fillets. After completing the initial part model, I began assembling the crosshead with the bronze flange nut to establish how the components would fit together in the final design.
-### Assembly Modifications and Component Integration
+### Assembly Modifications and Component Integration(Roncellis Marshall)
 
 While putting the initial assembly together in SolidWorks, I found that some adjustments were needed to properly connect the crosshead and bronze flange. I reopened the individual part files and modified their mounting features to allow the components to be fastened together. This involved creating tapped holes in the crosshead and adding counterbored tapped holes to the flange. I also assigned the appropriate aluminum material to the crosshead model so its material properties were represented correctly in the CAD design. Once these changes were made, the components were ready to be incorporated into the complete assembly.
 <img width="1206" height="667" alt="IMG_0017" src="https://github.com/user-attachments/assets/dc476506-e641-4b10-ab73-6a4c3b9c4890" />
