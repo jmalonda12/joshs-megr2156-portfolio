@@ -114,8 +114,20 @@ pie showData
 Material costs were based on the supplier prices recorded for the selected components. Labor costs were calculated using the estimated hours worked and an engineering labor rate of $35 per hour.
 
 The combined estimated cost for Assignments 10 and 11 was **$1,619.46**.
-## Lessons Learned (Joshua Malonda)
+## What Could Have Been Improved
 
+Although we were able to develop the major components of the tensile tester, there were several areas of the design process that could have been handled better. One improvement would have been to spend more time verifying component specifications before finalizing our selections. For example, selecting a motor based on its listed speed and torque is not enough by itself. We also needed to consider how its available torque changes with operating speed and whether the motor could meet the full crosshead speed requirement. A more detailed comparison of motor options could have helped us make a stronger selection.
+
+Another area that could have been improved was the connection between our theoretical calculations and the actual manufactured components. The coupler analysis provided a calculated thickness, but the dimensions of an available commercial coupling do not necessarily match a simplified theoretical model. In the future, we would compare the calculated dimensions with the manufacturer's specifications, material properties, and torque rating before deciding that a component meets the design requirements.
+
+We also could have improved the way we approached the motor mount and frame connections. During the design process, some dimensions and mounting details required additional discussion and adjustments before they could be incorporated into the SolidWorks assembly. Establishing the motor mounting pattern, fastener locations, and required clearances earlier would have reduced some of the back-and-forth between the calculations and CAD modeling.
+
+The FEA process could also have been more efficient. Mesh changes and convergence checks required additional time, particularly when trying to obtain consistent results for the frame components. A better approach would have been to establish a clear mesh refinement plan before running the simulations and to document the results from each iteration in a consistent format. This would make it easier to determine whether the results were reliable and identify areas that needed reinforcement.
+
+If we were to repeat this assignment, we would spend more time checking calculations against manufacturer data, coordinating component dimensions before completing the assembly, and planning the FEA process earlier. We would also leave more time for a final review of the entire design to identify fit, alignment, strength, and documentation issues before submission.
+
+Overall, the project showed us that completing an individual calculation or selecting a component is only one part of engineering design. Each decision needs to be checked against the actual assembly and the requirements of the complete system.
+## Lessons Learned (Joshua Malonda)
 Working on Assignment 11 gave me more experience with how individual mechanical components come together in a complete assembly. One area I learned more about was using SolidWorks features to develop and position parts so they could fit correctly within the overall design. I also gained a better understanding of how T-slot connectors and their fasteners affect the strength and stability of a frame.
 
 Another important part of the assignment was accounting for fit and material selection. Designing the floating bearing mount required more attention to clearances and tolerances because small dimensional differences can affect how components fit and operate together. The motor mount, coupler, and frame connections also showed me why each component needs to be evaluated against its expected loading rather than selected based only on whether it fits the assembly.
