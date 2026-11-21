@@ -76,6 +76,10 @@ When researching possible connectors, I initially considered an option listed th
 
 I selected the McMaster-Carr bracket because its design and dimensions were better suited to our frame requirements, and its CAD model could be used in the assembly. This allowed us to account for the connector during the modeling process instead of estimating its geometry. The calculations and selected connector are shown below.
 <img width="1359" height="1551" alt="image" src="https://github.com/user-attachments/assets/feae8902-c6d8-470d-a27e-7e94fe36dcc8" />
+
+### CAD/FEA Design (Brodie Jarvis)
+
+
 ### Floating Bearing Mount Design (Joshua Malonda)
 
 For this part of the project, I focused on developing the floating bearing mount and determining dimensions that would allow it to fit properly within the frame. Rather than choosing dimensions without a clear basis, I considered how each measurement would affect the bearing's placement, the mounting arrangement, and the overall fit of the assembly.
@@ -132,6 +136,9 @@ Working on Assignment 11 gave me more experience with how individual mechanical 
 
 Another important part of the assignment was accounting for fit and material selection. Designing the floating bearing mount required more attention to clearances and tolerances because small dimensional differences can affect how components fit and operate together. The motor mount, coupler, and frame connections also showed me why each component needs to be evaluated against its expected loading rather than selected based only on whether it fits the assembly.
 
+
 Overall, this assignment helped me connect component selection, engineering calculations, and CAD modeling. It reinforced the importance of checking dimensions, material properties, and safety factors before considering a design complete.
 
 Our team spent approximately **13 hours** completing Assignment 11.
+Files for Parts:
+https://drive.google.com/drive/folders/1PqWF8aAedd_mpIGteUJ0H32ValFs9vjE?usp=sharing
