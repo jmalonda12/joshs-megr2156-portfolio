@@ -88,7 +88,7 @@ One requirement was to determine the appropriate clearance-hole size. I used the
 
 I also documented the tolerances needed for the mount. These tolerances are important because the bearing and its supporting features must fit together correctly without creating unnecessary interference or alignment problems. The final dimensions, clearance-hole selection, and tolerance requirements are provided below, along with the reasoning behind the design choices.
 <img width="1359" height="1737" alt="image" src="https://github.com/user-attachments/assets/aece576c-393e-47ca-9813-87514ed55289" />
-## Bill of Materials and Labor Costs (Joshua Malonda)
+## Bill of Materials and Labor Costs (Brodie Jarvis)
 
 To estimate the overall cost of the tensile tester, we compiled a bill of materials containing the components and materials needed for the design. The prices were collected from the suppliers' product pages using the links associated with each selected item. We also included labor costs to account for the time spent completing the engineering and design work.
 
@@ -118,7 +118,7 @@ pie showData
 Material costs were based on the supplier prices recorded for the selected components. Labor costs were calculated using the estimated hours worked and an engineering labor rate of $35 per hour.
 
 The combined estimated cost for Assignments 10 and 11 was **$1,619.46**.
-## CAD Files
+## CAD Files (Brodie Jarvis)
 Figure 1. Motor mount plate modeled in SOLIDWORKS, showing the mounting holes and larger openings for component attachment.
 <img width="1206" height="685" alt="IMG_1257" src="https://github.com/user-attachments/assets/33cb21fa-a409-4062-8939-35d761552ba5" />
 Figure 2. T-slot aluminum extrusion modeled for the tensile tester frame, including the slots used for mounting and alignment.
@@ -161,7 +161,7 @@ Figure 20. Mesh comparison table for the side-frame FEA, comparing maximum stres
 <img width="929" height="592" alt="IMG_1276" src="https://github.com/user-attachments/assets/223df68c-2c0b-4bbd-a75d-56f83f4c44e4" />
 
 
-## What Could Have Been Improved
+## What Could Have Been Improved (Brodie Jarvis)
 
 Although we were able to develop the major components of the tensile tester, there were several areas of the design process that could have been handled better. One improvement would have been to spend more time verifying component specifications before finalizing our selections. For example, selecting a motor based on its listed speed and torque is not enough by itself. We also needed to consider how its available torque changes with operating speed and whether the motor could meet the full crosshead speed requirement. A more detailed comparison of motor options could have helped us make a stronger selection.
 
