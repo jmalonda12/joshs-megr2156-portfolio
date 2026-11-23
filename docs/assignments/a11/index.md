@@ -172,7 +172,7 @@ The FEA process could also have been more efficient. Mesh changes and convergenc
 If we were to repeat this assignment, we would spend more time checking calculations against manufacturer data, coordinating component dimensions before completing the assembly, and planning the FEA process earlier. We would also leave more time for a final review of the entire design to identify fit, alignment, strength, and documentation issues before submission.
 
 Overall, the project showed us that completing an individual calculation or selecting a component is only one part of engineering design. Each decision needs to be checked against the actual assembly and the requirements of the complete system.
-## Lessons Learned (Joshua Malonda)
+## Lessons Learned (Roncellis Marshall)
 Working on Assignment 11 gave me more experience with how individual mechanical components come together in a complete assembly. One area I learned more about was using SolidWorks features to develop and position parts so they could fit correctly within the overall design. I also gained a better understanding of how T-slot connectors and their fasteners affect the strength and stability of a frame.
 
 Another important part of the assignment was accounting for fit and material selection. Designing the floating bearing mount required more attention to clearances and tolerances because small dimensional differences can affect how components fit and operate together. The motor mount, coupler, and frame connections also showed me why each component needs to be evaluated against its expected loading rather than selected based only on whether it fits the assembly.
