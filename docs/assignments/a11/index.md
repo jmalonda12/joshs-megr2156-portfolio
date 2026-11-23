@@ -1,6 +1,6 @@
 # Assignment 11: Motor Selection Design
 
-## Introduction
+## Introduction - Roncellis Marshall
 
 The goal of Assignment 11 was to continue developing the tensile tester designed during Assignment 10. For this stage, our team focused on selecting the motor and designing the additional components needed to complete the mechanical drive system and supporting frame. Our team consists of Joshua Malonda, Roncellis Marshall, and Brodie Jarvis.
 
