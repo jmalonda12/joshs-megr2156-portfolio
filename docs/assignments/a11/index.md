@@ -118,6 +118,49 @@ pie showData
 Material costs were based on the supplier prices recorded for the selected components. Labor costs were calculated using the estimated hours worked and an engineering labor rate of $35 per hour.
 
 The combined estimated cost for Assignments 10 and 11 was **$1,619.46**.
+## CAD Files
+Figure 1. Motor mount plate modeled in SOLIDWORKS, showing the mounting holes and larger openings for component attachment.
+<img width="1206" height="685" alt="IMG_1257" src="https://github.com/user-attachments/assets/33cb21fa-a409-4062-8939-35d761552ba5" />
+Figure 2. T-slot aluminum extrusion modeled for the tensile tester frame, including the slots used for mounting and alignment.
+<img width="1206" height="701" alt="IMG_1258" src="https://github.com/user-attachments/assets/2d9d9622-2906-4e80-86e9-970efb555503" />
+Figure 3. Complete tensile tester frame assembly showing the vertical supports, top crossmember, base, and moving plate.
+<img width="1206" height="696" alt="IMG_1259" src="https://github.com/user-attachments/assets/db6817a4-58e3-4816-9ea2-8c0e0f145e5f" />
+Figure 4. Top frame extrusion with applied restraints and loading locations prepared for finite element analysis (FEA).
+<img width="1206" height="674" alt="IMG_1260" src="https://github.com/user-attachments/assets/deb3c2a1-fe39-4734-bea8-b2f0daec0528" />
+Figure 5. Top frame FEA von Mises stress plot showing a maximum stress of approximately 9,108 psi under the applied loading.
+<img width="1206" height="815" alt="IMG_1261" src="https://github.com/user-attachments/assets/b53a86eb-5700-4531-83de-a1346bef228b" />
+Figure 6. Top frame FEA displacement plot showing a maximum resultant displacement of approximately 0.00155 in near the center span.
+<img width="1206" height="796" alt="IMG_1262" src="https://github.com/user-attachments/assets/ac30072f-5d02-40f5-9789-07edc6e3c221" />
+Figure 7. Alternate view of the top frame stress distribution, highlighting stress concentrations near the supported end and load application points.
+<img width="1206" height="753" alt="IMG_1263" src="https://github.com/user-attachments/assets/5d3b1411-62a0-4a32-9cf1-543bc5e739bf" />
+Figure 8. Alternate view of the top frame displacement distribution, showing the greatest deflection along the middle of the extrusion.
+<img width="1206" height="663" alt="IMG_1265" src="https://github.com/user-attachments/assets/8871135a-70ae-4d32-ae4d-93467724f192" />
+Figure 9. Top frame factor-of-safety plot showing a minimum safety factor of approximately 9.13 for the analyzed loading condition.
+<img width="1206" height="775" alt="IMG_1264" src="https://github.com/user-attachments/assets/bceb6c98-f025-456c-8937-1ef0077ea798" />
+Figure 10. Side frame extrusion stress analysis showing low von Mises stresses, with a maximum of approximately 442 psi.
+<img width="1206" height="698" alt="IMG_1266" src="https://github.com/user-attachments/assets/966facd7-ac8a-4b66-b860-d1520362d828" />
+Figure 11. Side frame displacement analysis shown in an inverted view, with a maximum displacement of approximately 0.00271 in.
+<img width="1206" height="696" alt="IMG_1268" src="https://github.com/user-attachments/assets/1ed3e67b-bdb0-41f6-b904-a86c15501822" />
+Figure 12. Side frame factor-of-safety plot showing a minimum safety factor of approximately 203.5.
+<img width="1206" height="686" alt="IMG_1267" src="https://github.com/user-attachments/assets/0be47011-af78-49ce-9413-69a5d4cc73e0" />
+Figure 13. Additional side frame stress result showing the bending response and distribution of stress along the vertical member.
+<img width="1206" height="725" alt="IMG_1269" src="https://github.com/user-attachments/assets/70fd824a-83c4-458b-a258-06fef955317c" />
+Figure 14. Additional side frame stress result from the same view, included for comparison of the stress contours.
+<img width="1206" height="698" alt="IMG_1271" src="https://github.com/user-attachments/assets/4761eb9f-129b-42df-9d0e-691d90ed2f42" />
+Figure 15. Side frame displacement plot showing maximum deflection at the free end of the vertical extrusion.
+<img width="1206" height="703" alt="IMG_1270" src="https://github.com/user-attachments/assets/9c356503-a4c5-4dad-9c4e-d0ea79da49bb" />
+Figure 16. Side frame factor-of-safety result showing a minimum value of approximately 170.2.
+<img width="1206" height="706" alt="IMG_1272" src="https://github.com/user-attachments/assets/730702af-4f99-4cb6-8ab4-a353eabb50b2" />
+Figure 17. Side frame stress plot for a refined mesh, showing a maximum von Mises stress of approximately 466.4 psi.
+<img width="1206" height="679" alt="IMG_1273" src="https://github.com/user-attachments/assets/0f2282fd-267d-4811-9962-ccc63be339a9" />
+Figure 18. Refined-mesh side frame displacement plot showing a maximum displacement of approximately 0.002701 in.
+<img width="1206" height="719" alt="IMG_1274" src="https://github.com/user-attachments/assets/782df6a2-a25e-49fd-8307-b2c8173c97b4" />
+Figure 19. Refined-mesh side frame factor-of-safety plot showing a minimum value of approximately 192.9.
+<img width="1206" height="628" alt="IMG_1275" src="https://github.com/user-attachments/assets/15acc93d-21b0-4872-90b5-7bf1740b89d3" />
+Figure 20. Mesh comparison table for the side-frame FEA, comparing maximum stress, displacement, and minimum factor of safety across medium, fine, and medium-fine meshes.
+<img width="929" height="592" alt="IMG_1276" src="https://github.com/user-attachments/assets/223df68c-2c0b-4bbd-a75d-56f83f4c44e4" />
+
+
 ## What Could Have Been Improved
 
 Although we were able to develop the major components of the tensile tester, there were several areas of the design process that could have been handled better. One improvement would have been to spend more time verifying component specifications before finalizing our selections. For example, selecting a motor based on its listed speed and torque is not enough by itself. We also needed to consider how its available torque changes with operating speed and whether the motor could meet the full crosshead speed requirement. A more detailed comparison of motor options could have helped us make a stronger selection.
