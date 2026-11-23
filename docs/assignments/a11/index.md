@@ -77,8 +77,6 @@ When researching possible connectors, I initially considered an option listed th
 I selected the McMaster-Carr bracket because its design and dimensions were better suited to our frame requirements, and its CAD model could be used in the assembly. This allowed us to account for the connector during the modeling process instead of estimating its geometry. The calculations and selected connector are shown below.
 <img width="1359" height="1551" alt="image" src="https://github.com/user-attachments/assets/feae8902-c6d8-470d-a27e-7e94fe36dcc8" />
 
-### CAD/FEA Design (Brodie Jarvis)
-
 
 ### Floating Bearing Mount Design (Joshua Malonda)
 
