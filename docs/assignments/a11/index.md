@@ -156,7 +156,14 @@ Figure 18. Refined-mesh side frame displacement plot showing a maximum displacem
 Figure 19. Refined-mesh side frame factor-of-safety plot showing a minimum value of approximately 192.9.
 <img width="1206" height="628" alt="IMG_1275" src="https://github.com/user-attachments/assets/15acc93d-21b0-4872-90b5-7bf1740b89d3" />
 Figure 20. Mesh comparison table for the side-frame FEA, comparing maximum stress, displacement, and minimum factor of safety across medium, fine, and medium-fine meshes.
-<img width="929" height="592" alt="IMG_1276" src="https://github.com/user-attachments/assets/223df68c-2c0b-4bbd-a75d-56f83f4c44e4" />
+
+| FEA Inner Loop | FEA Attempt 1 (Medium Mesh) | FEA Attempt 2 (Fine Mesh) | FEA Attempt 2 (Medium-Fine Mesh) |
+|---|---|---|---|
+| Max Stress (psi) | 442.3 | 528.6 | 466.4 |
+| Max Displacement (in) | 0.002706 | 0.002701 | 0.002701 |
+| Max Displacement Location | Top | Top | Top |
+| Min Safety Factor | 203.5 | 170.2 | 192.9 |
+
 
 
 ## What Could Have Been Improved (Brodie Jarvis)
