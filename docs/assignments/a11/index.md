@@ -26,7 +26,7 @@ The next step was to compare the selected motor's specifications with the calcul
 
 <img width="1368" height="1866" alt="image" src="https://github.com/user-attachments/assets/e08b214e-a842-47d9-ac3f-98324743f926" />
 <img width="1833" height="1014" alt="image" src="https://github.com/user-attachments/assets/625dac5b-9ff4-4658-9f24-c28e4eb6811b" />
-### Motor Mount Design (Joshua Malonda)
+## Motor Mount Design (Joshua Malonda)
 
 The motor mounting bracket was one of the parts that required me to spend more time understanding the design before moving forward with the calculations. I had to look closely at the motor's dimensions and determine how those measurements would affect the bracket and its attachment points. Once I understood the geometry, I identified the information needed to calculate the minimum bracket thickness.
 
@@ -43,7 +43,7 @@ After completing the bearing-stress calculation, I obtained a minimum required t
 I initially increased the proposed thickness to 0.250 inches (6.35 mm) to provide a more substantial mounting surface. However, after discussing the design with the teammate responsible for building the motor mount, we agreed on a final thickness of 0.150 inches (3.81 mm). This allowed us to move forward with a practical design while keeping the bracket thicker than the calculated minimum.
 
 This decision helped me understand the difference between a theoretical minimum obtained from an equation and a dimension selected for an actual mechanical component. The final thickness should still be checked against the expected loading and deflection of the completed bracket.
-### Coupler Design and Selection (Joshua Malonda)
+## Coupler Design and Selection (Joshua Malonda)
 
 The coupler was another component that needed to be evaluated before the motor could be connected to the lead screw system. Since the coupler transfers rotational motion and torque from the motor shaft to the lead screw, its dimensions needed to be checked to make sure it could handle the expected loading.
 
@@ -68,7 +68,7 @@ I shared the selected component and its dimensions with my teammate so they coul
 - Overall length: 2-3/8 inches
 - Outside diameter: 1-1/2 inches
 <img width="1302" height="1437" alt="image" src="https://github.com/user-attachments/assets/663242f2-2ce6-42a2-b08d-87a0d02fcfce" />
-### Frame Connector Selection (Joshua Malonda)
+## Frame Connector Selection (Joshua Malonda)
 
 Selecting the connectors for the T-slot frame was an important part of making sure the individual frame sections could be assembled securely. I started by identifying the known dimensions and loading conditions, along with the values that still needed to be determined. Before substituting numerical values, I organized the equations and solved for the unknowns symbolically. This made it easier to follow the analysis and check the results.
 
@@ -78,7 +78,7 @@ I selected the McMaster-Carr bracket because its design and dimensions were bett
 <img width="1359" height="1551" alt="image" src="https://github.com/user-attachments/assets/feae8902-c6d8-470d-a27e-7e94fe36dcc8" />
 
 
-### Floating Bearing Mount Design (Joshua Malonda)
+## Floating Bearing Mount Design (Joshua Malonda)
 
 For this part of the project, I focused on developing the floating bearing mount and determining dimensions that would allow it to fit properly within the frame. Rather than choosing dimensions without a clear basis, I considered how each measurement would affect the bearing's placement, the mounting arrangement, and the overall fit of the assembly.
 
